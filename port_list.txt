@@ -1,0 +1,4429 @@
+{0: "reserved Reserved", \
+1: "tcpmux TCP port multiplexer  RFC1078 ", \
+2: "compressnet Management Utility   death trojan", \
+3: "compressnet Compression Process", \
+5: "rje Remote Job Entry", \
+7: "echo Echo", \
+9: "discard sink null Discard", \
+11: "systat users Active Users", \
+13: "daytime Daytime  RFC 867 ", \
+15: "netstat Network status", \
+17: "qotd Quote of the Day", \
+18: "msp Message Send Protocol", \
+19: "chargen ttytst source   Character Generator", \
+20: "ftpdata File Transfer Protocol [Default Data]", \
+21: "ftp File Transfer Protocol [Control]", \
+22: "ssh SSH Remote Login Protocol", \
+23: "telnet Telnet", \
+24: "privmail any private mail system", \
+25: "smtp Simple Mail Transfer Protocol", \
+27: "nsw-fe NSW User System FE", \
+29: "msg-icp MSG ICP", \
+30: "agent40421 Agent 40421 Trojan", \
+31: "msg-auth Paradise Master   MSG Authentication", \
+33: "dsp Display Support Protocol", \
+35: "privprint any private printer server", \
+37: "time timserver   Time", \
+38: "rap Route Access Protocol", \
+39: "rlp Resource Location Protocol", \
+41: "graphics Deep Throat Trojan Horse   Graphics", \
+42: "wins Microsoft WINS server replications server port   Host Name Server  IEN 116", \
+43: "whois whois Who Is", \
+44: "mpm-flags MPM FLAGS Protocol", \
+45: "mpm Message Processing Module [recv]", \
+46: "mpmsnd MPM [default send]", \
+47: "ni-ftp NI FTP", \
+48: "auditd Digital Audit Daemon", \
+49: "tacacs Login Host Protocol  TACACS ", \
+50: "remailchk Remote Mail Checking Protocol", \
+51: "lamaint IMP Logical Address Maintenance", \
+52: "xnstime XNS Time Protocol", \
+53: "domain Domain Name Server", \
+54: "xnsch XNS Clearinghouse", \
+55: "isigl ISI Graphics Language", \
+56: "xnsauth XNS Authentication", \
+57: "privterm any private terminal access", \
+58: "xnsmail XNS Mail", \
+59: "privfile any private file service", \
+61: "nimail NI MAIL", \
+62: "acas ACA Services", \
+63: "whois++ whois++   VIA Systems FTP", \
+64: "covia Communications Integrator  CI ", \
+65: "tacacsds TACACS-Database Service", \
+66: "sql*net Oracle SQL*NET", \
+67: "bootps DHCP Bootstrap Protocol Server", \
+68: "bootpc Bootstrap Protocol Client", \
+69: "tftp Trivial File Transfer", \
+70: "gopher Gopher", \
+71: "netjrs1 Remote Job Service", \
+72: "netjrs2 Remote Job Service", \
+73: "netjrs3 Remote Job Service", \
+74: "netjrs4 Remote Job Service", \
+75: "privdial any private dial out service", \
+76: "deos Distributed External Object Store", \
+77: "privrje any private RJE service", \
+78: "vettcp", \
+79: "Finger", \
+80: "World Wide Web HTTP", \
+81: "hosts2ns HOSTS2 Name Server", \
+82: "xfer XFER Utility", \
+83: "mitmldev MIT ML Device", \
+84: "ctf Common Trace Facility", \
+85: "mitmldev MIT ML Device", \
+86: "mfcobol Micro Focus Cobol", \
+87: "privterml any private terminal link", \
+88: "kerberos kdc Kerberos authentication--tcp", \
+89: "sumittg SU MIT Telnet Gateway", \
+90: "dnsix DNSIX Securit Attribute Token Map", \
+91: "mitdov MIT Dover Spooler", \
+92: "npp Network Printing Protocol", \
+93: "dcp Device Control Protocol", \
+94: "objcall Tivoli Object Dispatcher", \
+95: "supdup BSD supdupd 8 ", \
+96: "dixie DIXIE Protocol Specification", \
+97: "swiftrvf Swift Remote Virtural File Protocol", \
+98: "linuxconf LinuxConf   TAC News", \
+99: "metagram Metagram Relay", \
+100: "newacct [unauthorized use]", \
+101: "hostname NIC hostname server usually to sri-nic", \
+102: "mta-x400 Microsoft MTA - X.400 over TCP IP    tsap part of ISODE.", \
+103: "gppitnp Genesis Point-to-Point Trans Net   ISO Mail", \
+104: "acrnema ACR-NEMA Digital Imag. & Comm. 300   X400", \
+105: "csnetns Mailbox Name Nameserver   CCSO name server protocol", \
+106: "3comtsmux   pop3pw 3COM-TSMUX    Eudora compatible PW changer", \
+107: "rtelnet Remote Telnet Service", \
+108: "snagas SNA Gateway Access Server", \
+109: "pop2 postoffice Post Office Protocol - Version 2", \
+110: "pop3 postoffice Post Office Protocol - Version 3", \
+111: "rpc SUN Remote Procedure Call", \
+112: "mcidas McIDAS Data Transmission Protocol", \
+113: "ident ident tap authentication Authentication Service", \
+114: "audionews Audio News Multicast", \
+115: "sftp Simple File Transfer Protocol", \
+116: "ansanotify ANSA REX Notify", \
+117: "uucppath UUCP Path Service", \
+118: "sqlserv SQL Services", \
+119: "nntp Network News Transfer Protocol Usenet", \
+120: "cfdptkt CFDPTKT", \
+121: "jammerkilla Jammer killa trojan   Encore Expedited Remote Pro.Call", \
+122: "smakynet SMAKYNET", \
+123: "ntp Network Time Protocol", \
+124: "ansatrader ANSA REX Trader", \
+125: "locusmap Locus PC-Interface Net Map Ser", \
+127: "locuscon Locus PC-Interface Conn Server", \
+128: "gssxclien GSS X License Verification", \
+129: "pwdgen Password Generator Protocol", \
+130: "ciscofna cisco FNATIVE", \
+131: "ciscotna cisco TNATIVE", \
+132: "ciscosys cisco SYSMAINT", \
+133: "statsrv Statistics Service", \
+134: "ingresnet INGRES-NET Service", \
+135: "locsrv DCE endpoint resolution   NCS local location broker   Microsoft rpc", \
+136: "profile PROFILE Naming System", \
+137: "netbiosns NETBIOS Name Service nbns", \
+138: "netbiosdgm NETBIOS Datagram Service", \
+139: "netbiosssn NETBIOS session service", \
+140: "emfisdata EMFIS Data Service", \
+141: "emfiscntl EMFIS Control Service", \
+142: "blidm Britton-Lee IDM", \
+143: "imap Interim Mail Access Protocol v2 Access Protocol", \
+144: "uma Universal Management Architecture   NewS window system", \
+145: "uaac UAAC Protocol", \
+146: "isotp0 ISO-IP0", \
+147: "isoip ISO-IP", \
+148: "cronus CRONUS-SUPPORT   Jargon", \
+149: "aed512 AED 512 Emulation Service", \
+150: "sqlnet SQL-NET", \
+151: "hems HEMS", \
+152: "bftp Background File Transfer Program", \
+153: "sgmp SGMP", \
+154: "netscprod NETSC", \
+155: "netscdev NETSC", \
+156: "sqlsrv SQL Service", \
+157: "knetcmp KNET VM Command Message Protocol", \
+158: "pcmailsrv PCMail Server", \
+159: "nssrouting NSS-Routing", \
+160: "sgmptraps SGMP-TRAPS", \
+161: "snmp Simple Net Mgmt Proto", \
+162: "snmptrap snmptrap Traps for SNMP", \
+163: "cmipman CMIP TCP Manager   ISO mgmt over IP  CMOT ", \
+164: "cmipagent CMIP TCP Agent", \
+165: "xnscourier Xerox", \
+166: "snet Sirius Systems", \
+167: "namp NAMP", \
+168: "rsvd RSVD", \
+169: "send SEND", \
+170: "printsrv Network PostScript", \
+171: "multiplex Network Innovations Multiplex", \
+172: "cl1 Network Innovations CL 1", \
+173: "xyplexmux Xyplex", \
+174: "mailq zmailer MTA   mailq", \
+175: "vmnet VMNET", \
+176: "genradmux GENRAD-MUX", \
+177: "xdmcp X Display Manager Control Protocol", \
+178: "nextstep NextStep Window Server", \
+179: "bgp Border Gateway Proto.", \
+180: "ris Intergraph", \
+181: "unify Unify", \
+182: "audit Unisys Audit SITP", \
+183: "ocbinder OCBinder", \
+184: "ocserver OCServer", \
+185: "remotekis Remote-KIS", \
+186: "kis KIS Protocol", \
+187: "aci Application Communication Interface", \
+188: "mumps Plus Five s MUMPS", \
+189: "qft Queued File Transport", \
+190: "gacp Gateway Access Control Protocol", \
+191: "prospero Cliff Neuman s Prospero Directory Service", \
+192: "osunms OSU Network Monitoring System", \
+193: "srmp Spider Remote Monitoring Protocol", \
+194: "irc Internet Relay Chat Protocol", \
+195: "dn6nlmaud DNSIX Network Level Module Audit", \
+196: "dn6smmred DNSIX Session Mgt Module Audit Redir", \
+197: "dls Directory Location Service", \
+198: "dlsmon Directory Location Service Monitor", \
+199: "smux SNMP Unix Multiplexer", \
+200: "src IBM System Resource Controller", \
+201: "atrtmp AppleTalk Routing Maintenance", \
+202: "atnbp AppleTalk name binding", \
+203: "at3 AppleTalk Unused", \
+204: "atecho AppleTalk echo", \
+205: "at5 AppleTalk Unused", \
+206: "atzis AppleTalk zone information", \
+207: "at7 AppleTalk Unused", \
+208: "at8 AppleTalk Unused", \
+209: "qmtp The Quick Mail Transfer Protocol   Trivial Authenticated Mail Protocol", \
+210: "z3950 ANSI Z39.50   wais", \
+211: "914cg Texas Instruments 914C G Terminal", \
+212: "anet ATEXSSTR", \
+213: "ipx IPX", \
+214: "vmpwscs VM PWSCS", \
+215: "softpc Insignia Solutions", \
+216: "callic Access Technology License Server   Computer Associates Int l License Server", \
+217: "dbase dBASE Unix", \
+218: "mpp Netix Message Posting Protocol", \
+219: "uarps Unisys ARPs", \
+220: "imap3 Interactive Mail Access Protocol v3", \
+221: "flnspx Berkeley rlogind with SPX auth", \
+222: "rshspx Berkeley rshd with SPX auth", \
+223: "cdc Certificate Distribution Center", \
+224: "masqdialer masqdialer", \
+242: "direct Direct", \
+243: "surmeas Survey Measurement", \
+244: "inbusiness Dayna   inbusiness", \
+245: "link LINK", \
+246: "dsp3270 Display Systems Protocol", \
+247: "subntbcst_tftp SUBNTBCST_TFTP", \
+248: "bhfhs bhfhs", \
+256: "fw1 Firewall 1 management console to firewall modules   RAP", \
+257: "set Secure Electronic Transaction  VISA etc.    Firewall 1 management console to firewall modules", \
+258: "yakchat Yak Winsock Personal Chat", \
+259: "esrogen Efficient Short Remote Operations", \
+260: "openport Openport", \
+261: "nsiiops IIOP Name Service over TLS SSL", \
+262: "arcisdms Arcisdms", \
+263: "hdap HDAP", \
+264: "bgmp BGMP   FW1 securemote", \
+265: "x-bone-ctl X-Bone CTL", \
+266: "sst SCSI on ST", \
+267: "td-service Tobit David Service Layer", \
+268: "td-replica Tobit David Replica", \
+280: "httpmgmt http-mgmt", \
+281: "personallink Personal Link", \
+282: "cableportax Cable Port A X", \
+283: "rescap rescap", \
+284: "corerjd corerjd", \
+286: "fxp-1 FXP-1", \
+287: "k-block K-BLOCK", \
+308: "novastorbakcup Novastor Backup", \
+309: "entrusttime EntrustTime", \
+310: "bhmds bhmds", \
+311: "asipwebadmin AppleShare IP WebAdmin", \
+312: "vslmp VSLMP", \
+313: "magentalogic Magenta Logic", \
+314: "opalisrobot Opalis Robot", \
+315: "dpsi DPSI", \
+316: "decauth decAuth", \
+317: "zannet Zannet", \
+318: "pkix-timestamp PKIX TimeStamp", \
+319: "ptp-event PTP Event", \
+320: "ptp-general PTP General", \
+321: "pip PIP", \
+322: "rtsps RTSPS", \
+333: "texar Texar Security Port", \
+334: "backage Backage Trojan", \
+344: "pdap Prospero Data Access Protocol", \
+345: "pawserv Perf Analysis Workbench", \
+346: "zserv Zebra server", \
+347: "fatserv Fatmen Server", \
+348: "csisgwp Cabletron Management Protocol", \
+349: "mftp mftp", \
+350: "matiptypea MATIP Type A", \
+351: "matiptypeb MATIP Type B   bhoetty", \
+352: "dtagstesb DTAG  assigned long ago    hoedap4", \
+353: "ndsauth NDSAUTH", \
+354: "bh611 bh611", \
+355: "datexasn DATEX-ASN", \
+356: "cloantonet1 Cloanto Net 1", \
+357: "bhevent bhevent", \
+358: "shrinkwrap Shrinkwrap", \
+359: "nsrmp Tenebris Network Trace Service   Network Security Risk Management Protocol", \
+360: "scoi2odialog scoi2odialog", \
+361: "semantix Semantix", \
+362: "srssend SRS Send", \
+363: "rsvp_tunnel RSVP Tunnel", \
+364: "auroracmgr Aurora CMGR", \
+365: "dtk Deception Tool Kit  lame see www.all.net ", \
+366: "odmr ODMR", \
+367: "mortgageware MortgageWare", \
+368: "qbikgdp QbikGDP", \
+369: "rpc2portmap Coda portmapper   rpc2portmap", \
+370: "codaauth2 Coda authentication server", \
+371: "clearcase Clearcase", \
+372: "ulistserv ListProcessor   UNIX Listserv", \
+373: "legent1 Legent Corporation  now Computer Associates Intl. ", \
+374: "legent2 Legent Corporation  now Computer Associates Intl. ", \
+375: "hassle Hassle", \
+376: "nip Amiga Envoy Net Inquiry Prot.", \
+377: "tnETOS NEC Corporation", \
+378: "dsETOS NEC Corporation", \
+379: "is99c TIA EIA IS-99 modem client", \
+380: "is99s TIA EIA IS-99 modem server", \
+381: "hpcollector hp performance data collector", \
+382: "hpmanagednode hp performance data managed node", \
+383: "hpalarmmgr hp performance data alarm manager", \
+384: "arns A Remote Network Server System", \
+385: "ibmapp IBM Application", \
+386: "asa ASA Message Router Object Def.", \
+387: "aurp Appletalk Update-Based Routing Pro.", \
+388: "unidataldm Unidata LDM Version 4", \
+389: "ldap LDAP - Lightweight Directory Access Protocol", \
+390: "uis UIS", \
+391: "synoticsrelay SynOptics SNMP Relay Port", \
+392: "synoticsbroker SynOptics Port Broker Port", \
+393: "dis Data Interpretation System   Meta5", \
+394: "emblndt EMBL Nucleic Data Transfer", \
+395: "netcp NETscout Control Protocol", \
+396: "netwareip Novell Netware over IP", \
+397: "mptn Multi Protocol Trans. Net.", \
+398: "kryptolan Kryptolan", \
+399: "isotsapc2 ISO Transport Class 2 Non-Control over TCP", \
+400: "worksol Workstation Solutions", \
+401: "ups Uninterruptible Power Supply", \
+402: "genie Genie Protocol", \
+403: "decap decap", \
+404: "nced nced", \
+405: "ncld ncld", \
+406: "imsp Interactive Mail Support Protocol", \
+407: "timbuktu Timbuktu Remote Control login port", \
+408: "prmsm Prospero Resource Manager Sys. Man.", \
+409: "prmnm Prospero Resource Manager Node Man.", \
+410: "decladebug DECLadebug Remote Debug Protocol", \
+411: "rmt Remote MT Protocol", \
+412: "synopticstrap Trap Convention Port", \
+413: "smsp Storage Management Services Protocol", \
+414: "infoseek InfoSeek", \
+415: "bnet BNet", \
+416: "silverplatter Silverplatter", \
+417: "onmux Onmux", \
+418: "hyper-g Hyper-G", \
+419: "ariel1 Ariel", \
+420: "smpte SMPTE", \
+421: "ariel2 Ariel", \
+422: "ariel3 Ariel", \
+423: "opcjobstart IBM Operations Planning and Control Start", \
+424: "opcjobtrack IBM Operations Planning and Control Track", \
+425: "icadel ICAD", \
+426: "smartsdp smartsdp", \
+427: "svrloc Server Location", \
+428: "ocs_cmu OCS_CMU", \
+429: "ocs_amu OCS_AMU", \
+430: "utmpsd UTMPSD", \
+431: "utmpcd UTMPCD", \
+432: "iasd IASD", \
+433: "nnsp usenet   Network News Transfer", \
+434: "mobileipagent MobileIP-Agent", \
+435: "mobilipmn MobilIP-MN", \
+436: "dnacml DNA-CML", \
+437: "comscm comscm", \
+438: "dsfgw dsfgw", \
+439: "dasp dasp Thomas Obermair tommy@inlab.m.eunet.de", \
+440: "sgcp sgcp", \
+441: "decvmssysmgt decvms-sysmgt", \
+442: "cvc_hostd cvc_hostd", \
+443: "https http protocol over TLS SSL", \
+444: "snpp Simple Network Paging Protocol", \
+445: "microsoftds Microsoft-DS   Win2k CIFS SMB", \
+446: "ddmrdb DDM-RDB", \
+447: "ddmdfm DDM-RFM", \
+448: "ddmssl DDM-SSL ddmbyte", \
+449: "asservermap AS Server Mapper", \
+450: "tserver TServer", \
+451: "sfssmpnet Cray Network Semaphore server", \
+452: "sfsconfig Cray SFS config server", \
+453: "creativeserver CreativeServer", \
+454: "contentserver ContentServer", \
+455: "creativepartnr CreativePartnr", \
+456: "hackparadise Hackers Paradise Trojan Horse   macon-tcp", \
+457: "scohelp scohelp", \
+458: "appleqtc apple quick time", \
+459: "amprrcmd ampr-rcmd", \
+460: "skronk skronk", \
+461: "datasurfsrv DataRampSrv", \
+462: "datasurfsrvsec DataRampSrvSec", \
+463: "alpes alpes", \
+464: "kpasswd Kerberos password changing protocol", \
+465: "smtps smtp protocol over TLS SSL  was ssmtp ", \
+466: "digitalvrc digital-vrc", \
+467: "mylexmapd mylex-mapd", \
+468: "photuris Photuris Key Management", \
+469: "rcp Radio Control Protocol", \
+470: "scxproxy scx-proxy", \
+471: "mondex Mondex", \
+472: "ljklogin ljk-login", \
+473: "hybridpop hybrid-pop", \
+474: "tntlw1 tn-tl-w1", \
+475: "tcpnethaspsrv tcpnethaspsrv", \
+476: "tntlfd1 tn-tl-fd1", \
+477: "ss7ns ss7ns", \
+478: "spsc spsc", \
+479: "iafserver iafserver", \
+480: "iafdbase iafdbase", \
+481: "ph Ph Service", \
+482: "bgsnsi bgs-nsi", \
+483: "ulpnet ulpnet", \
+484: "integrasme Integra Software Management Environment", \
+485: "powerburst Air Soft Power Burst", \
+486: "avian avian", \
+487: "saft saft Simple Asynchronous File Transfer", \
+488: "gsshttp gss-http", \
+489: "nestprotocol nest-protocol", \
+490: "micompfs micom-pfs", \
+491: "go-login go-login", \
+492: "ticf1 Transport Independent Convergence for FNA", \
+493: "ticf2 Transport Independent Convergence for FNA", \
+494: "povray POV-Ray", \
+495: "intecourier intecourier", \
+496: "pimrpdisc PIM-RP-DISC", \
+497: "dantz Retrospect Backup", \
+498: "siam siam", \
+499: "isoill ISO ILL Protocol", \
+500: "isakmp IPsec Key Management  ISAKMP Oakley ", \
+501: "stmf STMF", \
+502: "asaapplproto asa-appl-proto", \
+503: "intrinsa Intrinsa", \
+504: "citadel citadel", \
+505: "mailboxlm mailbox-lm", \
+506: "ohimsrv ohimsrv", \
+507: "crs crs", \
+508: "xvttp xvttp", \
+509: "snare snare", \
+510: "fcp FirstClass Protocol", \
+511: "passgo PassGo", \
+512: "exec BSD rexecd 8  - remote process execution", \
+513: "login BSD rlogind 8 ", \
+514: "shell BSD rshd 8  - remote command shell cmd", \
+515: "printer spooler   BSD lpd 8  - line printer spooler", \
+516: "videotex videotex", \
+517: "talk BSD talkd 8 ", \
+518: "ntalk  talkd ", \
+519: "utime unixtime", \
+520: "efs extended file name server for LucasFilm", \
+521: "ripng extended file name server   RIP for IPv6", \
+522: "ulp ULP User Location Server", \
+523: "ibm-db2 IBM-DB2", \
+524: "ncp NCP", \
+525: "timed timeserver", \
+526: "tempo newdate newdate", \
+527: "stx Stock IXChange", \
+528: "custix Customer IXChange", \
+529: "irc-serv IRC-SERV", \
+530: "courier rpc", \
+531: "rasmin Rasmin Trojan Horse   chat chat", \
+532: "netnews readnews", \
+533: "netwall for emergency broadcasts", \
+534: "mmadmin MegaMedia Admin", \
+535: "iiop iiop", \
+536: "opalisrdv opalis-rdv", \
+537: "nmsp Networked Media Streaming Protocol", \
+538: "gdomap gdomap", \
+539: "apertusldp Apertus Technologies Load Determination", \
+540: "uucp uucpd BSD uucpd 8  UUCP service", \
+541: "uucp-rlogin uucp-rlogin   rdist daemon", \
+542: "commerce commerce", \
+543: "klogin Kerberized `rlogin   v5 ", \
+544: "kshell krcmd Kerberized rshell  v5 krcmd", \
+545: "appleqtcsrvr Apple quicktime server   Kerberos encrypted remote shell -kfall   appleqtcsrvr", \
+546: "dhcpv6client DHCPv6 Client", \
+547: "dhcpv6-server DHCPv6 Server", \
+548: "afpovertcp AFP over TCP AppleshareIP", \
+549: "idfp IDFP", \
+550: "newrwho new-who", \
+551: "cybercash cybercash", \
+552: "deviceshare deviceshare", \
+553: "pirp pirp", \
+554: "rtsp Real Time Stream Control Protocol", \
+555: "stealth Spy Stealth   Phase 0 or Stealth Trojan Horse   Real Time Stream Control Protocol", \
+556: "remotefs rfs_server rfs Brunhoff remote filesystem", \
+557: "openvmssysipc openvms-sysipc", \
+558: "sdnskmp SDNSKMP", \
+559: "teedtap TEEDTAP", \
+560: "rmonitor rmonitord", \
+561: "monitor monitor", \
+562: "chshell chcmd", \
+563: "nntps nntp protocol over TLS SSL  was snntp ", \
+564: "9pfs plan 9 file service", \
+565: "whoami whoami", \
+566: "streettalk streettalk", \
+567: "banyanrpc banyan-rpc", \
+568: "msshuttle microsoft shuttle", \
+569: "msrome microsoft rome", \
+570: "meter demon", \
+571: "umeter udemon", \
+572: "sonar sonar", \
+573: "banyanvip banyan-vip", \
+574: "ftpagent FTP Software Agent System", \
+575: "vemmi VEMMI", \
+576: "ipcd ipcd", \
+577: "vnas vnas", \
+578: "ipdd ipdd", \
+579: "decbsrv decbsrv", \
+580: "sntpheartbeat SNTP HEARTBEAT", \
+581: "bdp Bundle Discovery Protocol", \
+582: "sccsecurity SCC Security", \
+583: "philipsvc Philips Video-Conferencing", \
+584: "keyserver Key Server", \
+585: "imap4ssl IMAP4+SSL  use 993 instead ", \
+586: "passwordchg Password Change", \
+587: "submission msa   mail message submission", \
+588: "cal CAL", \
+589: "eyelink EyeLink", \
+590: "tnscml TNS CML", \
+591: "httpalt FileMaker", \
+592: "eudoraset Eudora Set", \
+593: "httprpcepmap HTTP RPC Ep Map", \
+594: "tpip TPIP", \
+595: "cabprotocol CAB Protocol", \
+596: "smsd SMSD", \
+597: "ptcnameservice PTC Name Service", \
+598: "scowebsrvrmg3 SCO Web Server Manager 3", \
+599: "acp Aeolon Core Protocol", \
+600: "ipcserver Sun IPC server   ECD Integrated PC board srvr", \
+601: "syslog-conn Reliable Syslog Service", \
+605: "secretservice SecretService Trojan", \
+606: "urm Cray Unified Resource Manager", \
+607: "nqs nqs", \
+608: "siftuft Sender-Initiated Unsolicited File Transfer", \
+609: "npmptrap npmp-trap", \
+610: "npmplocal npmp-local", \
+611: "npmpgui npmp-gui", \
+612: "hmmp-ind HMMP Indication", \
+613: "hmmp-op HMMP Operation", \
+614: "sshell SSLshell", \
+615: "sco-inetmgr Internet Configuration Manager", \
+616: "sco-sysmgr SCO System Administration Server", \
+617: "sco-dtmgr SCO Desktop Administration Server", \
+618: "dei-icda DEI-ICDA", \
+619: "digital-evm Digital EVM", \
+620: "sco-websrvrmgr SCO WebServer Manager", \
+621: "escp-ip ESCP", \
+622: "collaborator Collaborator", \
+623: "aux-bus-shunt Aux Bus Shunt", \
+624: "cryptoadmin Crypto Admin", \
+625: "dec-dlm DEC DLM", \
+626: "asia ASIA", \
+627: "passgo-tivoli PassGo Tivoli", \
+628: "qmqp QMQP Quick Mail Queueing", \
+629: "3com-amp3 3Com AMP3", \
+630: "rda RDA", \
+631: "ipp IPP  Internet Printing Protocol  - used by cups  www.cups.org ", \
+632: "bmpp bmpp", \
+633: "servstat Service Status update  Sterling Software ", \
+634: "ginad ginad", \
+635: "rlzdbase RLZ DBase", \
+636: "ldaps ldap protocol over TLS SSL  was sldap ", \
+637: "lanserver lanserver", \
+638: "mcns-sec mcns-sec", \
+639: "msdp MSDP", \
+640: "entrust-sps entrust-sps", \
+641: "repcmd repcmd", \
+642: "esro-emsdp ESRO-EMSDP V1.3", \
+643: "sanity SANity", \
+644: "dwr dwr", \
+645: "pssc PSSC", \
+646: "ldp LDP", \
+647: "dhcp-failover DHCP Failover", \
+648: "rrp Registry Registrar Protocol  RRP ", \
+649: "aminet Aminet", \
+650: "obex OBEX", \
+651: "ieee-mms IEEE MMS", \
+652: "udlr-dtcp UDLR_DTCP", \
+653: "repscmd RepCmd", \
+654: "aodv AODV", \
+655: "tinc TINC", \
+656: "spmp SPMP", \
+657: "rmc RMC", \
+658: "tenfold TenFold", \
+659: "url-rendezvous URL Rendezvous", \
+660: "mac-srvr-admin MacOS Server Admin", \
+661: "hap HAP", \
+662: "pftp PFTP", \
+663: "purenoise PureNoise", \
+664: "secure-aux-bus Secure Aux Bus", \
+665: "sun-dr Sun DR", \
+666: "satansbackdoor Satan s Back Door Trojan Horse   Doom   mdqs", \
+667: "disclose campaign contribution disclosures - SDR Technologies", \
+668: "mecomm MeComm", \
+669: "meregister MeRegister", \
+670: "vacdsm-sws VACDSM-SWS", \
+671: "vacdsm-app VACDSM-APP", \
+672: "vpps-qua VPPS-QUA", \
+673: "cimplex CIMPLEX", \
+674: "acap ACAP", \
+675: "dctp DCTP", \
+676: "vpps-via VPPS Via", \
+677: "vpp Virtual Presence Protocol", \
+678: "ggf-ncp GNU Gereration Foundation NCP", \
+679: "mrm MRM", \
+680: "entrust-aaas entrust-aaas", \
+681: "entrust-aams entrust-aams", \
+682: "xfr XFR", \
+683: "corba-iiop CORBA IIOP", \
+684: "corba-iiop-ssl CORBA IIOP SSL", \
+685: "mdc-portmapper MDC Port Mapper", \
+686: "hcp-wismar Hardware Control Protocol Wismar", \
+687: "asipregistry asipregistry", \
+688: "realm-rusd REALM-RUSD", \
+689: "nmap NMAP", \
+690: "vatp VATP", \
+691: "msexch-routing MS Exchange Routing", \
+692: "hyperwave-isp Hyperwave-ISP", \
+693: "connendp connendp", \
+694: "ha-cluster ha-cluster", \
+695: "ieee-mms-ssl IEEE-MMS-SSL", \
+696: "rushd RUSHD", \
+697: "uuidgen UUIDGEN", \
+698: "olsr OLSR", \
+699: "accessnetwork Access Network", \
+704: "elcsd errlog copy server daemon", \
+705: "agentx AgentX", \
+706: "silc SILC", \
+707: "borland-dsj Borland DSJ", \
+709: "entrustmanager Entrust Key Management Service Handler   NorTel DES auth network", \
+710: "entrust-ash Entrust Administration Service Handler", \
+711: "cisco-tdp Cisco TDP", \
+729: "netviewdm1 IBM NetView DM 6000 Server Client", \
+730: "netviewdm2 IBM NetView DM 6000 send tcp", \
+731: "netviewdm3 IBM NetView DM 6000 receive tcp", \
+740: "netcp NETscout Control Protocol", \
+741: "netgw netGW", \
+742: "netrcs Network based Rev. Cont. Sys.", \
+744: "flexlm Flexible License Manager", \
+747: "fujitsudev Fujitsu Device Control", \
+748: "ris-cm   riscm Russell Info Sci Calendar Manager", \
+749: "kerberosadm Kerberos 5 kadmin changepw", \
+750: "kerberos-iv kdc kerberos   Kerberos authentication--tcp", \
+751: "kerberos-master Kerberos admin server tcp", \
+752: "qrh qrh ", \
+753: "rrh rrh ", \
+754: "hprop Heimdal KDC database propagation   kerberos v5 server propagation   send ", \
+758: "nlogin nlogin ", \
+759: "con con ", \
+760: "krbupdate kreg Kerberos  v4  registration ", \
+761: "kpasswd kpwd   BSD Kerberos passwd   old BSD Kerberos passwd ", \
+762: "quotad quota daemon  also used by Mac OSX nibindd and netinfod", \
+763: "cycleserv cycleserv ", \
+764: "omserv omserv ", \
+765: "nibindd nibindd on MacOSX  formerly webster - Network Dictionary", \
+767: "phonebook phone ", \
+769: "vid vid ", \
+770: "cadlock cadlock  no relation to autocad  ", \
+771: "rtip rtip ", \
+772: "cycleserv2 cycleserv2 ", \
+773: "submit submit", \
+774: "rpasswd rpasswd", \
+775: "entomb entomb", \
+776: "wpages wpages", \
+777: "multiling-http Multiling HTTP", \
+780: "wpgs wpgs", \
+781: "hpcollector hp performance data collector", \
+782: "hpmanagednode hp performance data managed node", \
+783: "hpalarmmgr hp performance data alarm manager", \
+786: "concert Concert", \
+787: "qsc QSC", \
+799: "remotelypossible Remotely Possible Remote Control", \
+800: "remotelypossible Remotely Possible Remote Control", \
+801: "device device", \
+808: "winhole Winhole Trojan", \
+810: "fcp-udp FCP", \
+828: "itm-mcell-s itm-mcell-s", \
+829: "pkix-3-ca-ra PKIX-3 CA RA ", \
+847: "dhcp-failover2 dhcp-failover 2 ", \
+871: "supfilesrv SUP server ", \
+873: "rsync rsync ", \
+886: "iclcnet-locate ICL coNETion locate server ", \
+887: "iclcnet_svinfo ICL coNETion server info ", \
+888: "cddb AccessBuilder   Audio CD Database ", \
+898: "sun-management-console Sun Management Console  web based", \
+900: "omginitialrefs OMG Initial Refs", \
+901: "swat SMPNAMERES   Samba Web Administration Tool", \
+902: "vmware VMWare Authentication service   IDEAFARM-CHAT", \
+903: "ideafarm-catch IDEAFARM-CATCH", \
+910: "pcnfsd PC NFSD version 1 and 2   Dark Shadow Trojan Horse   xact-backup", \
+911: "xact-backup xact-backup", \
+912: "apex-mesh APEX relay-relay service", \
+913: "apex-edge APEX endpoint-relay service", \
+989: "ftps-data ftp protocol over ssl", \
+990: "ftps ftp protocol over ssl", \
+991: "nas Netnews Administration System", \
+992: "telnets telnet protocol over TLS SSL", \
+993: "imaps imap4 protocol over TLS SSL", \
+994: "ircs irc protocol over TLS SSL", \
+995: "pop3s pop3 protocol over TLS SSL  was spop3 ", \
+996: "vsinet vsinet   XTREE License Server", \
+997: "maitrd maitrd", \
+998: "busboy busboy", \
+999: "applix Applix ac", \
+1000: "cadlock cad lock  not autocad ", \
+1001: "silencer Silencer Trojan Horse", \
+1005: "theef-1005 theef.4-all.org", \
+1008: "ufsd ufsd UFSaware server   lion worm backdoor", \
+1010: "doly Doly Trojan Horse", \
+1011: "doly Doly Trojan Horse", \
+1012: "doly Doly Trojan Horse", \
+1015: "doly Doly Trojan Horse", \
+1016: "doly Doly Trojan Horse", \
+1019: "xtreme Xtreme Trojan Horse", \
+1020: "vampire Vampire Trojan", \
+1024: "first-os-port Netspy Trojan", \
+1025: "first-os-port Microsoft Distributed Transaction Coordinator   network blackjack   listener RFS remote_file_sharing", \
+1026: "mstask mstask scheduler service  mastask.exe    DELL OMI dnar.exe   remote_login network_terminal", \
+1027: "icq ICQ", \
+1029: "icq ICQ", \
+1030: "iad1 BBN IAD", \
+1031: "iad2 BBN IAD", \
+1032: "icq BBN IAD   ICQ", \
+1033: "netinfo Mac OSX netinfod   netspy", \
+1035: "multidropper multi dropper trojan", \
+1036: "pcg-radar RADAR Service Protocol", \
+1037: "dellomi-win32sl DELL OMI win32sl.exe", \
+1039: "dellomi-win32sl DELL OMI win32sl.exe", \
+1040: "netarx Netarx", \
+1042: "bla11 Bla Trojan", \
+1045: "rasmin Rasmin Trojan", \
+1047: "neod1 Sun s NEO Object Request Broker", \
+1048: "neod2 Sun s NEO Object Request Broker", \
+1049: "td-postman Tobit David Postman VPMN", \
+1050: "cma CORBA Management Agent", \
+1051: "optima-vnet Optima VNET", \
+1052: "ddt Dynamic DNS Tools", \
+1053: "remote-as Remote Assistant  RA ", \
+1054: "brvread BRVREAD", \
+1055: "ansyslmd ANSYS - License Manager", \
+1056: "vfo VFO", \
+1057: "startron STARTRON", \
+1058: "nim nim", \
+1059: "nimreg nimreg", \
+1060: "polestar POLESTAR", \
+1061: "kiosk KIOSK", \
+1062: "veracity Veracity", \
+1063: "kyoceranetdev KyoceraNetDev", \
+1064: "jstel JSTEL", \
+1065: "syscomlan SYSCOMLAN", \
+1066: "fpo-fns FPO-FNS", \
+1067: "instl-boots Installation Bootstrap Proto. Serv.", \
+1068: "instl-bootc Installation Bootstrap Proto. Cli.", \
+1069: "cognex-insight COGNEX-INSIGHT", \
+1070: "gmrupdateserv GMRUpdateSERV", \
+1071: "bsquare-voip BSQUARE-VOIP", \
+1072: "cardax CARDAX", \
+1073: "bridgecontrol BridgeControl", \
+1074: "fastechnologlm FASTechnologies License Manager", \
+1075: "rdrmshc RDRMSHC", \
+1076: "dab-sti-c DAB STI-C", \
+1077: "imgames IMGames", \
+1078: "emanagecstp eManageCstp", \
+1079: "asprovatalk ASPROVATalk", \
+1080: "socks Socks   wingate proxy", \
+1081: "pvuniwien PVUNIWIEN", \
+1082: "amt-esd-prot AMT-ESD-PROT", \
+1083: "ansoftlm1 Anasoft License Manager", \
+1084: "ansoftlm2 Anasoft License Manager", \
+1085: "webobjects Web Objects", \
+1086: "cplscrambler-lg CPL Scrambler Logging", \
+1087: "cplscrambler-in CPL Scrambler Internal", \
+1088: "cplscrambler-al CPL Scrambler Alarm Log", \
+1089: "ff-annunc FF Annunciation", \
+1090: "ff-fms FF Fieldbus Message Specification", \
+1091: "ff-sm FF System Management", \
+1092: "obrpd OBRPD", \
+1093: "proofd PROOFD", \
+1094: "rootd ROOTD", \
+1095: "nicelink NICELink", \
+1096: "cnrprotocol Common Name Resolution Protocol", \
+1097: "sunclustermgr Sun Cluster Manager", \
+1098: "rmiactivation RMI Activation", \
+1099: "rmiregistry RMI Registry", \
+1100: "mctp MCTP", \
+1101: "pt2-discover PT2-DISCOVER", \
+1102: "adobeserver-1 ADOBE SERVER 1", \
+1103: "adobeserver-2 ADOBE SERVER 2   Xaserver   X Audio Server", \
+1104: "xrl XRL", \
+1105: "ftranhc FTRANHC", \
+1106: "isoipsigport-1 ISOIPSIGPORT-1", \
+1107: "isoipsigport-2 ISOIPSIGPORT-2", \
+1108: "ratio-adp ratio-adp", \
+1109: "kpop Kerberos POP server", \
+1110: "nfsdstatus Cluster status info", \
+1111: "lmsocialserver LM Social Server", \
+1112: "mini-sql Intelligent Communication Protocol   minisql server", \
+1114: "mini-sql SQL   Mini SQL", \
+1115: "ardus-trns ARDUS Transfer", \
+1116: "ardus-cntl ARDUS Control", \
+1117: "ardus-mtrns ARDUS Multicast Transfer", \
+1122: "availant-mgr availant-mgr", \
+1123: "murray Murray", \
+1127: "supfiledbg SUP debugging", \
+1150: "orion Orion Trojan", \
+1151: "orion orion trojan", \
+1155: "nfa Network File Access", \
+1161: "health-polling Health Polling", \
+1162: "health-trap Health Trap", \
+1169: "tripwire TRIPWIRE", \
+1170: "psyber Psyber Stream Trojan Horse Audio Streaming Trojan", \
+1177: "udf-archive-server UDF Archive server   possible trojan", \
+1178: "skkserv SKK  kanji input ", \
+1180: "mc-client Millicent Client Proxy", \
+1183: "llsurfup-http LL Surfup HTTP", \
+1184: "llsurfup-https LL Surfup HTTPS", \
+1185: "catchpole Catchpole port", \
+1188: "hp-webadmin HP Web Admin", \
+1199: "dmidi DMIDI", \
+1200: "scol SCOL", \
+1201: "nucleus-sand Nucleus Sand", \
+1202: "caiccipc caiccipc", \
+1203: "ssslic-mgr License Validation", \
+1204: "ssslog-mgr Log Request Listener", \
+1205: "accord-mgc Accord-MGC", \
+1206: "anthony-data Anthony Data", \
+1207: "metasage MetaSage", \
+1208: "seagull-ais SEAGULL AIS", \
+1209: "ipcd3 IPCD3", \
+1210: "eoss EOSS", \
+1211: "groove-dpp Groove DPP", \
+1212: "lupa lupa", \
+1213: "mpc-lifenet MPC LIFENET", \
+1214: "kazaa KAZAA", \
+1215: "scanstat-1 scanSTAT 1.0", \
+1216: "etebac5 ETEBAC 5", \
+1217: "hpss-ndapi HPSS-NDAPI", \
+1218: "aeroflight-ads AeroFlight-ADs", \
+1219: "aeroflight-ret AeroFlight-Ret", \
+1220: "qt-serveradmin QT SERVER ADMIN", \
+1221: "sweetware-apps SweetWARE Apps", \
+1222: "nerv SNI R&D network", \
+1223: "tgp TGP", \
+1224: "vpnz VPNz", \
+1225: "slinkysearch SLINKYSEARCH", \
+1226: "stgxfws STGXFWS", \
+1227: "dns2go DNS2Go", \
+1228: "florence FLORENCE", \
+1229: "novell-zfs Novell ZFS", \
+1230: "periscope Periscope", \
+1231: "menandmice-lpm menandmice-lpm", \
+1233: "univ-appserver Universal App Server", \
+1234: "search-agent Infoseek Search Agent   Ultors Trojan Horse", \
+1235: "mosaicsyssvc1 mosaicsyssvc1", \
+1236: "bvcontrol bvcontrol", \
+1237: "tsdos390 tsdos390", \
+1238: "hacl-qs hacl-qs", \
+1239: "nmsd NMSD", \
+1240: "instantia Instantia", \
+1241: "nessus   msg nessus client server  nessus.org    remote message server", \
+1242: "nmasoverip NMAS over IP", \
+1243: "subseven SubSeven   SerialGateway", \
+1244: "isbconference1 isbconference1", \
+1245: "voodoo isbconference2   VooDoo Doll Trojan Horse", \
+1246: "payrouter payrouter", \
+1247: "visionpyramid VisionPyramid", \
+1248: "hermes hermes", \
+1249: "mesavistaco Mesa Vista Co", \
+1250: "swldy-sias swldy-sias", \
+1251: "servergraph servergraph", \
+1252: "bspne-pcc bspne-pcc", \
+1253: "q55-pcc q55-pcc", \
+1254: "de-noc de-noc", \
+1255: "de-cache-query de-cache-query", \
+1256: "de-server de-server", \
+1257: "shockwave2 Shockwave 2", \
+1258: "opennl Open Network Library", \
+1259: "opennl-voice Open Network Library Voice", \
+1260: "ibm-ssd ibm-ssd", \
+1261: "mpshrsv mpshrsv", \
+1262: "qnts-orb QNTS-ORB", \
+1263: "dka dka", \
+1264: "prat PRAT", \
+1265: "dssiapi DSSIAPI", \
+1266: "dellpwrappks DELLPWRAPPKS", \
+1267: "pcmlinux pcmlinux", \
+1268: "propel-msgsys PROPEL-MSGSYS", \
+1269: "matrix WATiLaPP   Matrix Maverick s", \
+1270: "opsman opsman", \
+1271: "dabew Dabew", \
+1272: "cspmlockmgr CSPMLockMgr", \
+1273: "emc-gateway EMC-Gateway", \
+1274: "t1distproc t1distproc", \
+1275: "ivcollector ivcollector", \
+1276: "ivmanager ivmanager", \
+1277: "miva-mqs mqs", \
+1278: "dellwebadmin-1 Dell Web Admin 1", \
+1279: "dellwebadmin-2 Dell Web Admin 2", \
+1280: "pictrography Pictrography", \
+1281: "healthd healthd", \
+1282: "emperion Emperion", \
+1283: "productinfo ProductInfo", \
+1284: "iee-qfx IEE-QFX", \
+1285: "neoiface neoiface", \
+1286: "netuitive netuitive", \
+1288: "navbuddy NavBuddy", \
+1289: "jwalkserver JWalkServer", \
+1290: "winjaserver WinJaServer", \
+1291: "seagulllms SEAGULLLMS", \
+1292: "dsdn dsdn", \
+1293: "pkt-krb-ipsec PKT-KRB-IPSec", \
+1294: "cmmdriver CMMdriver", \
+1295: "eetp EETP", \
+1296: "dproxy dproxy", \
+1297: "sdproxy sdproxy", \
+1298: "lpcp lpcp", \
+1299: "hp-sci hp-sci", \
+1300: "h323hostcallsc H323 Host Call Secure", \
+1301: "ci3-software-1 CI3-Software-1", \
+1302: "ci3-software-2 CI3-Software-2", \
+1303: "sftsrv sftsrv", \
+1304: "boomerang Boomerang", \
+1305: "pe-mike pe-mike", \
+1306: "re-conn-proto RE-Conn-Proto", \
+1307: "pacmand Pacmand", \
+1308: "odsi Optical Domain Service Interconnect  ODSI ", \
+1309: "jtag-server JTAG server", \
+1310: "husky Husky", \
+1311: "rxmon RxMon", \
+1312: "sti-envision STI Envision", \
+1313: "bmc-patroldb BMC_PATROLDB", \
+1314: "pdps Photoscript Distributed Printing System", \
+1315: "els els", \
+1316: "exbit-escp Exbit-ESCP", \
+1317: "vrts-ipcserver vrts-ipcserver", \
+1318: "krb5gatekeeper krb5gatekeeper", \
+1319: "panja-icsp Panja-ICSP", \
+1320: "panja-axbnet Panja-AXBNET", \
+1321: "pip PIP", \
+1322: "novation Novation", \
+1323: "brcd brcd", \
+1324: "delta-mcp delta-mcp", \
+1325: "dx-instrument DX-Instrument", \
+1326: "wimsic WIMSIC", \
+1327: "ultrex Ultrex", \
+1328: "ewall EWALL", \
+1329: "netdb-export netdb-export", \
+1330: "streetperfect StreetPerfect", \
+1331: "intersan intersan", \
+1332: "pcia-rxp-b PCIA RXP-B", \
+1333: "passwrd-policy Password Policy", \
+1334: "writesrv writesrv", \
+1335: "digital-notary Digital Notary Protocol", \
+1336: "ischat Instant Service Chat", \
+1337: "menandmice-dns menandmice DNS", \
+1338: "wmc-log-svc WMC-log-svr", \
+1339: "kjtsiteserver kjtsiteserver", \
+1340: "naap NAAP", \
+1341: "qubes QuBES", \
+1342: "esbroker ESBroker", \
+1343: "re101 re101", \
+1344: "icap ICAP", \
+1345: "vpjp VPJP", \
+1346: "altaanalm Alta Analytics License Manager", \
+1347: "bbnmmc multi media conferencing", \
+1348: "bbnmmx multi media conferencing", \
+1349: "sbook Registration Network Protocol", \
+1350: "editbench Registration Network Protocol", \
+1351: "equationbuilder Digital Tool Works  MIT ", \
+1352: "lotusnote Lotus Note", \
+1353: "relief Relief Consulting", \
+1354: "rightbrain RightBrain Software", \
+1355: "intuitiveedge Intuitive Edge", \
+1356: "cuillamartin CuillaMartin Company", \
+1357: "pegboard Electronic PegBoard", \
+1358: "connlcli CONNLCLI", \
+1359: "ftsrv FTSRV", \
+1360: "mimer MIMER", \
+1361: "linx LinX", \
+1362: "timeflies TimeFlies", \
+1363: "ndmrequester Network DataMover Requester", \
+1364: "ndmrequester Network DataMover Server", \
+1365: "adaptsna Network Software Associates", \
+1366: "netwarecsp Novell NetWare Comm Service Platform", \
+1367: "dcs DCS", \
+1368: "screencast ScreenCast", \
+1369: "gvus GlobalView to Unix Shell", \
+1370: "usgv Unix Shell to GlobalView", \
+1371: "fccli Fujitsu Config Protocol", \
+1372: "fcser Fujitsu Config Protocol", \
+1373: "chromagrafx Chromagrafx", \
+1374: "molly EPI Software Systems", \
+1375: "bytex Bytex", \
+1376: "ibmpps IBM Person to Person Software", \
+1377: "cichlid Cichlid License Manager", \
+1378: "elan Elan License Manager", \
+1379: "dbreporter Integrity Solutions", \
+1380: "telesislicman Telesis Network License Manager", \
+1381: "applelicman Apple Network License Manager", \
+1382: "udt_os udt_os", \
+1383: "gwha GW Hannaway Network License Manager", \
+1384: "oslicman Objective Solutions License Manager", \
+1385: "atex-elmd Atex Publishing License Manager", \
+1386: "checksum CheckSum License Manager", \
+1387: "cadsilm Computer Aided Design Software Inc LM", \
+1388: "objectivedbc Objective Solutions DataBase Cache", \
+1389: "iclpvdm Document Manager", \
+1390: "iclpvdm Storage Controller", \
+1391: "iclpvsas Storage Access Server", \
+1392: "iclpvpm Print Manager", \
+1393: "iclpvnls Network Log Server", \
+1394: "iclpvnlc Network Log Client", \
+1395: "iclpvwsm PC Workstation Manager software", \
+1396: "dvlactivemail DVL Active Mail", \
+1397: "audioactivmail Audio Active Mail", \
+1398: "videoactivmail Video Active Mail", \
+1399: "cadkeylicman Cadkey License Manager", \
+1400: "cadkeytablet Cadkey Tablet Daemon", \
+1401: "goldleaflicman Goldleaf License Manager", \
+1402: "prmsmnp Prospero Resource Manager", \
+1403: "prmnmnp Prospero Resource Manager", \
+1404: "igilm Infinite Graphics License Manager", \
+1405: "ibmres IBM Remote Execution Starter", \
+1406: "netlabslm NetLabs License Manager", \
+1407: "dbsalm DBSA License Manager", \
+1408: "sophialm Sophia License Manager", \
+1409: "herelm Here License Manager", \
+1410: "hiq HiQ License Manager", \
+1411: "af AudioFile", \
+1412: "innosys InnoSys", \
+1413: "innosys-acl Innosys-ACL", \
+1414: "ibmmqseries IBM MQSeries", \
+1415: "dbstar DBStar", \
+1416: "novelllu6.2 Novell LU6.2", \
+1417: "timbuktusrv1 Timbuktu Service 1 Port", \
+1418: "timbuktusrv2 Timbuktu Service 2 Port", \
+1419: "timbuktusrv3 Timbuktu Service 3 Port", \
+1420: "timbuktusrv4 Timbuktu Service 4 Port", \
+1421: "gandalflm Gandalf License Manager", \
+1422: "autodesklm Autodesk License Manager", \
+1423: "essbase Essbase Arbor Software", \
+1424: "hybrid Hybrid Encryption Protocol", \
+1425: "zionlm Zion Software License Manager", \
+1426: "sas1 Satellite-data Acquisition System 1", \
+1427: "mloadd mloadd monitoring tool", \
+1428: "informatiklm Informatik License Manager", \
+1429: "nms Hypercom NMS", \
+1430: "tpdu Hypercom TPDU", \
+1431: "rgtp Reverse Gossip Transport", \
+1432: "blueberrylm Blueberry Software License Manager", \
+1433: "mssqls Microsoft-SQL-Server", \
+1434: "mssqlm Microsoft-SQL-Monitor", \
+1435: "ibmcics IBM CICS", \
+1436: "sas2 Satellite-data Acquisition System 2", \
+1437: "tabula Tabula", \
+1438: "eiconserver Eicon Security Agent Server", \
+1439: "eiconx25 Eicon X25 SNA Gateway", \
+1440: "eiconslp Eicon Service Location Protocol", \
+1441: "cadis1 Cadis License Management", \
+1442: "cadis2 Cadis License Management", \
+1443: "ieslm Integrated Engineering Software", \
+1444: "marcamlm Marcam License Management", \
+1445: "proximalm Proxima License Manager", \
+1446: "oralm Optical Research Associates License Manager", \
+1447: "aprilm Applied Parallel Research LM", \
+1448: "oclm OpenConnect License Manager", \
+1449: "peport PEport", \
+1450: "dwf Tandem Distributed Workbench Facility", \
+1451: "infoman IBM Information Management", \
+1452: "gtegsclm GTE Government Systems License Man", \
+1453: "genielm Genie License Manager", \
+1454: "interhdl-elmd interHDL License Manager", \
+1455: "esllm ESL License Manager", \
+1456: "dca DCA", \
+1457: "valisyslm Valisys License Manager", \
+1458: "nrcabqlm Nichols Research Corp.", \
+1459: "proshare1 Proshare Notebook Application", \
+1460: "proshare2 Proshare Notebook Application", \
+1461: "ibm-wrless-lan IBM Wireless LAN", \
+1462: "worldlm World License Manager", \
+1463: "nucleus Nucleus", \
+1464: "msl-lmd MSL License Manager", \
+1465: "pipes Pipes Platform", \
+1466: "oceansoftlm Ocean Software License Manager", \
+1467: "csdmbase CSDMBASE", \
+1468: "csdm CSDM", \
+1469: "aallm Active Analysis Limited License Manager", \
+1470: "uaiact Universal Analytics", \
+1471: "csdmbase csdmbase", \
+1472: "csdm csdm", \
+1473: "openmath OpenMath", \
+1474: "telefinder Telefinder", \
+1475: "taligentlm Taligent License Manager", \
+1476: "clvmcfg clvm-cfg", \
+1477: "mssnaserver ms-sna-server", \
+1478: "mssnabase ms-sna-base", \
+1479: "dberegister dberegister", \
+1480: "pacerforum PacerForum", \
+1481: "airs AIRS", \
+1482: "miteksyslm Miteksys License Manager", \
+1483: "afs AFS License Manager", \
+1484: "confluent Confluent License Manager", \
+1485: "lansource LANSource", \
+1486: "nms-topo-serv nms_topo_serv", \
+1487: "localinfosrvr LocalInfoSrvr", \
+1488: "docstor DocStor", \
+1489: "dmdocbroker dmdocbroker", \
+1490: "insituconf insitu-conf", \
+1491: "anynetgateway anynetgateway", \
+1492: "ftp99cmp Ftp 99 Trojan Horse   stone-design-1", \
+1493: "netmap-lm netmap_lm", \
+1494: "ica Citrix ICA Metaframe Protocol Stream", \
+1495: "cvc cvc", \
+1496: "libertylm liberty-lm", \
+1497: "rfxlm rfx-lm", \
+1498: "sybase-sqlany Sybase SQL Any", \
+1499: "fhc Federico Heinz Consultora", \
+1500: "vlsilm VLSI License Manager", \
+1501: "sas3 Satellite-data Acquisition System 3", \
+1502: "shivadiscovery Shiva", \
+1503: "imtcmcs T.120 protocol   Databeam", \
+1504: "evbelm EVB Software Engineering License Manager", \
+1505: "funkproxy Funk Software", \
+1506: "utcd Universal Time daemon  utcd ", \
+1507: "symplex symplex", \
+1508: "diagmond diagmond", \
+1509: "nikhil Trojan Nikhil PsyberStreamingServer G.   Robcad", \
+1510: "mvxlm Midland Valley Exploration Ltd. Lic. Man.", \
+1511: "3ll1 3l-l1", \
+1512: "wins Microsoft s Windows Internet Name Service", \
+1513: "fujitsudtc Fujitsu Systems Business of America", \
+1514: "fujitsudtcns Fujitsu Systems Business of America", \
+1515: "iforprotocol ifor-protocol", \
+1516: "vpad Virtual Places Audio data", \
+1517: "vpac Virtual Places Audio control", \
+1518: "vpvd Virtual Places Video data", \
+1519: "vpvc Virtual Places Video control", \
+1520: "atmzipoffice atm zip office", \
+1521: "oracle-tns-listener Oracle TNS listener   nCube License Manager", \
+1522: "rnalm Ricardo North America License Manager", \
+1523: "cichildlm cichild", \
+1524: "ingreslock ingres", \
+1525: "sqlexec sqlexec Informix SE   oracle net v1 or Prospero Directory Service nonpriv", \
+1526: "oldb Informix online server   Prospero Data Access Prot non-priv", \
+1527: "tlisrv oracle", \
+1528: "mciautoreg micautoreg", \
+1529: "coauthor oracle   prmsd gnatsd cygnus bug tracker", \
+1530: "rapservice rap-service", \
+1531: "raplisten rap-listen", \
+1532: "miroconnect miroconnect", \
+1533: "virtualplaces Virtual Places Software", \
+1534: "micromuselm micromuse-lm", \
+1535: "amprinfo ampr-info", \
+1536: "amprinter ampr-inter", \
+1537: "sdsclm isi-lm", \
+1538: "3dslm 3ds-lm", \
+1539: "intellistorlm Intellistor License Manager", \
+1540: "rds rds", \
+1541: "rds2 rds2", \
+1542: "gridgenelmd gridgen-elmd", \
+1543: "simbacs simba-cs", \
+1544: "aspeclmd aspeclmd", \
+1545: "vistiumshare vistium-share", \
+1546: "abbaccuray abbaccuray", \
+1547: "laplink laplink", \
+1548: "axonlm Axon License Manager", \
+1549: "shivahose Shiva Hose", \
+1550: "3mimagelm Image Storage license manager 3M Company", \
+1551: "hecmtldb HECMTL-DB", \
+1552: "pciarray pciarray", \
+1553: "sna-cs sna-cs", \
+1554: "caci-lm CACI Products Company License Manager", \
+1555: "livelan livelan", \
+1556: "ashwin AshWin CI Tecnologies", \
+1557: "arbortext-lm ArborText License Manager", \
+1558: "xingmpeg xingmpeg xingtech.com", \
+1559: "web2host web2host", \
+1560: "asci-val asci-val", \
+1561: "facilityview facilityview", \
+1562: "pconnectmgr pconnectmgr", \
+1563: "cadabra-lm Cadabra License Manager", \
+1564: "pay-per-view Pay-Per-View", \
+1565: "winddlb WinDD", \
+1566: "corelvideo CORELVIDEO", \
+1567: "jlicelmd jlicelmd", \
+1568: "tsspmap tsspmap", \
+1569: "ets ets", \
+1570: "orbixd orbixd", \
+1571: "rdb-dbs-disp Oracle Remote Data Base", \
+1572: "chip-lm Chipcom License Manager", \
+1573: "itscomm-ns itscomm-ns", \
+1574: "mvel-lm mvel-lm", \
+1575: "oraclenames oraclenames", \
+1576: "moldflow-lm moldflow-lm", \
+1577: "hypercube-lm hypercube-lm", \
+1578: "jacobus-lm Jacobus License Manager", \
+1579: "ioc-sea-lm ioc-sea-lm", \
+1580: "tn-tl-r1 tn-tl-r1", \
+1581: "mil-2045-47001 MIL-2045-47001", \
+1582: "msims MSIMS", \
+1583: "simbaexpress simbaexpress", \
+1584: "tn-tl-fd2 tn-tl-fd2", \
+1585: "intv intv", \
+1586: "ibm-abtact ibm-abtact", \
+1587: "pra-elmd pra_elmd", \
+1588: "triquest-lm triquest-lm", \
+1589: "vqp VQP", \
+1590: "gemini-lm gemini-lm", \
+1591: "ncpm-pm ncpm-pm", \
+1592: "commonspace commonspace", \
+1593: "mainsoft-lm mainsoft-lm", \
+1594: "sixtrak sixtrak", \
+1595: "radio radio", \
+1596: "radio-sm radio-sm", \
+1597: "orbplus-iiop orbplus-iiop", \
+1598: "picknfs picknfs", \
+1599: "simbaservices simbaservices", \
+1600: "shivaburka Shiva Burka Trojan Horse   transputer net daemon", \
+1601: "aas aas", \
+1602: "inspect inspect", \
+1603: "picodbc pickodbc", \
+1604: "icabrowser Citrix Metaframe icabrowser", \
+1605: "slp Salutation Manager  Salutation Protocol ", \
+1606: "slm-api Salutation Manager  SLM-API ", \
+1607: "stt stt", \
+1608: "smart-lm Smart Corp. License Manager", \
+1609: "isysg-lm isysg-lm", \
+1610: "taurus-wh taurus-wh", \
+1611: "ill Inter Library Loan", \
+1612: "netbill-trans NetBill Transaction Server", \
+1613: "netbill-keyrep NetBill Key Repository", \
+1614: "netbill-cred NetBill Credential Server", \
+1615: "netbill-auth NetBill Authorization Server", \
+1616: "netbill-prod NetBill Product Server", \
+1617: "nimrod-agent Nimrod Inter-Agent Communication", \
+1618: "skytelnet skytelnet", \
+1619: "xs-openstorage xs-openstorage", \
+1620: "faxportwinport faxportwinport", \
+1621: "softdataphone softdataphone", \
+1622: "ontime ontime", \
+1623: "jaleosnd jaleosnd", \
+1624: "udp-sr-port udp-sr-port", \
+1625: "svs-omagent svs-omagent", \
+1626: "shockwave Shockwave", \
+1627: "t128-gateway T.128 Gateway", \
+1628: "longtalk-norm LongTalk normal", \
+1629: "longtalk-urgnt LongTalk urgent", \
+1630: "oraclenet8cman Oracle Net8 Cman", \
+1631: "visitview Visit view", \
+1632: "pammratc PAMMRATC", \
+1633: "pammrpc PAMMRPC", \
+1634: "loaprobe Log On America Probe", \
+1635: "edb-server1 EDB Server 1", \
+1636: "cncp CableNet Control Protocol", \
+1637: "cnap CableNet Admin Protocol", \
+1638: "cnip CableNet Info Protocol", \
+1639: "cert-initiator cert-initiator", \
+1640: "cert-responder cert-responder", \
+1641: "invision InVision", \
+1642: "isis-am isis-am", \
+1643: "isis-ambc isis-ambc", \
+1644: "saiseh Satellite-data Acquisition System 4", \
+1645: "datametrics radius radiusd datametrics", \
+1646: "sa-msg-port sa-msg-port", \
+1647: "rsap rsap", \
+1648: "concurrent-lm concurrent-lm", \
+1649: "kermit kermit", \
+1650: "nkd nkd", \
+1651: "shiva_confsrvr shiva_confsrvr", \
+1652: "xnmp xnmp", \
+1653: "alphatech-lm alphatech-lm", \
+1654: "stargatealerts stargatealerts", \
+1655: "dec-mbadmin dec-mbadmin", \
+1656: "dec-mbadmin-h dec-mbadmin-h", \
+1657: "fujitsu-mmpdc fujitsu-mmpdc", \
+1658: "sixnetudr sixnetudr", \
+1659: "sg-lm Silicon Grail License Manager", \
+1660: "skip-mc-gikreq skip-mc-gikreq", \
+1661: "netviewaix1 netview-aix-1", \
+1662: "netviewaix2 netview-aix-2", \
+1663: "netviewaix2 netview-aix-3", \
+1664: "netviewaix4 netview-aix-4", \
+1665: "netviewaix5 netview-aix-5", \
+1666: "netviewaix6 netview-aix-6", \
+1667: "netviewaix7 netview-aix-7", \
+1668: "netviewaix8 netview-aix-8", \
+1669: "netviewaix9 netview-aix-9", \
+1670: "netviewaix10 netview-aix-10", \
+1671: "netviewaix11 netview-aix-11", \
+1672: "netviewaix12 netview-aix-12", \
+1673: "proshare-mc-1 Intel Proshare Multicast", \
+1674: "proshare-mc-2 Intel Proshare Multicast", \
+1675: "pdp Pacific Data Products", \
+1676: "netcomm1 netcomm1", \
+1677: "groupwise groupwise", \
+1678: "prolink prolink", \
+1679: "darcorp-lm darcorp-lm", \
+1680: "microcom-sbp Microcom s Carbon Copy", \
+1681: "sd-elmd sd-elmd", \
+1682: "lanyon-lantern lanyon-lantern", \
+1683: "ncpm-hip ncpm-hip", \
+1684: "snaresecure SnareSecure", \
+1685: "n2nremote n2nremote", \
+1686: "cvmon cvmon", \
+1687: "nsjtp-ctrl nsjtp-ctrl", \
+1688: "nsjtp-data nsjtp-data", \
+1689: "firefox firefox", \
+1690: "ng-umds ng-umds", \
+1691: "empire-empuma empire-empuma", \
+1692: "sstsys-lm sstsys-lm", \
+1693: "rrirtr rrirtr", \
+1694: "rrimwm rrimwm", \
+1695: "rrilwm rrilwm", \
+1696: "rrifmm rrifmm", \
+1697: "rrisat rrisat", \
+1698: "rsvp-encap-1 RSVP-ENCAPSULATION-1", \
+1699: "rsvp-encap-2 RSVP-ENCAPSULATION-2", \
+1700: "mps-raft mps-raft", \
+1701: "l2tp l2f   l2tp level 2 tunneling protocol", \
+1702: "deskshare deskshare", \
+1703: "hb-engine hb-engine", \
+1704: "bcs-broker bcs-broker", \
+1705: "slingshot slingshot", \
+1706: "jetform jetform", \
+1707: "vdmplay vdmplay", \
+1708: "gat-lmd gat-lmd", \
+1709: "centra centra", \
+1710: "impera impera", \
+1711: "pptconference pptconference", \
+1712: "registrar resource monitoring service", \
+1713: "conferencetalk ConferenceTalk", \
+1714: "sesi-lm sesi-lm", \
+1715: "houdini-lm houdini-lm", \
+1716: "xmsg xmsg", \
+1717: "fj-hdnet fj-hdnet", \
+1718: "h323gatedisc h323gatedisc", \
+1719: "h323gatestat h323gatestat", \
+1720: "h323hostcall h323hostcall H.323 call setup", \
+1721: "caicci caicci", \
+1722: "hks-lm HKS License Manager", \
+1723: "pptp Microsoft Point to Point Tunneling Protocol", \
+1724: "csbphonemaster csbphonemaster", \
+1725: "iden-ralp iden-ralp", \
+1726: "iberiagames IBERIAGAMES", \
+1727: "winddx winddx", \
+1728: "telindus TELINDUS", \
+1729: "citynl CityNL License Management", \
+1730: "roketz roketz", \
+1731: "msiccp MSICCP   Audio call control", \
+1732: "proxim proxim", \
+1733: "siipat SIMS - SIIPAT Protocol for Alarm Transmission", \
+1734: "cambertx-lm Camber Corporation License Management", \
+1735: "privatechat PrivateChat", \
+1736: "street-stream street-stream", \
+1737: "ultimad ultimad", \
+1738: "gamegen1 GameGen1", \
+1739: "webaccess webaccess", \
+1740: "encore encore", \
+1741: "cisco-net-mgmt cisco-net-mgmt", \
+1742: "3com-nsd 3Com-nsd", \
+1743: "cinegrfx-lm Cinema Graphics License Manager", \
+1744: "ncpm-ft ncpm-ft", \
+1745: "remote-winsock remote-winsock", \
+1746: "ftrapid-1 ftrapid-1", \
+1747: "ftrapid-2 ftrapid-2", \
+1748: "oracle-em1 oracle-em1", \
+1749: "aspen-services aspen-services", \
+1750: "sslp Simple Socket Library s PortMaster", \
+1751: "swiftnet SwiftNet", \
+1752: "lofr-lm Leap of Faith Research License Manager", \
+1753: "translogic-lm Translogic License Manager", \
+1754: "oracle-em2 oracle-em2", \
+1755: "ms-streaming ms-streaming", \
+1756: "capfast-lmd capfast-lmd", \
+1757: "cnhrp cnhrp", \
+1758: "tftp-mcast tftp-mcast ", \
+1759: "spss-lm SPSS License Manager ", \
+1760: "www-ldap-gw www-ldap-gw ", \
+1761: "ms-sms Verification of Rights   Remote reboot   remote execute Microsoft Systems Management Server versions 2.0   1.2   cft-0", \
+1762: "ms-sms remote control Microsoft Systems Management Server versions 2.0   1.2   cft-1", \
+1763: "ms-sms remote chat Microsoft Systems Management Server versions 2.0   1.2   cft-2", \
+1764: "ms-sms file transfer Microsoft Systems Management Server versions 2.0   1.2   cft-3", \
+1765: "cft-4 cft-4 ", \
+1766: "cft-5 cft-5", \
+1767: "cft-6 cft-6", \
+1768: "cft-7 cft-7", \
+1769: "bmc-net-adm bmc-net-adm", \
+1770: "bmc-net-svc bmc-net-svc", \
+1771: "vaultbase vaultbase", \
+1772: "essweb-gw EssWeb Gateway", \
+1773: "kmscontrol KMSControl", \
+1774: "global-dtserv global-dtserv", \
+1776: "femis Federal Emergency Management Information System", \
+1777: "powerguardian powerguardian", \
+1778: "prodigy-intrnet prodigy-internet", \
+1779: "pharmasoft pharmasoft", \
+1780: "dpkeyserv dpkeyserv", \
+1781: "answersoft-lm answersoft-lm", \
+1782: "hp-hcip hp-hcip", \
+1783: "fjris Fujitsu Remote Install Service", \
+1784: "finle-lm Finle License Manager", \
+1785: "windlm Wind River Systems License Manager", \
+1786: "funk-logger funk-logger", \
+1787: "funk-license funk-license", \
+1788: "psmond psmond", \
+1789: "hello hello", \
+1790: "nmsp Narrative Media Streaming Protocol", \
+1791: "ea1 EA1", \
+1792: "ibm-dt-2 ibm-dt-2", \
+1793: "rsc-robot rsc-robot", \
+1794: "cera-bcm cera-bcm", \
+1795: "dpi-proxy dpi-proxy", \
+1796: "vocaltec-admin Vocaltec Server Administration", \
+1797: "uma UMA", \
+1798: "etp Event Transfer Protocol", \
+1799: "netrisk NETRISK", \
+1800: "ansys-lm ANSYS-License manager", \
+1801: "msmq Microsoft Message Que", \
+1802: "concomp1 ConComp1", \
+1803: "hp-hcip-gwy HP-HCIP-GWY", \
+1804: "enl ENL", \
+1805: "enl-name ENL-Name", \
+1806: "musiconline Musiconline", \
+1807: "spysender Nikhil Spy Sender Trojan Horse   Fujitsu Hot Standby Protocol", \
+1808: "oracle-vp2 Oracle-VP2", \
+1809: "oracle-vp1 Oracle-VP1", \
+1810: "jerand-lm Jerand License Manager", \
+1811: "scientia-sdb Scientia-SDB", \
+1812: "radius RADIUS", \
+1813: "radius-acct RADIUS accounting protocol  RFC 2139 ", \
+1814: "tdp-suite TDP Suite", \
+1815: "mmpft MMPFT", \
+1816: "harp HARP", \
+1817: "rkb-oscs RKB-OSCS", \
+1818: "etftp Enhanced Trivial File Transfer Protocol", \
+1819: "plato-lm Plato License Manager", \
+1820: "mcagent mcagent", \
+1821: "donnyworld donnyworld", \
+1822: "es-elmd es-elmd", \
+1823: "unisys-lm Unisys Natural Language License Manager", \
+1824: "metrics-pas metrics-pas", \
+1825: "direcpc-video DirecPC Video", \
+1826: "ardt ARDT", \
+1827: "asi ASI", \
+1828: "itm-mcell-u itm-mcell-u", \
+1829: "optika-emedia Optika eMedia", \
+1830: "net8-cman Oracle Net8 CMan Admin", \
+1831: "myrtle Myrtle", \
+1832: "tht-treasure ThoughtTreasure", \
+1833: "udpradio udpradio", \
+1834: "ardusuni ARDUS Unicast", \
+1835: "ardusmul ARDUS Multicast", \
+1836: "ste-smsc ste-smsc", \
+1837: "csoft1 csoft1", \
+1838: "talnet TALNET", \
+1839: "netopia-vo1 netopia-vo1", \
+1840: "netopia-vo2 netopia-vo2", \
+1841: "netopia-vo3 netopia-vo3", \
+1842: "netopia-vo4 netopia-vo4", \
+1843: "netopia-vo5 netopia-vo5", \
+1844: "direcpc-dll DirecPC-DLL", \
+1845: "altalink altalink", \
+1846: "tunstall-pnc Tunstall PNC", \
+1847: "slp-notify SLP Notification", \
+1848: "fjdocdist fjdocdist", \
+1849: "alpha-sms ALPHA-SMS", \
+1850: "gsi GSI", \
+1851: "ctcd ctcd", \
+1852: "virtual-time Virtual Time", \
+1853: "vids-avtp VIDS-AVTP", \
+1854: "buddy-draw Buddy Draw", \
+1855: "fiorano-rtrsvc Fiorano RtrSvc", \
+1856: "fiorano-msgsvc Fiorano MsgSvc", \
+1857: "datacaptor DataCaptor", \
+1858: "privateark PrivateArk", \
+1859: "gammafetchsvr Gamma Fetcher Server", \
+1860: "sunscalar-svc SunSCALAR Services", \
+1861: "lecroy-vicp LeCroy VICP", \
+1862: "techra-server techra-server", \
+1863: "msnp MSNP", \
+1864: "paradym-31port Paradym 31 Port", \
+1865: "entp ENTP", \
+1866: "swrmi swrmi", \
+1867: "udrive UDRIVE", \
+1868: "viziblebrowser VizibleBrowser", \
+1869: "yestrader YesTrader", \
+1870: "sunscalar-dns SunSCALAR DNS Service", \
+1871: "canocentral0 Cano Central 0", \
+1872: "canocentral1 Cano Central 1", \
+1873: "fjmpjps Fjmpjps", \
+1874: "fjswapsnp Fjswapsnp", \
+1875: "westell-stats westell stats", \
+1876: "ewcappsrv ewcappsrv", \
+1877: "hp-webqosdb hp-webqosdb", \
+1878: "drmsmc drmsmc", \
+1879: "nettgain-nms NettGain NMS", \
+1880: "vsat-control Gilat VSAT Control", \
+1881: "ibm-mqseries2 IBM MQSeries", \
+1882: "ecsqdmn ecsqdmn", \
+1883: "ibm-mqisdp IBM MQSeries SCADA", \
+1884: "idmaps Internet Distance Map Svc", \
+1885: "vrtstrapserver Veritas Trap Server", \
+1886: "leoip Leonardo over IP", \
+1887: "filex-lport FileX Listening Port", \
+1888: "ncconfig NC Config Port", \
+1889: "unify-adapter Unify Web Adapter Service", \
+1890: "wilkenlistener wilkenListener", \
+1891: "childkey-notif ChildKey Notification", \
+1892: "childkey-ctrl ChildKey Control", \
+1893: "elad ELAD Protocol", \
+1894: "o2server-port O2Server Port", \
+1895: "vista-4gl Vista 4GL", \
+1896: "b-novative-ls b-novative license server", \
+1897: "metaagent MetaAgent", \
+1898: "cymtec-port Cymtec secure management", \
+1899: "mc2studios MC2Studios", \
+1900: "ssdp SSDP", \
+1901: "fjicl-tep-a Fujitsu ICL Terminal Emulator Program A", \
+1902: "fjicl-tep-b Fujitsu ICL Terminal Emulator Program B", \
+1903: "linkname Local Link Name Resolution", \
+1904: "fjicl-tep-c Fujitsu ICL Terminal Emulator Program C", \
+1905: "sugp Secure UP.Link Gateway Protocol", \
+1906: "tpmd TPortMapperReq", \
+1907: "intrastar IntraSTAR", \
+1908: "dawn Dawn", \
+1909: "global-wlink Global World Link", \
+1910: "ultrabac ultrabac", \
+1911: "mtp Starlight Networks Multimedia Transport Protocol", \
+1912: "rhp-iibp rhp-iibp", \
+1913: "armadp armadp", \
+1914: "elm-momentum Elm-Momentum", \
+1915: "facelink FACELINK", \
+1916: "persona Persoft Persona", \
+1917: "noagent nOAgent", \
+1918: "can-nds Candle Directory Service - NDS", \
+1919: "can-dch Candle Directory Service - DCH", \
+1920: "can-ferret Candle Directory Service - FERRET", \
+1921: "noadmin NoAdmin", \
+1922: "tapestry Tapestry", \
+1923: "spice SPICE", \
+1924: "xiip XIIP", \
+1925: "discovery-port Surrogate Discovery Port", \
+1926: "egs Evolution Game Server", \
+1927: "videte-cipc Videte CIPC Port", \
+1928: "emsd-port Expnd Maui Srvr Dscovr", \
+1929: "bandwiz-system Bandwiz System - Server", \
+1930: "driveappserver Drive AppServer", \
+1931: "amdsched AMD SCHED", \
+1932: "ctt-broker CTT Broker", \
+1933: "xmapi IBM LM MT Agent", \
+1934: "xaapi IBM LM Appl Agent", \
+1935: "tincan TinCan", \
+1936: "jetcmeserver JetCmeServer Server Port", \
+1937: "jwserver JetVWay Server Port", \
+1938: "jwclient JetVWay Client Port", \
+1939: "jvserver JetVision Server Port", \
+1940: "jvclient JetVision Client Port", \
+1941: "dic-aida DIC-Aida", \
+1942: "res Real Enterprise Service", \
+1943: "beeyond-media Beeyond Media", \
+1944: "close-combat close-combat", \
+1945: "dialogic-elmd dialogic-elmd", \
+1946: "tekpls tekpls", \
+1947: "hlserver hlserver", \
+1948: "eye2eye eye2eye", \
+1949: "ismaeasdaqlive ISMA Easdaq Live", \
+1950: "ismaeasdaqtest ISMA Easdaq Test", \
+1951: "bcs-lmserver bcs-lmserver", \
+1952: "mpnjsc mpnjsc", \
+1953: "rapidbase Rapid Base", \
+1954: "abr-basic ABR-Basic Data", \
+1955: "abr-secure ABR-Secure Data", \
+1956: "vrtl-vmf-ds Vertel VMF DS", \
+1957: "unix-status unix-status", \
+1958: "dxadmind CA Administration Daemon", \
+1959: "simp-all SIMP Channel", \
+1960: "nasmanager Merit DAC NASmanager", \
+1961: "bts-appserver BTS APPSERVER", \
+1962: "biap-mp BIAP-MP", \
+1963: "webmachine WebMachine", \
+1964: "solid-e-engine SOLID E ENGINE", \
+1965: "tivoli-npm Tivoli NPM", \
+1966: "slush Slush", \
+1967: "sns-quote SNS Quote", \
+1968: "lipsinc LIPSinc", \
+1969: "lipsinc1 LIPSinc 1", \
+1970: "netop-rc NetOp Remote Control", \
+1971: "netop-school NetOp School", \
+1972: "intersys-cache Cache", \
+1973: "dlsrap Data Link Switching Remote Access Protocol", \
+1974: "drp DRP", \
+1975: "tcoflashagent TCO Flash Agent", \
+1976: "tcoregagent TCO Reg Agent", \
+1977: "tcoaddressbook TCO Address Book", \
+1978: "unisql UniSQL", \
+1979: "unisql-java UniSQL Java", \
+1980: "pearldoc-xact PearlDoc XACT", \
+1981: "shockrave Shockrave Trojan Horse   p2pq", \
+1982: "estamp Evidentiary Timestamp", \
+1983: "lhtp Loophole Test Protocol", \
+1984: "bb BB", \
+1985: "hsrp Hot Standby Router Protocol", \
+1986: "licensedaemon cisco license management", \
+1987: "trrsrbp1 cisco RSRB Priority 1 port", \
+1988: "trrsrbp2 cisco RSRB Priority 2 port", \
+1989: "trrsrbp3 cisco RSRB Priority 3 port   MHSnet system", \
+1990: "stunp1 cisco STUN Priority 1 port", \
+1991: "stunp2 cisco STUN Priority 2 port", \
+1992: "stunp3 cisco STUN Priority 3 port   Ipsendmsg", \
+1993: "snmptcpport cisco SNMP TCP port", \
+1994: "stunport cisco serial tunnel port", \
+1995: "perfport cisco perf port", \
+1996: "trrsrbport cisco Remote SRB port", \
+1997: "gdpport cisco Gateway Discovery Protocol", \
+1998: "x25svcport cisco X.25 service  XOT ", \
+1999: "subseven Backdoor Trojan program   SubSeven Trojan", \
+2000: "remoteanywhere Remotely Anywhere Remote Control", \
+2001: "trojancow Trojan Cow Trojan Horse   spirit trojan", \
+2002: "globe globe", \
+2003: "cfingerd GNU finger", \
+2004: "mailbox ", \
+2005: "deslogin encrypted symmetric telnet login", \
+2006: "invokator invokator", \
+2007: "dectalk dectalk", \
+2008: "conf conf", \
+2009: "news news", \
+2010: "search search", \
+2011: "raidcc raid", \
+2012: "ttyinfo tty info", \
+2013: "raidam raid am", \
+2014: "troff troff", \
+2015: "cypress cypress", \
+2016: "bootserver bootserver", \
+2017: "cypressstat cypress status", \
+2018: "terminaldb terminal database", \
+2019: "whosockami whosockami", \
+2020: "lyrislistmanager Lyris List Manager commond protocol   xinupageserver", \
+2021: "servexec server exec", \
+2022: "down down", \
+2023: "ripper Ripper Trojan Horse", \
+2024: "xinuexpansion4 xinuexpansion4", \
+2025: "ellpack ellpack", \
+2026: "scrabble scrabble", \
+2027: "shadowserver shadowserver", \
+2028: "submitserver submitserver", \
+2030: "device2 device2", \
+2032: "blackboard blackboard", \
+2033: "glogger glogger", \
+2034: "scoremgr scoremgr", \
+2035: "imsldoc imsldoc", \
+2037: "p2plus P2plus Application Server", \
+2038: "objectmanager objectmanager", \
+2040: "lam lam", \
+2041: "interbase interbase", \
+2042: "isis isis", \
+2043: "isisbcast isis-bcast", \
+2044: "rimsl rimsl", \
+2045: "cdfunc cdfunc", \
+2046: "sdfunc sdfunc", \
+2047: "dls dls", \
+2048: "dlsmonitor dls monitor", \
+2049: "nfs nfs   NFS server", \
+2050: "av-emb-config Avaya EMB Config Port", \
+2051: "epnsdp EPNSDP", \
+2052: "clearvisn clearVisn Services Port", \
+2053: "krbmulti Kerberos de multiplexor   Lot105 DSuper Updates", \
+2054: "weblogin Weblogin Port", \
+2055: "iop Iliad-Odyssey Protocol", \
+2056: "omnisky OmniSky Port", \
+2057: "rich-cp Rich Content Protocol", \
+2058: "newwavesearch NewWaveSearchables RMI", \
+2059: "bmc-messaging BMC Messaging Service", \
+2060: "teleniumdaemon Telenium Daemon IF", \
+2061: "netmount NetMount", \
+2062: "icg-swp ICG SWP Port", \
+2063: "icg-bridge ICG Bridge Port", \
+2064: "distribnet Distributed.net client - closedsource", \
+2065: "dlsrpn Data Link Switch Read Port Number", \
+2067: "dlswpn Data Link Switch Write Port Number", \
+2068: "avauthsrvprtcl Avocent AuthSrv Protocol", \
+2069: "event-port HTTP Event Port", \
+2070: "ah-esp-encap AH and ESP Encapsulated in UDP packet", \
+2071: "acp-port Axon Control Protocol", \
+2072: "msync GlobeCast mSync", \
+2073: "gxs-data-port DataReel Database Socket", \
+2074: "speakfreely Speak freely  internet telephone ", \
+2075: "speakfreely Speak freely  internet telephone ", \
+2076: "newlixconfig Newlix JSPConfig", \
+2077: "trellisagt TrelliSoft Agent", \
+2078: "trellissvr TrelliSoft Server", \
+2079: "idware-router IDWARE Router Port", \
+2080: "winhole WinHole Trojan", \
+2081: "kme-trap-port KME PRINTER TRAP PORT", \
+2082: "infowave Infowave Mobility Server", \
+2087: "eli ELI - Event Logging Integration", \
+2089: "sep Security Encapsulation Protocol - SEP", \
+2090: "lrp Load Report Protocol", \
+2091: "prp PRP", \
+2092: "descent3 Descent 3", \
+2093: "nbx-cc NBX CC", \
+2094: "nbx-au NBX AU", \
+2095: "nbx-ser NBX SER", \
+2096: "nbx-dir NBX DIR", \
+2097: "jetformpreview Jet Form Preview", \
+2098: "dialog-port Dialog Port", \
+2099: "h2250-annex-g H.225.0 Annex G", \
+2100: "amiganetfs amiganetfs", \
+2101: "rtcm-sc104 rtcm-sc104", \
+2102: "zephyr-srv Zephyr server", \
+2103: "zephyrclt Zephyr serv-hm connection", \
+2104: "zephyrhm Zephyr hostmanager", \
+2105: "eklogin Kerberos  v4  encrypted rlogin   MiniPay", \
+2106: "ekshell Kerberos  v4  encrypted rshell   mzap  rfc 2776 ", \
+2107: "bintec-admin BinTec Admin", \
+2108: "comcam Comcam   Kerberos remote kinit", \
+2109: "ergolight Ergolight", \
+2110: "umsp UMSP", \
+2111: "dsatp DSATP   X over kerberos", \
+2112: "idonix-metanet Idonix MetaNet   IP over kerberos", \
+2113: "hsl-storm HSL StoRM", \
+2114: "newheights NEWHEIGHTS", \
+2115: "bugs Bugs Trojan Horse   kdm", \
+2116: "ccowcmr CCOWCMR", \
+2117: "mentaclient MENTACLIENT", \
+2118: "mentaserver MENTASERVER", \
+2119: "gsigatekeeper GSIGATEKEEPER", \
+2120: "qencp Quick Eagle Networks CP   Remote kauth", \
+2121: "scientia-ssdb SCIENTIA-SSDB", \
+2122: "caupc-remote CauPC Remote Control", \
+2123: "gtp-control GTP-Control Plane  3GPP ", \
+2124: "elatelink ELATELINK", \
+2125: "lockstep LOCKSTEP", \
+2126: "pktcable-cops PktCable-COPS", \
+2127: "index-pc-wb INDEX-PC-WB", \
+2128: "net-steward Net Steward Control", \
+2129: "cs-live cs-live.com", \
+2130: "swc-xds SWC-XDS", \
+2131: "avantageb2b Avantageb2b", \
+2132: "avail-epmap AVAIL-EPMAP", \
+2133: "zymed-zpp ZYMED-ZPP", \
+2134: "avenue AVENUE", \
+2135: "gris Grid Resource Information Server", \
+2136: "appworxsrv APPWORXSRV", \
+2137: "connect CONNECT", \
+2138: "unbind-cluster UNBIND-CLUSTER", \
+2139: "ias-auth IAS-AUTH", \
+2140: "deep Deep Throat   FTP Attack 666 tcp   IAS-REG", \
+2141: "ias-admind IAS-ADMIND", \
+2142: "tdm-over-ip TDM-OVER-IP", \
+2143: "lv-jc Live Vault Job Control", \
+2144: "lv-ffx Live Vault Fast Object Transfer", \
+2145: "lv-pici Live Vault Remote Diagnostic Console Support", \
+2146: "lv-not Live Vault Admin Event Notification", \
+2147: "lv-auth Live Vault Authentication", \
+2148: "veritas-ucl VERITAS UNIVERSAL COMMUNICATION LAYER", \
+2149: "acptsys ACPTSYS", \
+2150: "dynamic3d DYNAMIC3D", \
+2151: "docent DOCENT", \
+2152: "gtp-user GTP-User Plane  3GPP ", \
+2155: "illusionmailer Illusion Mailer Trojan", \
+2159: "gdbremote GDB Remote Debug Port", \
+2160: "apc-cms APC Central Mgmt Server", \
+2161: "apc-agent APC Agent", \
+2162: "navisphere Navisphere", \
+2163: "navisphere-sec Navisphere Secure", \
+2164: "ddns-v3 Dynamic DNS Version 3", \
+2165: "x-bone-api X-Bone API", \
+2166: "iwserver IWSERVER", \
+2167: "raw-serial Raw Async Serial Link", \
+2180: "mc-gt-srv Millicent Vendor Gateway Server", \
+2181: "eforward eforward", \
+2200: "ici ICI", \
+2201: "ats Advanced Training System Program", \
+2202: "imtc-map Int. Multimedia Teleconferencing Cosortium", \
+2213: "kali Kali", \
+2220: "ganymede Ganymede   NetIQ Pegasus", \
+2221: "rockwell-csp1 Rockwell CSP1   Allen-Bradley unregistered port", \
+2222: "rockwell-csp2 Rockwell CSP2   Allen-Bradley unregistered port", \
+2223: "rockwell-csp3 Rockwell CSP3   Allen-Bradley unregistered port", \
+2232: "ivsvideo IVS Video default", \
+2233: "infocrypt INFOCRYPT", \
+2234: "directplay DirectPlay", \
+2235: "sercomm-wlink Sercomm-WLink", \
+2236: "nani Nani", \
+2237: "optech-port1-lm Optech Port1 License Manager", \
+2238: "aviva-sna AVIVA SNA SERVER", \
+2239: "imagequery Image Query", \
+2240: "recipe RECIPe", \
+2241: "ivsd IVS Daemon", \
+2242: "foliocorp Folio Remote Server", \
+2243: "magicom Magicom Protocol", \
+2244: "nmsserver NMS Server", \
+2245: "hao HaO", \
+2246: "pc-mta-addrmap PacketCable MTA Addr Map", \
+2248: "ums User Management Service", \
+2249: "rfmp RISO File Manager Protocol", \
+2250: "remote-collab remote-collab", \
+2251: "dif-port Distributed Framework Port", \
+2252: "njenet-ssl NJENET using SSL", \
+2253: "dtv-chan-req DTV Channel Request", \
+2254: "seispoc Seismic P.O.C. Port", \
+2255: "vrtp VRTP - ViRtue Transfer Protocol", \
+2260: "apc-pbeconsole APC Console Comm Port", \
+2279: "xmquery xmquery", \
+2280: "lnvpoller LNVPOLLER", \
+2281: "lnvconsole LNVCONSOLE", \
+2282: "lnvalarm LNVALARM", \
+2283: "rat5 Rat5 HVL Trojan   LNVSTATUS", \
+2284: "lnvmaps LNVMAPS", \
+2285: "lnvmailmon LNVMAILMON", \
+2286: "nas-metering NAS-Metering", \
+2287: "dna DNA", \
+2288: "netml NETML", \
+2294: "konshus-lm Konshus License Manager  FLEX ", \
+2295: "advant-lm Advant License Manager", \
+2296: "theta-lm Theta License Manager  Rainbow ", \
+2297: "d2k-datamover1 D2K DataMover 1", \
+2298: "d2k-datamover2 D2K DataMover 2", \
+2299: "pc-telecommute PC Telecommute", \
+2300: "cvmmon CVMMON", \
+2301: "cpq-wbem Compaq Insight Manager HTTP", \
+2302: "binderysupport Bindery Support", \
+2303: "proxy-gateway Proxy Gateway", \
+2304: "attachmate-uts Attachmate UTS", \
+2305: "mt-scaleserver MT ScaleServer", \
+2306: "tappi-boxnet TAPPI BoxNet", \
+2307: "pehelp pehelp", \
+2308: "sdhelp sdhelp", \
+2309: "sdserver SD Server", \
+2310: "sdclient SD Client", \
+2311: "messageservice Message Service", \
+2313: "iapp IAPP  Inter Access Point Protocol ", \
+2314: "cr-websystems CR WebSystems", \
+2315: "precise-sft Precise Sft.", \
+2316: "sent-lm SENT License Manager", \
+2317: "attachmate-g32 Attachmate G32", \
+2318: "cadencecontrol Cadence Control", \
+2319: "infolibria InfoLibria", \
+2320: "siebel-ns Siebel NS", \
+2321: "rdlap RDLAP over UDP", \
+2322: "ofsd ofsd", \
+2323: "3d-nfsd 3d-nfsd", \
+2324: "cosmocall Cosmocall", \
+2325: "designspace-lm Design Space License Management", \
+2326: "idcp IDCP", \
+2327: "xingcsm xingcsm", \
+2328: "netrix-sftm Netrix SFTM", \
+2329: "nvd NVD", \
+2330: "tscchat TSCCHAT", \
+2331: "agentview AGENTVIEW", \
+2332: "rcc-host RCC Host", \
+2333: "snapp SNAPP", \
+2334: "ace-client ACE Client Auth", \
+2335: "ace-proxy ACE Proxy", \
+2336: "appleugcontrol Apple UG Control", \
+2337: "ideesrv ideesrv", \
+2338: "norton-lambert Norton Lambert", \
+2339: "3com-webview 3Com WebView", \
+2340: "wrs-registry WRS Registry", \
+2341: "xiostatus XIO Status", \
+2342: "manage-exec Seagate Manage Exec", \
+2343: "nati-logos nati logos", \
+2344: "fcmsys fcmsys", \
+2345: "dbm dbm", \
+2346: "redstorm_join Game Connection Port", \
+2347: "redstorm_find Game Announcement and Location", \
+2348: "redstorm_info Information to query for game status", \
+2349: "redstorm_diag Diagnostics Port", \
+2350: "psbserver psbserver", \
+2351: "psrserver psrserver", \
+2352: "pslserver pslserver", \
+2353: "pspserver pspserver", \
+2354: "psprserver psprserver", \
+2355: "psdbserver psdbserver", \
+2356: "gxtelmd GXT License Managemant", \
+2357: "unihub-server UniHub Server", \
+2358: "futrix Futrix", \
+2359: "flukeserver FlukeServer", \
+2360: "nexstorindltd NexstorIndLtd", \
+2361: "tl1 TL1", \
+2362: "digiman digiman", \
+2363: "mediacntrlnfsd Media Central NFSD", \
+2364: "oi-2000 OI-2000", \
+2365: "dbref dbref", \
+2366: "qip-login qip-login", \
+2367: "service-ctrl Service Control", \
+2368: "opentable OpenTable", \
+2369: "acs2000-dsp ACS2000 DSP", \
+2370: "l3-hbmon L3-HBMon", \
+2371: "worldwire Compaq WorldWire Port", \
+2381: "compaq-https Compaq HTTPS", \
+2382: "ms-olap3 Microsoft OLAP", \
+2383: "ms-olap4 Microsoft OLAP", \
+2384: "sd-request SD-REQUEST", \
+2385: "sd-data SD-DATA", \
+2386: "virtualtape Virtual Tape", \
+2387: "vsamredirector VSAM Redirector", \
+2388: "mynahautostart MYNAH AutoStart", \
+2389: "ovsessionmgr OpenView Session Mgr", \
+2390: "rsmtp RSMTP", \
+2391: "3com-net-mgmt 3COM Net Management", \
+2392: "tacticalauth Tactical Auth", \
+2393: "ms-olap1 MS OLAP 1", \
+2394: "ms-olap2 MS OLAP 2", \
+2395: "lan900_remote LAN900 Remote", \
+2396: "wusage Wusage", \
+2397: "ncl NCL", \
+2398: "orbiter Orbiter", \
+2399: "fmpro-fdal FileMaker", \
+2400: "opequus-server OpEquus Server", \
+2401: "cvspserver CVS network server", \
+2402: "taskmaster2000 TaskMaster 2000 Server", \
+2403: "taskmaster2000 TaskMaster 2000 Web", \
+2404: "iec870-5-104 IEC870-5-104", \
+2405: "trc-netpoll TRC Netpoll", \
+2406: "jediserver JediServer", \
+2407: "orion Orion", \
+2408: "optimanet OptimaNet", \
+2409: "sns-protocol SNS Protocol", \
+2410: "vrts-registry VRTS Registry", \
+2411: "netwave-ap-mgmt Netwave AP Management", \
+2412: "cdn CDN", \
+2413: "orion-rmi-reg orion-rmi-reg", \
+2414: "beeyond Beeyond   Interlingua", \
+2415: "comtest COMTEST", \
+2416: "rmtserver RMT Server", \
+2417: "composit-server Composit Server", \
+2418: "cas cas", \
+2419: "attachmate-s2s Attachmate S2S", \
+2420: "dslremote-mgmt DSL Remote Management", \
+2421: "g-talk G-Talk", \
+2422: "crmsbits CRMSBITS", \
+2423: "rnrp RNRP", \
+2424: "kofax-svr KOFAX-SVR", \
+2425: "fjitsuappmgr Fujitsu App Manager", \
+2426: "applianttcp Appliant TCP", \
+2427: "mgcp-gateway Media Gateway Control Protocol Gateway   Simple telephony Gateway Control Protocol", \
+2428: "ott One Way Trip Time", \
+2429: "ft-role FT-ROLE", \
+2430: "venus codacon port", \
+2431: "venusse tcp side effects", \
+2432: "codasrv codasrv", \
+2433: "codasrvse codasrv-se", \
+2434: "pxc-epmap pxc-epmap", \
+2435: "optilogic OptiLogic", \
+2436: "topx TOP X", \
+2437: "unicontrol UniControl", \
+2438: "msp MSP", \
+2439: "sybasedbsynch SybaseDBSynch", \
+2440: "spearway Spearway Lockers", \
+2441: "pvsw-inet pvsw-inet", \
+2442: "netangel Netangel", \
+2443: "powerclientcsf PowerClient Central Storage Facility", \
+2444: "btpp2sectrans BT PP2 Sectrans", \
+2445: "dtn1 DTN1", \
+2446: "bues-service bues_service", \
+2447: "ovwdb OpenView NNM daemon", \
+2448: "hpppssvr hpppsvr", \
+2449: "ratl RATL", \
+2450: "netadmin netadmin", \
+2451: "netchat netchat", \
+2452: "snifferclient SnifferClient", \
+2453: "madge-om madge-om", \
+2454: "indx-dds IndX-DDS", \
+2455: "wago-io-system WAGO-IO-SYSTEM", \
+2456: "altav-remmgt altav-remmgt", \
+2457: "rapido-ip Rapido_IP", \
+2458: "griffin griffin", \
+2459: "community Community", \
+2460: "ms-theater ms-theater", \
+2461: "qadmifoper qadmifoper", \
+2462: "qadmifevent qadmifevent", \
+2463: "symbios-raid Symbios Raid", \
+2464: "direcpc-si DirecPC SI", \
+2465: "lbm Load Balance Management", \
+2466: "lbf Load Balance Forwarding", \
+2467: "high-criteria High Criteria", \
+2468: "qip-msgd qip_msgd", \
+2469: "mti-tcs-comm MTI-TCS-COMM", \
+2470: "taskman-port taskman port", \
+2471: "seaodbc SeaODBC", \
+2472: "c3 C3", \
+2473: "aker-cdp Aker-cdp", \
+2474: "vitalanalysis Vital Analysis", \
+2475: "ace-server ACE Server", \
+2476: "ace-svr-prop ACE Server Propagation", \
+2477: "ssm-cvs SecurSight Certificate Valifation Service", \
+2478: "ssm-cssps SecurSight Authentication Server  SLL ", \
+2479: "ssm-els SecurSight Event Logging Server  SSL ", \
+2480: "lingwood Lingwood s Detail", \
+2481: "giop Oracle GIOP", \
+2482: "giop-ssl Oracle GIOP SSL", \
+2483: "ttc Oracle TTC", \
+2484: "ttc-ssl Oracle TTC SSL", \
+2485: "netobjects1 Net Objects1", \
+2486: "netobjects2 Net Objects2", \
+2487: "pns Policy Notice Service", \
+2488: "moy-corp Moy Corporation", \
+2489: "tsilb TSILB", \
+2490: "qip-qdhcp qip_qdhcp", \
+2491: "conclave-cpp Conclave CPP", \
+2492: "groove GROOVE", \
+2493: "talarian-mqs Talarian MQS", \
+2494: "bmc-ar BMC AR", \
+2495: "fast-rem-serv Fast Remote Services", \
+2496: "dirgis DIRGIS", \
+2497: "quaddb Quad DB", \
+2498: "odn-castraq ODN-CasTraq", \
+2499: "unicontrol UniControl", \
+2500: "rtsserv Resource Tracking system server", \
+2501: "rtsclient Resource Tracking system client", \
+2502: "kentrox-prot Kentrox Protocol", \
+2503: "nms-dpnss NMS-DPNSS", \
+2504: "wlbs WLBS", \
+2505: "torque-traffic torque-traffic", \
+2506: "jbroker jbroker", \
+2507: "spock spock", \
+2508: "datastore datastore", \
+2509: "fjmpss fjmpss", \
+2510: "fjappmgrbulk fjappmgrbulk", \
+2511: "metastorm Metastorm", \
+2512: "citrixima Citrix IMA", \
+2513: "citrixadmin Citrix ADMIN", \
+2514: "facsys-ntp Facsys NTP", \
+2515: "facsys-router Facsys Router", \
+2516: "maincontrol Main Control", \
+2517: "call-sig-trans H.323 Annex E call signaling transport Call Signalling Transport", \
+2518: "willy Willy", \
+2519: "globmsgsvc globmsgsvc", \
+2520: "pvsw pvsw", \
+2521: "adaptecmgr Adaptec Manager", \
+2522: "windb WinDb", \
+2523: "qke-llc-v3 Qke LLC V.3", \
+2524: "optiwave-lm Optiwave License Management", \
+2525: "ms-v-worlds MS V-Worlds", \
+2526: "ema-sent-lm EMA License Manager", \
+2527: "iqserver IQ Server", \
+2528: "ncr_ccl NCR CCL", \
+2529: "utsftp UTS FTP", \
+2530: "vrcommerce VR Commerce", \
+2531: "ito-e-gui ITO-E GUI", \
+2532: "ovtopmd OVTOPMD", \
+2533: "alcatel-4400 Alcatel 4400 PBX network management   SnifferServer", \
+2534: "combox-web-acc Combox Web Access", \
+2535: "madcap MADCAP   MDHCP", \
+2536: "btpp2audctr1 btpp2audctr1", \
+2537: "upgrade Upgrade Protocol", \
+2538: "vnwk-prapi vnwk-prapi", \
+2539: "vsiadmin VSI Admin", \
+2540: "lonworks LonWorks", \
+2541: "lonworks2 LonWorks2", \
+2542: "davinci daVinci", \
+2543: "reftek REFTEK", \
+2544: "novell-zen Novell ZENWorks", \
+2545: "sis-emt sis-emt", \
+2546: "vytalvaultbrtp vytalvaultbrtp", \
+2547: "vytalvaultvsmp vytalvaultvsmp", \
+2548: "vytalvaultpipe vytalvaultpipe", \
+2549: "ipass IPASS", \
+2550: "ads ADS", \
+2551: "isg-uda-server ISG UDA Server", \
+2552: "call-logging Call Logging", \
+2553: "efidiningport efidiningport", \
+2554: "vcnet-link-v10 VCnet-Link v10", \
+2555: "compaq-wcp Compaq WCP", \
+2556: "nicetec-nmsvc nicetec-nmsvc", \
+2557: "nicetec-mgmt nicetec-mgmt", \
+2558: "pclemultimedia PCLE Multi Media", \
+2559: "lstp LSTP", \
+2560: "labrat labrat", \
+2561: "mosaixcc MosaixCC", \
+2562: "delibo Delibo", \
+2563: "cti-redwood CTI Redwood", \
+2564: "hp3000telnet HP 3000 NS VT block mode telnet", \
+2565: "striker trojan   striker   coord-svr", \
+2566: "pcs-pcw pcs-pcw", \
+2567: "clp Cisco Line Protocol", \
+2568: "spamtrap SPAM TRAP", \
+2569: "sonuscallsig Sonus Call Signal", \
+2570: "hs-port HS Port", \
+2571: "cecsvc CECSVC", \
+2572: "ibp IBP", \
+2573: "trustestablish Trust Establish", \
+2574: "blockade-bpsp Blockade BPSP", \
+2575: "hl7 HL7", \
+2576: "tclprodebugger TCL Pro Debugger", \
+2577: "scipticslsrvr Scriptics Lsrvr", \
+2578: "rvs-isdn-dcp RVS ISDN DCP", \
+2579: "mpfoncl mpfoncl", \
+2580: "tributary Tributary", \
+2581: "argis-te ARGIS TE", \
+2582: "argis-ds ARGIS DS", \
+2583: "wincrash Wincrash Trojan Horse   MON", \
+2584: "cyaserv cyaserv", \
+2585: "netx-server NETX Server", \
+2586: "netx-agent NETX Agent", \
+2587: "masc MASC", \
+2588: "privilege Privilege", \
+2589: "dagger Dagger Trojan   quartus tcl", \
+2590: "idotdist idotdist", \
+2591: "maytagshuffle Maytag Shuffle", \
+2592: "netrek netrek", \
+2593: "mns-mail MNS Mail Notice Service", \
+2594: "dts Data Base Server", \
+2595: "worldfusion1 World Fusion 1", \
+2596: "worldfusion2 World Fusion 2", \
+2597: "homesteadglory Homestead Glory", \
+2598: "citriximaclient Citrix MA Client", \
+2599: "meridiandata Meridian Data", \
+2600: "zebrasrv HPSTGMGR   zebra service", \
+2601: "zebra-vty zebra routing daemon -    www.zebra.org   discp client", \
+2602: "ripd discp server   Zebra RIPd vty", \
+2603: "ripngd Service Meter   Zebra RIPngd vty", \
+2604: "ospfd NSC CCS   Zebra OSPFd vty", \
+2605: "bgpd NSC POSA   Zebra BGPd vty", \
+2606: "netmon Dell Netmon", \
+2607: "connection Dell Connection", \
+2608: "wag-service Wag Service", \
+2609: "system-monitor System Monitor", \
+2610: "versa-tek VersaTek", \
+2611: "lionhead LIONHEAD", \
+2612: "qpasa-agent Qpasa Agent", \
+2613: "smntubootstrap SMNTUBootstrap", \
+2614: "neveroffline Never Off Line", \
+2615: "firepower firepower", \
+2616: "appswitch-emp appswitch-emp", \
+2617: "cmadmin Clinical Context Managers", \
+2618: "priority-e-com Priority E-Com", \
+2619: "bruce bruce", \
+2620: "lpsrecommender LPSRecommender", \
+2621: "miles-apart Miles Apart Jukebox Server", \
+2622: "metricadbc MetricaDBC", \
+2623: "lmdp LMDP", \
+2624: "aria Aria", \
+2625: "blwnkl-port Blwnkl Port", \
+2626: "gbjd816 gbjd816", \
+2627: "moshebeeri Moshe Beeri   Network dictionary", \
+2628: "dict DICT", \
+2629: "sitaraserver Sitara Server", \
+2630: "sitaramgmt Sitara Management", \
+2631: "sitaradir Sitara Dir", \
+2632: "irdg-post IRdg Post", \
+2633: "interintelli InterIntelli", \
+2634: "pk-electronics PK Electronics", \
+2635: "backburner Back Burner", \
+2636: "solve Solve", \
+2637: "imdocsvc Import Document Service", \
+2638: "sybaseanywhere Sybase Anywhere", \
+2639: "aminet AMInet", \
+2640: "sai-sentlm Sabbagh Associates Licence Manager", \
+2641: "hdl-srv HDL Server", \
+2642: "tragic Tragic", \
+2643: "gte-samp GTE-SAMP", \
+2644: "travsoft-ipx-t Travsoft IPX Tunnel", \
+2645: "novell-ipx-cmd Novell IPX CMD", \
+2646: "and-lm AND Licence Manager", \
+2647: "syncserver SyncServer", \
+2648: "upsnotifyprot Upsnotifyprot", \
+2649: "vpsipport VPSIPPORT", \
+2650: "eristwoguns eristwoguns", \
+2651: "ebinsite EBInSite", \
+2652: "interpathpanel InterPathPanel", \
+2653: "sonus Sonus", \
+2654: "corel_vncadmin Corel VNC Admin", \
+2655: "unglue UNIX Nt Glue", \
+2656: "kana Kana", \
+2657: "sns-dispatcher SNS Dispatcher", \
+2658: "sns-admin SNS Admin", \
+2659: "sns-query SNS Query", \
+2660: "gcmonitor GC Monitor", \
+2661: "olhost OLHOST", \
+2662: "bintec-capi BinTec-CAPI", \
+2663: "bintec-tapi BinTec-TAPI", \
+2664: "command-mq-gm Command MQ GM", \
+2665: "command-mq-pm Command MQ PM", \
+2666: "extensis extensis", \
+2667: "alarm-clock-s Alarm Clock Server", \
+2668: "alarm-clock-c Alarm Clock Client", \
+2669: "toad TOAD", \
+2670: "tve-announce TVE Announce", \
+2671: "newlixreg newlixreg", \
+2672: "nhserver nhserver", \
+2673: "firstcall42 First Call 42", \
+2674: "ewnn ewnn", \
+2675: "ttc-etap TTC ETAP", \
+2676: "simslink SIMSLink", \
+2677: "gadgetgate1way Gadget Gate 1 Way", \
+2678: "gadgetgate2way Gadget Gate 2 Way", \
+2679: "syncserverssl Sync Server SSL", \
+2680: "pxc-sapxom pxc-sapxom", \
+2681: "mpnjsomb mpnjsomb", \
+2682: "srsp SRSP", \
+2683: "ncdloadbalance NCDLoadBalance", \
+2684: "mpnjsosv mpnjsosv", \
+2685: "mpnjsocl mpnjsocl", \
+2686: "mpnjsomg mpnjsomg", \
+2687: "pq-lic-mgmt pq-lic-mgmt", \
+2688: "md-cg-http md-cf-http", \
+2689: "fastlynx FastLynx", \
+2690: "hp-nnm-data HP NNM Embedded Database", \
+2691: "itinternet IT Internet", \
+2692: "admins-lms Admins LMS", \
+2693: "belarc-http belarc-http", \
+2694: "pwrsevent pwrsevent", \
+2695: "vspread VSPREAD", \
+2696: "unifyadmin Unify Admin", \
+2697: "oce-snmp-trap Oce SNMP Trap Port", \
+2698: "mck-ivpip MCK-IVPIP", \
+2699: "csoft-plusclnt Csoft Plus Client", \
+2700: "tqdata tqdata", \
+2701: "sms-rcinfo SMS RCINFO - Microsoft Systems Management Server 2.0 Service Pack 2 Remote Tools", \
+2702: "sms-xfer SMS XFER -  Microsoft Systems Management Server 2.0 Service Pack 2 Remote Tools", \
+2703: "sms-chat SMS CHAT - Microsoft Systems Management Server 2.0 Service Pack 2 Remote Tools", \
+2704: "sms-remctrl SMS REMCTRL - Microsoft Systems Management Server 2.0 Service Pack 2 Remote Tools", \
+2705: "sds-admin SDS Admin", \
+2706: "ncdmirroring NCD Mirroring", \
+2707: "emcsymapiport EMCSYMAPIPORT", \
+2708: "banyan-net Banyan-Net", \
+2709: "supermon Supermon", \
+2710: "sso-service SSO Service", \
+2711: "sso-control SSO Control", \
+2712: "aocp Axapta Object Communication Protocol", \
+2713: "raven1 Raven1", \
+2714: "raven2 Raven2", \
+2715: "hpstgmgr2 HPSTGMGR2", \
+2716: "inova-ip-disco Inova IP Disco", \
+2717: "pn-requester PN REQUESTER", \
+2718: "pn-requester2 PN REQUESTER 2", \
+2719: "scan-change Scan & Change", \
+2720: "wkars wkars", \
+2721: "smart-diagnose Smart Diagnose", \
+2722: "proactivesrvr Proactive Server", \
+2723: "watchdognt WatchDog NT", \
+2724: "qotps qotps", \
+2725: "msolap-ptp2 MSOLAP PTP2", \
+2726: "tams TAMS", \
+2727: "mgcp-callagent Media Gateway Control Protocol Call Agent", \
+2728: "sqdr SQDR", \
+2729: "tcim-control TCIM Control", \
+2730: "nec-raidplus NEC RaidPlus", \
+2731: "netdragon-msngr NetDragon Messanger", \
+2732: "g5m G5M", \
+2733: "signet-ctf Signet CTF", \
+2734: "ccs-software CCS Software", \
+2735: "netiq-mc NetIQ Monitor Console", \
+2736: "radwiz-nms-srv RADWIZ NMS SRV", \
+2737: "srp-feedback SRP Feedback", \
+2738: "ndl-tcp-ois-gw NDL TCP-OSI Gateway", \
+2739: "tn-timing TN Timing", \
+2740: "alarm Alarm", \
+2741: "tsb TSB", \
+2742: "tsb2 TSB2", \
+2743: "murx murx", \
+2744: "honyaku honyaku", \
+2745: "urbisnet URBISNET", \
+2746: "cpudpencap CPUDPENCAP", \
+2747: "fjippol-swrly fjippol-swrly", \
+2748: "fjippol-polsvr fjippol-polsvr", \
+2749: "fjippol-cnsl fjippol-cnsl", \
+2750: "fjippol-port1 fjippol-port1", \
+2751: "fjippol-port2 fjippol-port2", \
+2752: "rsisysaccess RSISYS ACCESS", \
+2753: "de-spot de-spot", \
+2754: "apollo-cc APOLLO CC", \
+2755: "expresspay Express Pay", \
+2756: "simplement-tie simplement-tie", \
+2757: "cnrp CNRP", \
+2758: "apollo-status APOLLO Status", \
+2759: "apollo-gms APOLLO GMS", \
+2760: "sabams Saba MS", \
+2761: "dicom-iscl DICOM ISCL", \
+2762: "dicom-tls DICOM TLS", \
+2763: "desktop-dna Desktop DNA", \
+2764: "data-insurance Data Insurance", \
+2765: "qip-audup qip-audup", \
+2766: "compaq-scp Compaq SCP   System V listener port", \
+2767: "uadtc UADTC", \
+2768: "uacs UACS", \
+2769: "singlept-mvs Single Point MVS", \
+2770: "veronica Veronica", \
+2771: "vergencecm Vergence CM", \
+2772: "auris auris", \
+2773: "pcbakcup1 PC Backup", \
+2774: "pcbakcup2 PC Backup", \
+2775: "smpp SMMP", \
+2776: "ridgeway1 Ridgeway Systems & Software", \
+2777: "ridgeway2 Ridgeway Systems & Software", \
+2778: "gwen-sonya Gwen-Sonya", \
+2779: "lbc-sync LBC Sync", \
+2780: "lbc-control LBC Control", \
+2781: "whosells ResolveNet IOM whosells", \
+2782: "everydayrc everydayrc", \
+2783: "aises AISES", \
+2784: "wwwdev world wide web - development", \
+2785: "aic-np aic-np", \
+2786: "aic-oncrpc aic-oncrpc - Destiny MCD database", \
+2787: "piccolo piccolo - Cornerstone Software", \
+2788: "fryeserv NetWare Loadable Module - Seagate Software", \
+2789: "media-agent Media Agent", \
+2790: "plgproxy PLG Proxy", \
+2791: "mtport-regist MT Port Registrator", \
+2792: "f5-globalsite f5-globalsite", \
+2793: "initlsmsad initlsmsad", \
+2794: "aaftp aaftp", \
+2795: "livestats LiveStats", \
+2796: "ac-tech ac-tech", \
+2797: "esp-encap esp-encap", \
+2798: "tmesis-upshot TMESIS-UPShot", \
+2799: "icon-discover ICON Discover", \
+2800: "acc-raid ACC RAID", \
+2801: "phineas Nikhil Phineas Trojan Horse   IGCP", \
+2802: "veritas-tcp1 Veritas TCP1", \
+2803: "btprjctrl btprjctrl", \
+2804: "telexis-vtu Telexis VTU", \
+2805: "wta-wsp-s WTA WSP-S", \
+2806: "cspuni cspuni", \
+2807: "cspmulti cspmulti", \
+2808: "j-lan-p J-LAN-P", \
+2809: "corbaloc CORBA LOC", \
+2810: "netsteward Active Net Steward", \
+2811: "gsiftp GSI FTP", \
+2812: "atmtcp atmtcp", \
+2813: "llm-pass llm-pass", \
+2814: "llm-csv llm-csv", \
+2815: "lbc-measure LBC Measurement", \
+2816: "lbc-watchdog LBC Watchdog", \
+2817: "nmsigport NMSig Port", \
+2818: "rmlnk rmlnk", \
+2819: "fc-faultnotify FC Fault Notification", \
+2820: "univision UniVision", \
+2821: "vml-dms vml_dms", \
+2822: "ka0wuc ka0wuc", \
+2823: "cqg-netlan CQG Net LAN", \
+2824: "cqg-netlan-1 CQG Net LAN 1", \
+2826: "slc-systemlog slc systemlog", \
+2827: "slc-ctrlrloops slc ctrlrloops", \
+2828: "itm-lm ITM License Manager", \
+2829: "silkp1 silkp1", \
+2830: "silkp2 silkp2", \
+2831: "silkp3 silkp3", \
+2832: "silkp4 silkp4", \
+2833: "glishd glishd", \
+2834: "evtp EVTP", \
+2835: "evtp-data EVTP-DATA", \
+2836: "catalyst catalyst", \
+2837: "repliweb Repliweb", \
+2838: "starbot Starbot", \
+2839: "nmsigport NMSigPort", \
+2840: "l3-exprt l3-exprt", \
+2841: "l3-ranger l3-ranger", \
+2842: "l3-hawk l3-hawk", \
+2843: "pdnet PDnet", \
+2844: "bpcp-poll BPCP POLL", \
+2845: "bpcp-trap BPCP TRAP", \
+2846: "aimpp-hello AIMPP Hello", \
+2847: "aimpp-port-req AIMPP Port Req", \
+2848: "amt-blc-port AMT-BLC-PORT", \
+2849: "fxp FXP", \
+2850: "metaconsole MetaConsole", \
+2851: "webemshttp webemshttp", \
+2852: "bears-01 bears-01", \
+2853: "ispipes ISPipes", \
+2854: "infomover InfoMover", \
+2856: "cesdinv cesdinv", \
+2857: "simctlp SimCtIP", \
+2858: "ecnp ECNP", \
+2859: "activememory Active Memory", \
+2860: "dialpad-voice1 Dialpad Voice 1", \
+2861: "dialpad-voice2 Dialpad Voice 2", \
+2862: "ttg-protocol TTG Protocol", \
+2863: "sonardata Sonar Data", \
+2864: "astromed-main main 5001 cmd", \
+2865: "pit-vpn pit-vpn", \
+2866: "lwlistener lwlistener", \
+2867: "esps-portal esps-portal", \
+2868: "npep-messaging NPEP Messaging", \
+2869: "icslap ICSLAP", \
+2870: "daishi daishi", \
+2871: "msi-selectplay MSI Select Play", \
+2872: "contract CONTRACT", \
+2873: "paspar2-zoomin PASPAR2 ZoomIn", \
+2874: "dxmessagebase1 dxmessagebase1", \
+2875: "dxmessagebase2 dxmessagebase2", \
+2876: "sps-tunnel SPS Tunnel", \
+2877: "bluelance BLUELANCE", \
+2878: "aap AAP", \
+2879: "ucentric-ds ucentric-ds", \
+2880: "synapse synapse", \
+2881: "ndsp NDSP", \
+2882: "ndtp NDTP", \
+2883: "ndnp NDNP", \
+2884: "flashmsg Flash Msg", \
+2885: "topflow TopFlow", \
+2886: "responselogic RESPONSELOGIC", \
+2887: "aironetddp aironet", \
+2888: "spcsdlobby SPCSDLOBBY", \
+2889: "rsom RSOM", \
+2890: "cspclmulti CSPCLMULTI", \
+2891: "cinegrfx-elmd CINEGRFX-ELMD License Manager", \
+2892: "snifferdata SNIFFERDATA", \
+2893: "vseconnector VSECONNECTOR", \
+2894: "abacus-remote ABACUS-REMOTE", \
+2895: "natuslink NATUS LINK", \
+2896: "ecovisiong6-1 ECOVISIONG6-1", \
+2897: "citrix-rtmp Citrix RTMP", \
+2898: "appliance-cfg APPLIANCE-CFG", \
+2899: "powergemplus POWERGEMPLUS", \
+2900: "quicksuite QUICKSUITE", \
+2901: "allstorcns ALLSTORCNS", \
+2902: "netaspi NET ASPI", \
+2903: "suitcase SUITCASE", \
+2904: "m2ua M2UA", \
+2905: "m3ua M3UA", \
+2906: "caller9 CALLER9", \
+2907: "webmethods-b2b WEBMETHODS B2B", \
+2908: "mao mao", \
+2909: "funk-dialout Funk Dialout", \
+2910: "tdaccess TDAccess", \
+2911: "blockade Blockade", \
+2912: "epicon Epicon", \
+2913: "boosterware Booster Ware", \
+2914: "gamelobby Game Lobby", \
+2915: "tksocket TK Socket", \
+2916: "elvin_server Elvin Server", \
+2917: "elvin_client Elvin Client", \
+2918: "kastenchasepad Kasten Chase Pad", \
+2919: "roboer ROBOER", \
+2920: "roboeda ROBOEDA", \
+2921: "cesdcdman CESD Contents Delivery Management", \
+2922: "cesdcdtrn CESD Contents Delivery Data Transfer", \
+2923: "wta-wsp-wtp-s WTA-WSP-WTP-S", \
+2924: "precise-vip PRECISE-VIP", \
+2926: "mobile-file-dl MOBILE-FILE-DL", \
+2927: "unimobilectrl UNIMOBILECTRL", \
+2928: "redstone-cpss REDSTONE-CPSS", \
+2929: "panja-webadmin PANJA-WEBADMIN", \
+2930: "panja-weblinx PANJA-WEBLINX", \
+2931: "circle-x Circle-X", \
+2932: "incp INCP", \
+2933: "4-tieropmgw 4-TIER OPM GW", \
+2934: "4-tieropmcli 4-TIER OPM CLI", \
+2935: "qtp QTP", \
+2936: "otpatch OTPatch", \
+2937: "pnaconsult-lm PNACONSULT-LM", \
+2938: "sm-pas-1 SM-PAS-1", \
+2939: "sm-pas-2 SM-PAS-2", \
+2940: "sm-pas-3 SM-PAS-3", \
+2941: "sm-pas-4 SM-PAS-4", \
+2942: "sm-pas-5 SM-PAS-5", \
+2943: "ttnrepository TTNRepository", \
+2944: "megaco-h248 Megaco H-248", \
+2945: "h248-binary H248 Binary", \
+2946: "fjsvmpor FJSVmpor", \
+2947: "gpsd GPSD", \
+2948: "wap-push WAP PUSH", \
+2949: "wap-pushsecure WAP PUSH SECURE", \
+2950: "esip ESIP", \
+2951: "ottp OTTP", \
+2952: "mpfwsas MPFWSAS", \
+2953: "ovalarmsrv OVALARMSRV", \
+2954: "ovalarmsrv-cmd OVALARMSRV-CMD", \
+2955: "csnotify CSNOTIFY", \
+2956: "ovrimosdbman OVRIMOSDBMAN", \
+2957: "jmact5 JAMCT5", \
+2958: "jmact6 JAMCT6", \
+2959: "rmopagt RMOPAGT", \
+2960: "dfoxserver DFOXSERVER", \
+2961: "boldsoft-lm BOLDSOFT-LM", \
+2962: "iph-policy-cli IPH-POLICY-CLI", \
+2963: "iph-policy-adm IPH-POLICY-ADM", \
+2964: "bullant-srap BULLANT SRAP", \
+2965: "bullant-rap BULLANT RAP", \
+2966: "idp-infotrieve IDP-INFOTRIEVE", \
+2967: "ssc-agent SSC-AGENT", \
+2968: "enpp ENPP", \
+2969: "essp ESSP", \
+2970: "index-net INDEX-NET", \
+2971: "netclip Net Clip", \
+2972: "pmsm-webrctl PMSM Webrctl", \
+2973: "svnetworks SV Networks", \
+2974: "signal Signal", \
+2975: "fjmpcm Fujitsu Configuration Management Service", \
+2976: "cns-srv-port CNS Server Port", \
+2977: "ttc-etap-ns TTCs Enterprise Test Access Protocol - NS", \
+2978: "ttc-etap-ds TTCs Enterprise Test Access Protocol - DS", \
+2979: "h263-video H.263 Video Streaming", \
+2980: "wimd Instant Messaging Service", \
+2981: "mylxamport MYLXAMPORT", \
+2982: "iwb-whiteboard IWB-WHITEBOARD", \
+2983: "netplan NETPLAN", \
+2984: "hpidsadmin HPIDSADMIN", \
+2985: "hpidsagent HPIDSAGENT", \
+2986: "stonefalls STONEFALLS", \
+2987: "identify ResolveNet IOM IDENTIFY", \
+2988: "classify ResolveNet IOM CLASSIFY", \
+2989: "rat Rat Trojan Horse   ZARKOV", \
+2990: "boscap BOSCAP", \
+2991: "wkstn-mon WKSTN-MON", \
+2992: "itb301 ITB301", \
+2993: "veritas-vis1 VERITAS VIS1", \
+2994: "veritas-vis2 VERITAS VIS2", \
+2995: "idrs IDRS", \
+2996: "vsixml vsixml", \
+2997: "rebol REBOL", \
+2998: "realsecure Real Secure", \
+2999: "remoteware-un RemoteWare Unassigned", \
+3000: "remoteware-cl HBCI   Userlevel ppp daemon   RemoteWare Client", \
+3001: "nessus Redwood Broker   nessus client server  nessus.org ", \
+3002: "nessus EXLM Agent   RemoteWare Server   Nessus client port  nessus.org ", \
+3003: "cgms CGMS", \
+3004: "csoftragent Csoft Agent", \
+3005: "geniuslm encrypted symmetric telnet login   Genius License Manager", \
+3006: "ii-admin encrypted symmetric telnet login   Instant Internet Admin", \
+3007: "lotusmtap Lotus Mail Tracking Agent Protocol", \
+3008: "midnight-tech Midnight Technologies", \
+3009: "pxc-ntfy PXC-NTFY", \
+3010: "gw Telerate Workstation", \
+3011: "trusted-web Trusted Web", \
+3012: "twsdss Trusted Web Client", \
+3013: "gilatskysurfer Gilat Sky Surfer", \
+3014: "broker_service Broker Service", \
+3015: "nati-dstp NATI DSTP", \
+3016: "notify_srvr Notify Server", \
+3017: "event_listener Event Listener", \
+3018: "srvc_registry Service Registry", \
+3019: "resource_mgr Resource Manager", \
+3020: "cifs CIFS", \
+3021: "agriserver AGRI Server", \
+3022: "csregagent CSREGAGENT", \
+3023: "magicnotes magicnotes", \
+3024: "wincrash WinCrash Trojan Horse   NDS_SSO", \
+3025: "arepa-raft Arepa Raft", \
+3026: "agri-gateway AGRI Gateway", \
+3027: "LiebDevMgmt_C LiebDevMgmt_C", \
+3028: "LiebDevMgmt_DM LiebDevMgmt_DM", \
+3029: "LiebDevMgmt_A LiebDevMgmt_A", \
+3030: "arepa-cas Arepa Cas", \
+3031: "agentvu AgentVU", \
+3032: "redwood-chat Redwood Chat", \
+3033: "pdb PDB", \
+3034: "osmosis-aeea Osmosis AEEA", \
+3035: "fjsv-gssagt FJSV gssagt", \
+3036: "hagel-dump Hagel DUMP", \
+3037: "hp-san-mgmt HP SAN Mgmt", \
+3038: "santak-ups Santak UPS", \
+3039: "cogitate Cogitate", \
+3040: "tomato-springs Tomato Springs", \
+3041: "di-traceware di-traceware", \
+3042: "journee journee", \
+3043: "brp BRP", \
+3044: "msexch-routing msexch-routing", \
+3045: "responsenet ResponseNet", \
+3046: "di-ase di-ase", \
+3047: "hlserver Fast Security HL Server", \
+3048: "pctrader Sierra Net PC Trader", \
+3049: "cfs cryptographic file system  nfs   proposed    nsws", \
+3050: "gds-db gds_db", \
+3051: "galaxy-server Galaxy Server", \
+3052: "apcpcns APCPCNS", \
+3053: "dsom-server dsom-server", \
+3054: "amt-cnf-prot AMT CNF PROT", \
+3055: "policyserver Policy Server", \
+3056: "cdl-server CDL Server", \
+3057: "goahead-fldup GoAhead FldUp", \
+3058: "videobeans videobeans", \
+3059: "qsoft qsoft", \
+3060: "interserver interserver", \
+3061: "cautcpd cautcpd", \
+3062: "ncacn-ip-tcp ncacn-ip-tcp", \
+3063: "ncadg-ip-udp ncadg-ip-udp", \
+3064: "testport distributed net testport", \
+3065: "slinterbase slinterbase", \
+3066: "netattachsdmp NETATTACHSDMP", \
+3067: "fjhpjp FJHPJP", \
+3068: "ls3bcast ls3 Broadcast", \
+3069: "ls3 ls3", \
+3070: "mgxswitch MGXSWITCH", \
+3071: "csd-mgmt-port ContinuStor Manager Port", \
+3072: "csd-monitor ContinuStor Monitor Port", \
+3073: "vcrp Very simple chatroom prot", \
+3074: "xbox Xbox game port", \
+3075: "orbix-locator Orbix 2000 Locator", \
+3076: "orbix-config Orbix 2000 Config", \
+3077: "orbix-loc-ssl Orbix 2000 Locator SSL", \
+3078: "orbix-cfg-ssl Orbix 2000 Locator SSL", \
+3079: "lv-frontpanel LV Front Panel", \
+3080: "stm_pproc stm_pproc", \
+3081: "tl1-lv TL1-LV", \
+3082: "tl1-raw TL1-RAW", \
+3083: "tl1-telnet TL1-TELNET", \
+3084: "itm-mccs ITM-MCCS", \
+3085: "pcihreq PCIHReq", \
+3086: "sj3 JDL-DBKitchen   SJ3  kanji input ", \
+3087: "asoki-sma Asoki SMA", \
+3088: "xdtp eXtensible Data Transfer Protocol", \
+3089: "ptk-alink ParaTek Agent Linking", \
+3090: "rtss Rappore Session Services", \
+3091: "1ci-smcs 1Ci Server Management", \
+3092: "njfss Netware sync services", \
+3093: "rapidmq-center Jiiva RapidMQ Center", \
+3094: "rapidmq-reg Jiiva RapidMQ Registry", \
+3095: "panasas Panasas rendevous port", \
+3096: "ndl-aps Active Print Server Port", \
+3098: "umm-port Universal Message Manager", \
+3099: "chmd CHIPSY Machine Daemon", \
+3100: "opcon-xps OpCon xps", \
+3101: "blackberry-wireless-email blackberry wireless RIM   HP PolicyXpert PIB Server", \
+3102: "slslavemon SoftlinK Slave Mon Port", \
+3103: "autocuesmi Autocue SMI Protocol", \
+3104: "autocuelog Autocue Logger Protocol", \
+3105: "cardbox Cardbox", \
+3106: "cardbox-http Cardbox HTTP", \
+3107: "business Business protocol", \
+3108: "geolocate Geolocate protocol", \
+3109: "personnel Personnel protocol", \
+3110: "sim-control simulator control port", \
+3111: "wsynch Web Synchronous Services", \
+3112: "ksysguard KDE System Guard", \
+3113: "cs-auth-svr CS-Authenticate Svr Port", \
+3114: "ccmad CCM AutoDiscover", \
+3115: "mctet-master MCTET Master", \
+3116: "mctet-gateway MCTET Gateway", \
+3117: "mctet-jserv MCTET Jserv", \
+3118: "pkagent PKAgent", \
+3119: "d2000kernel D2000 Kernel Port", \
+3120: "d2000webserver D2000 Webserver Port", \
+3121: "epp-temp Extensible Provisioning Protocol", \
+3122: "vtr-emulator MTI VTR Emulator port", \
+3123: "edix EDI Translation Protocol", \
+3124: "beacon-port Beacon Port", \
+3125: "a13-an A13-AN Interface", \
+3126: "ms-dotnetster Microsoft .NETster Port", \
+3127: "ctx-bridge CTX Bridge Port", \
+3128: "squid Squid proxy HTTP port", \
+3129: "paradise Masters Paradise Trojan Horse", \
+3130: "icpv2 ICPv2 Squid Internet Cache Protocol", \
+3131: "netbookmark Net Book Mark", \
+3132: "ms-slipstream MS-Slipstream", \
+3133: "prism-deploy Prism Deploy User Port", \
+3134: "ecp Extensible Code Protocol", \
+3135: "peerbook-port PeerBook Port", \
+3136: "grubd Grub Server Port", \
+3137: "rtnt-1 rtnt-1 data packets", \
+3138: "rtnt-2 rtnt-2 data packets", \
+3139: "incognitorv Incognito Rendez-Vous", \
+3140: "ariliamulti Arilia Multiplexor", \
+3141: "vmodem VMODEM", \
+3142: "rdc-wh-eos RDC WH EOS", \
+3143: "seaview Sea View", \
+3144: "tarantella Tarantella", \
+3145: "csi-lfap CSI-LFAP", \
+3146: "bears-02 bears-02", \
+3147: "rfio RFIO", \
+3148: "bozo NetMike Game Administrator   Bozo Trojan Horse", \
+3149: "nm-game-server NetMike Game Server", \
+3150: "nm-asses-admin NetMike Assessor Administrator", \
+3151: "nm-assessor NetMike Assessor", \
+3152: "feitianrockey FeiTian Port", \
+3153: "s8-client-port S8Cargo Client Port", \
+3154: "ccmrmi ON RMI Registry", \
+3155: "jpegmpeg JpegMpeg Port", \
+3156: "indura Indura Collector", \
+3157: "e3consultants CCC Listener Port", \
+3158: "stvp SmashTV Protocol", \
+3159: "navegaweb-port NavegaWeb Tarification", \
+3160: "tip-app-server TIP Application Server", \
+3161: "doc1lm DOC1 License Manager", \
+3162: "sflm SFLM", \
+3163: "res-sap RES-SAP", \
+3164: "imprs IMPRS", \
+3165: "newgenpay Newgenpay Engine Service", \
+3166: "qrepos Quest Repository", \
+3167: "poweroncontact poweroncontact", \
+3168: "poweronnud poweronnud", \
+3169: "serverview-as SERVERVIEW-AS", \
+3170: "serverview-asn SERVERVIEW-ASN", \
+3171: "serverview-gf SERVERVIEW-GF", \
+3172: "serverview-rm SERVERVIEW-RM", \
+3173: "serverview-icc SERVERVIEW-ICC", \
+3174: "armi-server ARMI Server", \
+3175: "t1-e1-over-ip T1_E1_Over_IP", \
+3176: "ars-master ARS Master", \
+3177: "phonex-port Phonex Protocol", \
+3178: "radclientport Radiance UltraEdge Port", \
+3179: "h2gf-w-2m H2GF W.2m Handover prot.", \
+3180: "mc-brk-srv Millicent Broker Server", \
+3181: "bmcpatrolagent BMC Patrol Agent", \
+3182: "bmcpatrolrnvu BMC Patrol Rendezvous", \
+3183: "cops-tls COPS TLS", \
+3184: "apogeex-port ApogeeX Port", \
+3185: "smpppd SuSE Meta PPPD", \
+3186: "iiw-port IIW Monitor User Port", \
+3187: "odi-port Open Design Listen Port", \
+3188: "brcm-comm-port Broadcom Port", \
+3189: "pcle-infex Pinnacle Sys InfEx Port", \
+3190: "csvr-proxy ConServR Proxy", \
+3191: "csvr-sslproxy ConServR SSL Proxy", \
+3192: "firemonrcc FireMon Revision Control", \
+3193: "cordataport Cordaxis Data Port", \
+3194: "magbind Rockstorm MAG protocol", \
+3195: "ncu-1 Network Control Unit", \
+3196: "ncu-2 Network Control Unit", \
+3197: "embrace-dp-s Embrace Device Protocol Server", \
+3198: "embrace-dp-c Embrace Device Protocol Client", \
+3199: "dmod-workspace DMOD WorkSpace", \
+3200: "sap SAP   Press-sense Tick Port", \
+3201: "cpq-tasksmart CPQ-TaskSmart", \
+3202: "intraintra IntraIntra", \
+3203: "netwatcher-mon Network Watcher Monitor", \
+3204: "netwatcher-db Network Watcher DB Access", \
+3205: "isns iSNS Server Port", \
+3206: "ironmail IronMail POP Proxy", \
+3207: "vx-auth-port Veritas Authentication Port", \
+3208: "pfu-prcallback PFU PR Callback", \
+3209: "netwkpathengine HP OpenView Network Path Engine Server", \
+3210: "flamenco-proxy Flamenco Networks Proxy", \
+3211: "avsecuremgmt Avocent Secure Management", \
+3212: "surveyinst Survey Instrument", \
+3213: "neon24x7 NEON 24X7 Mission Control", \
+3214: "jmq-daemon-1 JMQ Daemon Port 1", \
+3215: "jmq-daemon-2 JMQ Daemon Port 2", \
+3216: "ferrari-foam Ferrari electronic FOAM", \
+3217: "unite Unified IP & Telecomm Env", \
+3218: "smartpackets EMC SmartPackets", \
+3219: "wms-messenger WMS Messenger", \
+3220: "xnm-ssl XML NM over SSL", \
+3221: "xnm-clear-text XML NM over TCP", \
+3222: "glbp Gateway Load Balancing Pr", \
+3223: "digivote DIGIVOTE  R  Vote-Server", \
+3224: "aes-discovery AES Discovery Port", \
+3225: "fcip-port FCIP", \
+3226: "isi-irp ISI Industry Software IRP", \
+3227: "dwnmshttp DiamondWave NMS Server", \
+3228: "dwmsgserver DiamondWave MSG Server", \
+3229: "global-cd-port Global CD Port", \
+3230: "sftdst-port Software Distributor Port", \
+3231: "dsnl Delta Solutions Direct", \
+3232: "mdtp MDT port", \
+3233: "whisker WhiskerControl main port", \
+3234: "alchemy Alchemy Server", \
+3235: "mdap-port MDAP port", \
+3236: "apparenet-ts appareNet Test Server", \
+3237: "apparenet-tps appareNet Test Packet Sequencer", \
+3238: "apparenet-as appareNet Analysis Server", \
+3239: "apparenet-ui appareNet User Interface", \
+3240: "triomotion Trio Motion Control Port", \
+3241: "sysorb SysOrb Monitoring Server", \
+3242: "sdp-id-port Session Description ID", \
+3243: "timelot Timelot Port", \
+3244: "onesaf OneSAF", \
+3245: "vieo-fe VIEO Fabric Executive", \
+3246: "dvt-system DVT SYSTEM PORT", \
+3247: "dvt-data DVT DATA LINK", \
+3248: "procos-lm PROCOS LM", \
+3249: "ssp State Sync Protocol", \
+3250: "hicp HMS hicp port", \
+3251: "sysscanner Sys Scanner", \
+3252: "dhe DHE port", \
+3253: "pda-data PDA Data", \
+3254: "pda-sys PDA System", \
+3255: "semaphore Semaphore Connection Port", \
+3256: "cpqrpm-agent Compaq RPM Agent Port", \
+3257: "cpqrpm-server Compaq RPM Server Port", \
+3258: "ivecon-port Ivecon Server Port", \
+3259: "epncdp2 Epson Network Common Devi", \
+3260: "iscsi-target iSCSI port", \
+3261: "winshadow winShadow", \
+3262: "necp NECP", \
+3263: "ecolor-imager E-Color Enterprise Imager", \
+3264: "ccmail cc mail lotus", \
+3265: "altav-tunnel Altav Tunnel", \
+3266: "ns-cfg-server NS CFG Server", \
+3267: "ibm-dial-out IBM Dial Out", \
+3268: "msft-gc Microsoft Global Catalog", \
+3269: "msft-gc-ssl Microsoft Global Catalog with LDAP SSL", \
+3270: "verismart Verismart", \
+3271: "csoft-prev CSoft Prev Port", \
+3272: "user-manager Fujitsu User Manager", \
+3273: "sxmp Simple Extensible Multiplexed Protocol", \
+3274: "ordinox-server Ordinox Server", \
+3275: "samd SAMD", \
+3276: "maxim-asics Maxim ASICs", \
+3277: "awg-proxy AWG Proxy", \
+3278: "lkcmserver LKCM Server", \
+3279: "admind admind", \
+3280: "vs-server VS Server", \
+3281: "sysopt SYSOPT", \
+3282: "datusorb Datusorb", \
+3283: "net-assistant Net Assistant", \
+3284: "4talk 4Talk", \
+3285: "plato Plato", \
+3286: "e-net E-Net", \
+3287: "directvdata DIRECTVDATA", \
+3288: "cops COPS", \
+3289: "enpc ENPC", \
+3290: "caps-lm CAPS LOGISTICS TOOLKIT - LM", \
+3291: "sah-lm S A Holditch & Associates - LM", \
+3292: "cart-o-rama Cart O Rama", \
+3293: "fg-fps fg-fps", \
+3294: "fg-gip fg-gip", \
+3295: "dyniplookup Dynamic IP Lookup", \
+3296: "rib-slm Rib License Manager", \
+3297: "cytel-lm Cytel License Manager", \
+3298: "transview Transview", \
+3299: "pdrncs pdrncs", \
+3300: "bmcpatrolagent BMC Patrol Agent", \
+3301: "bmcpatrolrnvu BMC Patrol Rendezvous", \
+3302: "mcs-fastmail MCS Fastmail", \
+3303: "opsession-clnt OP Session Client", \
+3304: "opsession-srvr OP Session Server", \
+3305: "odette-ftp ODETTE-FTP", \
+3306: "mysql MySQL", \
+3307: "opsession-prxy OP Session Proxy", \
+3308: "tns-server TNS Server", \
+3309: "tns-adv TNS ADV", \
+3310: "dyna-access Dyna Access", \
+3311: "mcns-tel-ret MCNS Tel Ret", \
+3312: "appman-server Application Management Server", \
+3313: "uorb Unify Object Broker", \
+3314: "uohost Unify Object Host", \
+3315: "cdid CDID", \
+3316: "aicc-cmi AICC CMI", \
+3317: "vsaiport VSAI PORT", \
+3318: "ssrip Swith to Swith Routing Information Protocol", \
+3319: "sdt-lmd SDT License Manager", \
+3320: "officelink2000 Office Link 2000", \
+3321: "vnsstr VNSSTR", \
+3326: "sftu SFTU", \
+3327: "bbars BBARS", \
+3328: "egptlm Eaglepoint License Manager", \
+3329: "hp-device-disc HP Device Disc", \
+3330: "mcs-calypsoicf MCS Calypso ICF", \
+3331: "mcs-messaging MCS Messaging", \
+3332: "mcs-mailsvr MCS Mail Server", \
+3333: "decnotes DEC Notes", \
+3334: "directv-web Direct TV Webcasting", \
+3335: "directv-soft Direct TV Software Updates", \
+3336: "directv-tick Direct TV Tickers", \
+3337: "directv-catlg Direct TV Data Catalog", \
+3338: "anet-b OMF data b", \
+3339: "anet-l OMF data l", \
+3340: "anet-m OMF data m", \
+3341: "anet-h OMF data h", \
+3342: "webtie WebTIE", \
+3343: "ms-cluster-net MS Cluster Net", \
+3344: "bnt-manager BNT Manager", \
+3345: "influence Influence", \
+3346: "trnsprntproxy Trnsprnt Proxy", \
+3347: "phoenix-rpc Phoenix RPC", \
+3348: "pangolin-laser Pangolin Laser", \
+3349: "chevinservices Chevin Services", \
+3350: "findviatv FINDVIATV", \
+3351: "btrieve BTRIEVE", \
+3352: "ssql SSQL", \
+3353: "fatpipe FATPIPE", \
+3354: "suitjd SUITJD", \
+3355: "ordinox-dbase Ordinox Dbase", \
+3356: "upnotifyps UPNOTIFYPS", \
+3357: "adtech-test Adtech Test IP", \
+3358: "mpsysrmsvr Mp Sys Rmsvr", \
+3359: "wg-netforce WG NetForce", \
+3360: "kv-server KV Server", \
+3361: "kv-agent KV Agent", \
+3362: "dj-ilm DJ ILM", \
+3363: "nati-vi-server NATI Vi Server", \
+3364: "creativeserver Creative Server", \
+3365: "contentserver Content Server", \
+3366: "creativepartnr Creative Partner", \
+3372: "tip2 TIP 2", \
+3373: "lavenir-lm Lavenir License Manager", \
+3374: "cluster-disc Cluster Disc", \
+3375: "vsnm-agent VSNM Agent", \
+3376: "cdborker CD Broker", \
+3377: "cogsys-lm Cogsys Network License Manager", \
+3378: "wsicopy WSICOPY", \
+3379: "socorfs SOCORFS", \
+3380: "sns-channels SNS Channels", \
+3381: "geneous Geneous", \
+3382: "fujitsu-neat Fujitsu Network Enhanced Antitheft function", \
+3383: "esp-lm Enterprise Software Products License Manager", \
+3384: "hp-clic Cluster Management Services", \
+3385: "qnxnetman qnxnetman", \
+3386: "gprs-data GPRS Data", \
+3387: "backroomnet Back Room Net", \
+3388: "cbserver CB Server", \
+3389: "msrdp Microsoft Remote Display Protocol terminal server - ActiveX client   MS WBT Server", \
+3390: "dsc Distributed Service Coordinator", \
+3391: "savant SAVANT", \
+3392: "efi-lm EFI License Management", \
+3393: "d2k-tapestry1 D2K Tapestry Client to Server", \
+3394: "d2k-tapestry2 D2K Tapestry Server to Server", \
+3395: "dyna-lm Dyna License Manager  Elam ", \
+3396: "printer_agent Printer Agent", \
+3397: "cloanto-lm Cloanto License Manager", \
+3398: "mercantile Mercantile", \
+3399: "csms CSMS", \
+3400: "csms2 CSMS2", \
+3401: "filecast filecast", \
+3402: "fxaengine-net FXa Engine Network Port", \
+3403: "copysnap CopySnap Server Port", \
+3405: "nokia-ann-ch1 Nokia Announcement ch 1", \
+3406: "nokia-ann-ch2 Nokia Announcement ch 2", \
+3407: "ldap-admin LDAP admin server port", \
+3408: "issapi POWERpack API Port", \
+3409: "networklens NetworkLens Event Port", \
+3410: "networklenss NetworkLens SSL Event", \
+3411: "biolink-auth BioLink Authenteon", \
+3412: "xmlblaster xmlBlaster", \
+3413: "svnet SpecView Networking", \
+3414: "wip-port BroadCloud WIP Port", \
+3415: "bcinameservice BCI Name Service", \
+3416: "commandport AirMobile IS Command Port", \
+3417: "csvr ConServR file translation", \
+3418: "rnmap Remote nmap", \
+3419: "softaudit Isogon SoftAudit", \
+3420: "ifcp-port iFCP User Port", \
+3421: "bmap Bull Apprise portmapper", \
+3422: "rusb-sys-port Remote USB System Port", \
+3423: "xtrm xTrade Reliable Messaging", \
+3424: "xtrms xTrade over TLS SSL", \
+3425: "agps-port AGPS Access Port", \
+3426: "arkivio Arkivio Storage Protocol", \
+3427: "websphere-snmp WebSphere SNMP", \
+3428: "twcss 2Wire CSS", \
+3429: "gcsp GCSP user port", \
+3430: "ssdispatch Scott Studios Dispatch", \
+3431: "ndl-als Active License Server Port", \
+3432: "osdcp Secure Device Protocol", \
+3433: "alta-smp Altaworks Service Management Platform", \
+3434: "opencm OpenCM Server", \
+3435: "pacom Pacom Security User Port", \
+3436: "gc-config GuardControl Exchange Protocol", \
+3437: "autocueds Autocue Directory Service", \
+3438: "spiral-admin Spiralcraft Admin", \
+3439: "hri-port HRI Interface Port", \
+3440: "ans-console Net Steward Mgmt Console", \
+3441: "connect-client OC Connect Client", \
+3442: "connect-server OC Connect Server", \
+3443: "ov-nnm-websrv OpenView Network Node Manager WEB Server", \
+3444: "denali-server Denali Server", \
+3445: "monp Media Object Network", \
+3446: "3comfaxrpc 3Com FAX RPC port", \
+3447: "cddn CompuDuo DirectNet", \
+3448: "dnc-port Discovery and Net Config", \
+3449: "hotu-chat HotU Chat", \
+3450: "castorproxy CAStorProxy", \
+3451: "asam ASAM Services", \
+3452: "sabp-signal SABP-Signalling Protocol", \
+3453: "pscupd PSC Update Port", \
+3454: "mira Apple Remote Access Protocol", \
+3455: "prsvp RSVP Port", \
+3456: "vat VAT default data", \
+3457: "vatcontrol VAT default control", \
+3458: "d3winosfi D3WinOsfi", \
+3459: "integral TIP Integral", \
+3460: "edm-manager EDM Manger", \
+3461: "edm-stager EDM Stager", \
+3462: "edm-std-notify EDM STD Notify   software distribution", \
+3463: "edm-adm-notify EDM ADM Notify", \
+3464: "edm-mgr-sync EDM MGR Sync", \
+3465: "edm-mgr-cntrl EDM MGR Cntrl", \
+3466: "workflow WORKFLOW", \
+3467: "rcst RCST", \
+3468: "ttcmremotectrl TTCM Remote Controll", \
+3469: "pluribus Pluribus", \
+3470: "jt400 jt400", \
+3471: "jt400-ssl jt400-ssl", \
+3472: "jaugsremotec-1 JAUGS N-G Remotec 1", \
+3473: "jaugsremotec-2 JAUGS N-G Remotec 2", \
+3474: "ttntspauto TSP Automation", \
+3475: "genisar-port Genisar Comm Port", \
+3476: "nppmp NVIDIA Mgmt Protocol", \
+3477: "ecomm eComm link port", \
+3478: "nat-stun-port Simple Traversal of UDP Through NAT  STUN  port", \
+3479: "twrpc 2Wire RPC", \
+3480: "plethora Secure Virtual Workspace", \
+3481: "cleanerliverc CleanerLive remote ctrl", \
+3482: "vulture Vulture Monitoring System", \
+3483: "slim-devices Slim Devices Protocol", \
+3484: "gbs-stp GBS SnapTalk Protocol", \
+3485: "celatalk CelaTalk", \
+3486: "ifsf-hb-port IFSF Heartbeat Port", \
+3487: "ltctcp LISA TCP Transfer Channel", \
+3488: "fs-rh-srv FS Remote Host Server", \
+3489: "dtp-dia DTP DIA", \
+3490: "colubris Colubris Management Port", \
+3491: "swr-port SWR Port", \
+3492: "tvdumtray-port TVDUM Tray Port", \
+3493: "nut Network UPS Tools", \
+3494: "ibm3494 IBM 3494", \
+3495: "seclayer-tcp securitylayer over tcp", \
+3496: "seclayer-tls securitylayer over tls", \
+3497: "ipether232port ipEther232Port", \
+3498: "dashpas-port DASHPAS user port", \
+3499: "sccip-media SccIP Media", \
+3500: "rtmp-port RTMP Port", \
+3501: "isoft-p2p iSoft-P2P", \
+3502: "avinstalldisc Avocent Install Discovery", \
+3503: "lsp-ping MPLS LSP-echo Port", \
+3504: "ironstorm IronStorm game server", \
+3505: "ccmcomm CCM communications port", \
+3506: "apc-aem-status APC Device Status Port", \
+3507: "nesh-broker Nesh Broker Port", \
+3508: "interactionweb Interaction Web", \
+3509: "vt-ssl Virtual Token SSL Port", \
+3510: "xss-port XSS Port", \
+3511: "webmail-2 WebMail 2", \
+3535: "ms-la MS-LA", \
+3563: "watcomdebug Watcom Debug", \
+3566: "qsintelliagent Quest Intelliagent", \
+3617: "sharp-server ATI SHARP Logic Engine", \
+3672: "harlequinorb harlequinorb", \
+3700: "portalofdoom Portal of Doom Trojan Horse", \
+3709: "ca-idms CA-IDMS Server", \
+3737: "sphidia-port Sphidia Game Port", \
+3777: "psychward Psychward Trojan", \
+3791: "eclypse Total Solar Eclypse Trojan  FTP ", \
+3801: "eclypse Total Solar Eclypse Trojan", \
+3802: "vhd VHD", \
+3845: "v-one-spp V-ONE Single Port Proxy", \
+3862: "giga-pocket GIGA-POCKET", \
+3875: "pnbscada PNBSCADA", \
+3885: "topflow-ssl TopFlow SSL", \
+3900: "udt_os Unidata UDT OS", \
+3939: "aamp Anti-virus Application Management Port", \
+3984: "mappernodemgr MAPPER network node manager", \
+3985: "mappermapethd MAPPER TCP IP server", \
+3986: "mapperws-ethd MAPPER workstation server", \
+3987: "centerline Centerline", \
+4000: "icq ICQ   Terabase", \
+4001: "newoak NewOak", \
+4002: "pxc-spvr-ft pxc-spvr-ft", \
+4003: "pxc-splr-ft pxc-splr-ft", \
+4004: "pxc-roid pxc-roid", \
+4005: "pxc-pin pxc-pin", \
+4006: "pxc-spvr pxc-spvr", \
+4007: "pxc-splr pxc-splr", \
+4008: "netcheque NetCheque accounting", \
+4009: "chimera-hwm Chimera HWM", \
+4010: "samsung-unidex Samsung Unidex", \
+4011: "altserviceboot Alternate Service Boot", \
+4012: "pda-gate PDA Gate", \
+4013: "acl-manager ACL Manager", \
+4014: "taiclock TAICLOCK", \
+4015: "talarian-mcast1 Talarian Mcast", \
+4016: "talarian-mcast2 Talarian Mcast", \
+4017: "talarian-mcast3 Talarian Mcast", \
+4018: "talarian-mcast4 Talarian Mcast", \
+4019: "talarian-mcast5 Talarian Mcast", \
+4020: "trap TRAP Port", \
+4021: "nexus-portal Nexus Portal", \
+4022: "dnox DNOX", \
+4023: "esnm-zoning ESNM Zoning Port", \
+4024: "tnp1-port TNP1 User Port", \
+4025: "partimage Partition Image Port", \
+4026: "as-debug Graphical Debug Server", \
+4027: "bxp bitxpress", \
+4028: "dtserver-port DTServer Port", \
+4029: "ip-qsig IP Q signaling protocol", \
+4030: "jdmn-port Accell JSP Daemon Port", \
+4031: "suucp UUCP over SSL", \
+4032: "vrts-auth-port VERITAS Authorize Server", \
+4033: "sanavigator SANavigator Peer Port", \
+4034: "ubxd Ubiquinox Daemon", \
+4035: "wap-push-http WAP Push OTA-HTTP port", \
+4036: "wap-push-https WAP Push OTA-HTTP secure", \
+4040: "yo-main Yo.net main service", \
+4041: "houston Rocketeer-Houston", \
+4042: "ldxp LDXP", \
+4045: "lockd lock daemon", \
+4080: "ichat3 ", \
+4092: "wincrash WinCrash Trojan Horse", \
+4096: "bre BRE  Bridge Relay Element ", \
+4097: "patrolview Patrol View", \
+4098: "drmsfsd drmsfsd", \
+4099: "dpcp DPCP", \
+4100: "user-authentication-for-watchguard-products ", \
+4104: "taiclock TAICLOCK", \
+4132: "nuts_dem NUTS Daemon", \
+4133: "nuts_bootp NUTS Bootp Server", \
+4134: "nifty-hmi NIFTY-Serve HMI protocol", \
+4141: "oirtgsvc Workflow Server", \
+4142: "oidocsvc Document Server", \
+4143: "oidsr Document Replication", \
+4144: "wincim pc windows compuserve.com protocol", \
+4145: "vvr-control VVR Control", \
+4160: "jini-discovery Jini Discovery", \
+4199: "eims-admin EIMS ADMIN", \
+4200: "nco_pa    www.micromuse.com products descriptions.htm", \
+4224: "xtell Xtell", \
+4242: "trojan   vhm Virtual Hacking Machine Trojan", \
+4300: "corelccam Corel CCam", \
+4321: "rwhois Remote Who Is", \
+4333: "msql minisql server", \
+4343: "unicall UNICALL", \
+4344: "vinainstall VinaInstall", \
+4345: "m4-network-as Macro 4 Network AS", \
+4346: "elanlm ELAN LM", \
+4347: "lansurveyor LAN Surveyor", \
+4348: "itose ITOSE", \
+4349: "fsportmap File System Port Map", \
+4350: "net-device Net Device", \
+4351: "plcy-net-svcs PLCY Net Services", \
+4353: "f5-iquery F5 iQuery", \
+4354: "qsnet-trans QSNet Transmitter", \
+4355: "qsnet-workst QSNet Workstation", \
+4356: "qsnet-assist QSNet Assistant", \
+4357: "qsnet-cond QSNet Conductor", \
+4358: "qsnet-nucl QSNet Nucleus", \
+4400: "nco_proxy    www.micromuse.com products descriptions.htm", \
+4442: "saris Saris", \
+4443: "pharos Pharos", \
+4444: "krb524 Kerberos 5 to 4 ticket xlator   NV Video default", \
+4445: "upnotifyp UPNOTIFYP", \
+4446: "n1-fwp N1-FWP", \
+4447: "n1-rmgmt N1-RMGMT", \
+4448: "asc-slmd ASC Licence Manager", \
+4449: "privatewire PrivateWire", \
+4450: "camp Camp", \
+4451: "ctisystemmsg CTI System Msg", \
+4452: "ctiprogramload CTI Program Load", \
+4453: "nssalertmgr NSS Alert Manager", \
+4454: "nssagentmgr NSS Agent Manager", \
+4455: "prchat-user PR Chat User", \
+4456: "prchat-server PR Chat Server", \
+4457: "prRegister PR Register", \
+4500: "saeurn sae-urn", \
+4501: "urn-x-cdchoice urn-x-cdchoice", \
+4545: "worldscores WorldScores", \
+4546: "sf-lm SF License Manager  Sentinel ", \
+4547: "lanner-lm Lanner License Manager", \
+4555: "rsip RSIP Port", \
+4557: "fax FlexFax FAX transmission service", \
+4559: "hylafax HylaFAX client-server protocol", \
+4567: "filenail Danny File Nail Trojan Horse   TRAM", \
+4568: "bmc-reporting BMC Reporting", \
+4590: "icqtrojan ICQ Trojan Horse", \
+4600: "piranha1 Piranha1", \
+4601: "piranha2 Piranha2", \
+4660: "smaclmgr smaclmgr", \
+4661: "edonkey edonkey File sharing - client connect to server   Kar2ouche Peer location service", \
+4662: "edonkey edonkey File sharing - client connect to other clients", \
+4672: "rfa remote file access server", \
+4752: "snap Simple Network Audio Protocol", \
+4800: "iims Icona Instant Messenging System", \
+4801: "iwec Icona Web Embedded Chat", \
+4802: "ilss Icona License System Server", \
+4827: "htcp HTCP Hyper Text Caching Protocol", \
+4837: "varadero-0 Varadero-0", \
+4838: "varadero-1 Varadero-1", \
+4839: "varadero-2 Varadero-2", \
+4848: "appserv-http App Server - Admin HTTP", \
+4849: "appserv-https App Server - Admin HTTPS", \
+4868: "phrelay Photon Relay", \
+4869: "phrelaydbg Photon Relay Debug", \
+4885: "abbs ABBS", \
+4894: "lyskom LysKOM Protocol A", \
+4950: "icqtrogen ICQ Trogan Trojan Horse", \
+4983: "att-intercom AT&T Intercom", \
+4987: "smar-se-port1 SMAR Ethernet Port 1", \
+4988: "smar-se-port2 SMAR Ethernet Port 2", \
+5000: "upnp Windows Universal plug and play service   Bubbel Trojan   Socket de trois", \
+5001: "bubbel Bubbel Trojan   Back door setup trojan", \
+5002: "rfe Radio Free Ethernet", \
+5003: "fmpro-internal FileMaker", \
+5004: "avt-profile-1 avt-profile-1", \
+5005: "avt-profile-2 avt-profile-2", \
+5006: "wsm-server wsm server", \
+5007: "wsm-server-ssl wsm server ssl", \
+5008: "ultima-online-game    www.uo.com visitor    Synapsis EDGE", \
+5009: "ultima-online-game    www.uo.com visitor ", \
+5010: "telelpathstart TelepathStart", \
+5011: "telelpathattack TelepathAttack", \
+5020: "zenginkyo-1 zenginkyo-1", \
+5021: "zenginkyo-2 zenginkyo-2", \
+5022: "mice mice server", \
+5023: "htuilsrv Htuil Server for PLD2", \
+5025: "wmremotekeylogger WM Remote Keylogger Trojan", \
+5031: "netmetropolitan Net Metropolitan Trojan", \
+5032: "netmetropolitan Net Metropolitan Trojan", \
+5042: "asnaacceler8db asnaacceler8db", \
+5050: "mmcc multimedia conference control tool", \
+5051: "ita-agent ITA Agent", \
+5052: "ita-manager ITA Manager", \
+5053: "java-service ", \
+5054: "java-service ", \
+5055: "unot UNOT", \
+5056: "intecom-ps1 Intecom PS 1", \
+5057: "intecom-ps2 Intecom PS 2", \
+5060: "sip SIP", \
+5061: "sip-tls SIP-TLS", \
+5066: "stanag-5066 STANAG-5066-SUBNET-INTF", \
+5069: "i-net-2000-npr I Net 2000-NPR", \
+5071: "powerschool PowerSchool", \
+5081: "sdl-ets SDL - Ent Trans Server", \
+5093: "sentinel-lm Sentinel LM", \
+5099: "sentlm-srv2srv SentLM Srv2Srv", \
+5101: "talarian-tcp Talarian_TCP", \
+5145: "rmonitor-secure RMONITOR SECURE", \
+5150: "atmp Ascend Tunnel Management Protocol", \
+5151: "esri_sde ESRI SDE Instance", \
+5152: "sde-discovery ESRI SDE Instance Discovery", \
+5165: "ife_icorp ife_1corp", \
+5190: "aol America-Online", \
+5191: "aol1 AmericaOnline1", \
+5192: "aol2 AmericaOnline2", \
+5193: "aol3 AmericaOnline3", \
+5200: "targus-aib1 Targus AIB 1   TARGUS GetData", \
+5201: "targus-aib2 Targus AIB 2   TARGUS GetData 1", \
+5202: "targus-tnts1 Targus TNTS 1   TARGUS GetData 2", \
+5203: "targus-tnts2 Targus TNTS 2   TARGUS GetData 3", \
+5222: "jabber-client Jabber Client Connection    www.jabber.com", \
+5225: "hp-server HP Server", \
+5226: "hp-status HP Status", \
+5232: "sgidgl SGI Distributed Graphics", \
+5236: "padl2sim padl2sim", \
+5250: "igateway iGateway", \
+5269: "jabber-server Jabber Server Connection", \
+5272: "pk PK", \
+5282: "transmit-port Marimba Transmitter Port", \
+5300: "haclhb HA cluster heartbeat", \
+5301: "haclgs HA cluster general services", \
+5302: "haclcfg HA cluster configuration", \
+5303: "haclprobe HA cluster probing", \
+5304: "hacllocal HA Cluster Commands", \
+5305: "hacltest HA Cluster Test", \
+5306: "sun-mc-grp Sun MC Group", \
+5307: "sco-aip SCO AIP", \
+5308: "cfengine GNU Cfengine", \
+5309: "jprinter J Printer", \
+5310: "outlaws Outlaws", \
+5311: "tmlogin TM Login", \
+5314: "opalis-rbt-ipc opalis-rbt-ipc", \
+5315: "hacl-poll HA Cluster UDP Polling", \
+5321: "firehotker Fire Hot Keyer Trojan Horse", \
+5333: "backage Backage Trojan   Netdemon Trojan", \
+5343: "wcrat WC Remote Administration Tool Trojan", \
+5353: "mdns Multicast DNS", \
+5400: "bladerunner Bladerunner Trojan Horse   Excerpt Search", \
+5401: "bladerunner Bladerunner Trojan Horse   Excerpt Search Secure", \
+5402: "bladerunner Bladerunner Trojan Horse   MFTP", \
+5403: "hpoms-ci-lstn HPOMS-CI-LSTN", \
+5404: "hpoms-dps-lstn HPOMS-DPS-LSTN", \
+5405: "netsupport NetSupport", \
+5406: "systemics-sox Systemics Sox", \
+5407: "foresyte-clear Foresyte-Clear", \
+5408: "foresyte-sec Foresyte-Sec", \
+5409: "salient-dtasrv Salient Data Server", \
+5410: "salient-usrmgr Salient User Manager", \
+5411: "actnet ActNet", \
+5412: "continuus Continuus", \
+5413: "wwiotalk WWIOTALK", \
+5414: "statusd StatusD", \
+5415: "ns-server NS Server", \
+5416: "sns-gateway SNS Gateway", \
+5417: "sns-agent SNS Agent", \
+5418: "mcntp MCNTP", \
+5419: "dj-ice DJ-ICE", \
+5420: "cylink-c Cylink-C", \
+5421: "netsupport2 Net Support 2", \
+5422: "salient-mux Salient MUX", \
+5423: "virtualuser Apple VIRTUALUSER", \
+5426: "devbasic DEVBASIC", \
+5427: "sco-peer-tta SCO-PEER-TTA", \
+5428: "telaconsole TELACONSOLE", \
+5429: "base Billing and Accounting System Exchange", \
+5430: "radec-corp RADEC CORP", \
+5431: "park-agent PARK AGENT", \
+5432: "postgres postgres database server", \
+5435: "dttl Data Tunneling Transceiver Linking  DTTL ", \
+5454: "apc-tcp-udp-4 apc-tcp-udp-4", \
+5455: "apc-tcp-udp-5 apc-tcp-udp-5", \
+5456: "apc-tcp-udp-6 apc-tcp-udp-6", \
+5461: "silkmeter SILKMETER", \
+5462: "ttl-publisher TTL Publisher", \
+5463: "ttlpriceproxy TTL Price Proxy", \
+5465: "netops-broker NETOPS-BROKER", \
+5492: "axnet Applix Anywhere", \
+5500: "fcp-addr-srvr1 fcp-addr-srvr1", \
+5501: "fcp-addr-srvr2 fcp-addr-srvr2", \
+5502: "fcp-srvr-inst1 fcp-srvr-inst1", \
+5503: "fcp-srvr-inst2 fcp-srvr-inst2", \
+5504: "fcp-cics-gw1 fcp-cics-gw1", \
+5510: "secureidprop ACE Server services", \
+5512: "illusionmailer Illusion Mailer Trojan", \
+5520: "sdlog ACE Server services", \
+5521: "illusionmailer ", \
+5530: "sdserv ACE Server services", \
+5534: "theflu The Flu Trojan", \
+5540: "sdreport ACE Server services", \
+5550: "sdadmind XTCP Trojan   ACE Server services", \
+5554: "sgi-esphttp SGI ESP HTTP", \
+5555: "serveme ServeMe Trojan Horse   rplay Personal Agent", \
+5556: "bofacil Bo Facil Trojan Horse   rptp and rplay", \
+5557: "bofacil Bo Facil Trojan Horse", \
+5566: "udpplus UDPPlus", \
+5569: "robohack Robohack Trojan Horse   Enterprise Security Remote Install", \
+5599: "esinstall Enterprise Security Remote Install", \
+5600: "esmmanager Enterprise Security Manager", \
+5601: "esmagent Enterprise Security Agent", \
+5602: "a1-msc A1-MSC", \
+5603: "a1-bs A1-BS", \
+5604: "a3-sdunode A3-SDUNode", \
+5605: "a4-sdunode A4-SDUNode", \
+5631: "pcanywheredata pcANYWHEREdata", \
+5632: "pcanywhere PC Anywhere   pcANYWHEREstat", \
+5637: "pccrasher trojan pccrasher", \
+5638: "pccrasher pccrasher trojan", \
+5666: "netsaint www.netsaint.org", \
+5673: "jms JACL Message Server", \
+5674: "hyperscsi-port HyperSCSI Port", \
+5675: "v5ua V5UA application port", \
+5676: "raadmin RA Administration", \
+5677: "questdb2-lnchr Quest Central DB2 Launchr", \
+5678: "rrac Remote Replication Agent Connection", \
+5679: "dccm Direct Cable Connect Manager", \
+5680: "canna Canna  Japanese Input  Kana->Kanji server", \
+5713: "proshareaudio proshare conf audio", \
+5714: "prosharevideo proshare conf video", \
+5715: "prosharedata proshare conf data", \
+5716: "prosharerequest proshare conf request", \
+5717: "prosharenotify proshare conf notify", \
+5729: "openmail Openmail User Agent Layer", \
+5730: "unieng Steltor s calendar access", \
+5741: "ida-discover1 IDA Discover Port 1", \
+5742: "wincrash Wincrash Trojan   IDA Discover Port 2", \
+5745: "fcopy-server fcopy-server", \
+5746: "fcopys-server fcopys-server", \
+5755: "openmailg OpenMail Desk Gateway server", \
+5757: "x500ms OpenMail X.500 Directory Server", \
+5760: "portmap Portmap Remote Root Linux Exploit", \
+5766: "openmailns OpenMail NewMail Server", \
+5767: "s-openmail OpenMail Suer Agent Layer  Secure ", \
+5768: "openmailpxy OpenMail CMTS Server", \
+5771: "netagent NetAgent", \
+5800: "vnc Virtual Network Computing", \
+5801: "vnc Virtual Network Computing", \
+5802: "vnc Virtual Network Computing", \
+5803: "vnc Virtual Network Computing", \
+5804: "vnc Virtual Network Computing", \
+5805: "vnc Virtual Network Computing", \
+5806: "vnc Virtual Network Computing", \
+5807: "vnc Virtual Network Computing", \
+5808: "vnc Virtual Network Computing", \
+5809: "vnc Virtual Network Computing", \
+5813: "icmpd ICMPD", \
+5858: "otadmin    www.opentext.com livelink ", \
+5859: "wherehoo WHEREHOO", \
+5880: "y3krat Y3krat Trojan", \
+5882: "y3krat Y3krat Trojan", \
+5888: "y3krat Y3krat Trojan", \
+5889: "y3krat Y3krat Trojan", \
+5900: "vnc Virtual Network Computing", \
+5901: "vnc Virtual Network Computing", \
+5902: "vnc Virtual Network Computing", \
+5903: "vnc Virtual Network Computing", \
+5904: "vnc Virtual Network Computing", \
+5905: "vnc Virtual Network Computing", \
+5906: "vnc Virtual Network Computing", \
+5907: "vnc Virtual Network Computing", \
+5908: "vnc Virtual Network Computing", \
+5909: "vnc Virtual Network Computing", \
+5968: "mppolicy-v5 mppolicy-v5", \
+5969: "mppolicy-mgr mppolicy-mgr", \
+5977: "ncdpreftcp NCD preferences tcp port", \
+5978: "ncddiagtcp NCD diagnostic tcp port", \
+5979: "ncdconftcp NCD configuration tcp port", \
+5987: "wbem-rmi WBEM RMI", \
+5988: "wbem-http WBEM HTTP", \
+5989: "wbem-https WBEM HTTPS", \
+5990: "wbem-local HP WBEM Local Connection", \
+5991: "nuxsl NUXSL", \
+5997: "ncdpref NCD preferences telnet port", \
+5998: "ncddiag NCD diagnostic telnet port", \
+5999: "ncdconf CVSup   NCD configuration telnet port", \
+6000: "x11 X Window System   The Thing Trojan", \
+6001: "x11 X Window System", \
+6002: "x11 X Window System", \
+6003: "x11 X Window System   Halflife online gaming", \
+6004: "x11 X Window System", \
+6005: "x11 X Window System", \
+6006: "x11 X Window System   Bad Blood Trojan", \
+6007: "x11 X Window System", \
+6008: "x11 X Window System", \
+6009: "x11 X Window System", \
+6010: "x11 X Window System", \
+6011: "x11 X Window System", \
+6012: "x11 X Window System", \
+6013: "x11 X Window System", \
+6014: "x11 X Window System", \
+6015: "x11 X Window System", \
+6016: "x11 X Window System", \
+6017: "x11 X Window System", \
+6018: "x11 X Window System", \
+6019: "x11 X Window System", \
+6020: "x11 X Window System", \
+6021: "x11 X Window System", \
+6022: "x11 X Window System", \
+6023: "x11 X Window System", \
+6024: "x11 X Window System", \
+6025: "x11 X Window System", \
+6026: "x11 X Window System", \
+6027: "x11 X Window System", \
+6028: "x11 X Window System", \
+6029: "x11 X Window System", \
+6030: "x11 X Window System", \
+6031: "x11 X Window System", \
+6032: "x11 X Window System", \
+6033: "x11 X Window System", \
+6034: "x11 X Window System", \
+6035: "x11 X Window System", \
+6036: "x11 X Window System", \
+6037: "x11 X Window System", \
+6038: "x11 X Window System", \
+6039: "x11 X Window System", \
+6040: "x11 X Window System", \
+6041: "x11 X Window System", \
+6042: "x11 X Window System", \
+6043: "x11 X Window System", \
+6044: "x11 X Window System", \
+6045: "x11 X Window System", \
+6046: "x11 X Window System", \
+6047: "x11 X Window System", \
+6048: "x11 X Window System", \
+6049: "x11 X Window System", \
+6050: "arcserve-nt Arcserver control port    X Window System", \
+6051: "x11 X Window System", \
+6052: "x11 X Window System", \
+6053: "x11 X Window System", \
+6054: "x11 X Window System", \
+6055: "x11 X Window System", \
+6056: "x11 X Window System", \
+6057: "x11 X Window System", \
+6058: "x11 X Window System", \
+6059: "x11 X Window System", \
+6060: "x11 X Window System", \
+6061: "x11 X Window System", \
+6062: "x11 X Window System", \
+6063: "x11 X Window System", \
+6064: "ndl-ahp-svc NDL-AHP-SVC", \
+6065: "winpharaoh WinPharaoh", \
+6066: "ewctsp EWCTSP", \
+6067: "srb SRB", \
+6068: "gsmp GSMP", \
+6069: "trip TRIP", \
+6070: "messageasap Messageasap", \
+6071: "ssdtp SSDTP", \
+6072: "diagnose-proc DIAGNOSE-PROC", \
+6073: "directplay8 DirectPlay8", \
+6100: "synchronet-db SynchroNet-db", \
+6101: "synchronet-rtc SynchroNet-rtc", \
+6102: "synchronet-upd SynchroNet-upd", \
+6103: "rets RETS", \
+6104: "dbdb DBDB", \
+6105: "primaserver Prima Server", \
+6106: "mpsserver MPS Server", \
+6107: "etc-control ETC Control", \
+6108: "sercomm-scadmin Sercomm-SCAdmin", \
+6109: "globecast-id GLOBECAST-ID", \
+6110: "softcm HP SoftBench CM", \
+6111: "spc HP SoftBench Sub-Process Control", \
+6112: "dtspc CDE subprocess control", \
+6123: "backup-express Backup Express", \
+6141: "metacorp Meta Corporation License Manager", \
+6142: "aspenteclm Aspen Technology License Manager", \
+6143: "watershedlm Watershed License Manager", \
+6144: "statsci1lm StatSci License Manager - 1", \
+6145: "statsci2lm StatSci License Manager - 2", \
+6146: "lonewolflm Lone Wolf Systems License Manager", \
+6147: "montagelm Montage License Manager", \
+6148: "ricardolm Ricardo North America License Manager", \
+6149: "tal-pod tal-pod", \
+6253: "crip CRIP", \
+6272: "secretservice secret service trojan", \
+6300: "bmc-grx BMC GRX", \
+6321: "emp-server1 Empress Software Connectivity Server 1", \
+6322: "emp-server2 Empress Software Connectivity Server 2", \
+6346: "gnutella-svc gnutella-svc", \
+6347: "gnutella-rtr gnutella-rtr", \
+6348: "P2P Spam", \
+6373: "sco-calserver ", \
+6382: "metatude-mds Metatude Dialogue Server", \
+6389: "clariion-evr01 clariion-evr01", \
+6400: "thething The Thing Trojan Horse", \
+6455: "skip-cert-recv SKIP Certificate Receive", \
+6456: "skip-cert-send SKIP Certificate Send", \
+6471: "lvision-lm LVision License Manager", \
+6500: "boks BoKS Master", \
+6501: "boks_servc BoKS Servc", \
+6502: "boks_servm BoKS Servm", \
+6503: "boks_clntd BoKS Clntd", \
+6505: "badm_priv BoKS Admin Private Port", \
+6506: "badm_pub BoKS Admin Public Port", \
+6507: "bdir_priv BoKS Dir Server", \
+6508: "bdir_pub BoKS Dir Server", \
+6509: "mgcs-mfp-port MGCS-MFP Port", \
+6510: "mcer-port MCER Port", \
+6547: "apc-tcp-udp-1 apc-tcp-udp-1", \
+6548: "apc-tcp-udp-2 apc-tcp-udp-2", \
+6549: "apc-tcp-udp-3 apc-tcp-udp-3", \
+6550: "fg-sysupdate fg-sysupdate", \
+6558: "xdsxdm xdsxdm", \
+6580: "parsec-master Parsec Masterserver", \
+6581: "parsec-peer Parsec Peer-to-Peer", \
+6582: "parsec-game Parsec Gameserver", \
+6635: "lion Lion worm backdoor", \
+6661: "teman teman trojan", \
+6665: "ircu IRCU", \
+6666: "irc Internet Relay Chat   APC control port for power chute", \
+6667: "irc Internet Relay Chat   APC control port for power chute   SubSeven Trojan   NetBus Trojan", \
+6668: "irc Internet Relay Chat   APC control port for power chute", \
+6669: "irc Vampire 1.0 Trojan   Internet Relay Chat", \
+6670: "vocaltec-gold Deep Throat Trojan Horse   Vocaltec Global Online Directory", \
+6671: "deepthroat Deep Throat Trojan Horse", \
+6672: "vision_server vision_server", \
+6673: "vision_elmd vision_elmd", \
+6699: "napster    www.napster.com", \
+6700: "carracho-server www.carracho.com", \
+6701: "kti-icad-srvr KTI ICAD Nameserver", \
+6711: "subseven Sub Seven Trojan Horse   man to html on the fly", \
+6712: "subseven SubSeven Trojan", \
+6713: "subseven subseven trojan", \
+6714: "ibprotocol Internet Backplane Protocol", \
+6723: "mstream mstream trojan", \
+6767: "bmc-perf-agent BMC PERFORM AGENT", \
+6768: "bmc-perf-mgrd BMC PERFORM MGRD", \
+6771: "deepthroat Deep throat trojan   others", \
+6776: "subseven Sub Seven Trojan Horse", \
+6790: "hnmp HNMP", \
+6831: "ambit-lm ambit-lm", \
+6841: "netmo-default Netmo Default", \
+6842: "netmo-http Netmo HTTP", \
+6850: "iccrushmore ICCRUSHMORE", \
+6883: "deltasourcedarkstar  DarkStar  DeltaSource", \
+6888: "muse MUSE", \
+6891: "msn-im-filetransfer Microsoft Network instant messenger file transfer", \
+6892: "msn-im-filetransfer Microsoft Network instant messenger file transfer", \
+6893: "msn-im-filetransfer Microsoft Network instant messenger file transfer", \
+6894: "msn-im-filetransfer Microsoft Network instant messenger file transfer", \
+6895: "msn-im-filetransfer Microsoft Network instant messenger file transfer", \
+6896: "msn-im-filetransfer Microsoft Network instant messenger file transfer", \
+6897: "msn-im-filetransfer Microsoft Network instant messenger file transfer", \
+6898: "msn-im-filetransfer Microsoft Network instant messenger file transfer", \
+6899: "msn-im-filetransfer Microsoft Network instant messenger file transfer", \
+6900: "msn-im-filetransfer Microsoft Network instant messenger file transfer", \
+6901: "msn-im-voice Microsoft Network instant messenger voice", \
+6912: "shitheep shitheep trojan", \
+6939: "indoc Indoctrination Trojan Horse", \
+6961: "jmact3 JMACT3", \
+6962: "jmevt2 jmevt2", \
+6963: "swismgr1 swismgr1", \
+6964: "swismgr2 swismgr2", \
+6965: "swistrap swistrap", \
+6966: "swispol swispol", \
+6969: "gatecrasher Gate Crasher Trojan Horse   acmsoda", \
+6970: "gatecrasher Gate Crasher Trojan Horse", \
+6998: "iatp-highpri IATP-highPri", \
+6999: "iatp-normalpri IATP-normalPri", \
+7000: "remotegrabber Remote Grabber Trojan Horse   SubSeven   AFS fileserver   MSDOS", \
+7001: "afs3callback Freak88 Trojan   AFS callbacks to cache managers", \
+7002: "afs3prserver AFS users & groups database   Halflife network games", \
+7003: "afs3vlserver AFS volume location database", \
+7004: "afs3kaserver AFS kerberos authenication server", \
+7005: "afs3volser AFS volume managment server", \
+7006: "afs3errors AFS error interpretation service", \
+7007: "afs3bos AFS basic over-see server", \
+7008: "afs3update AFS server-to-server updater", \
+7009: "afs3rmtsys AFS remote cache manager service", \
+7010: "upsonlinet onlinet uninterruptable power supplies", \
+7011: "talon-disc Talon Discovery Port", \
+7012: "talon-engine Talon Engine", \
+7013: "microtalon-dis Microtalon Discovery", \
+7014: "microtalon-com Microtalon Communications", \
+7015: "talon-webserver Talon Webserver", \
+7020: "dpserve DP Serve", \
+7021: "dpserveadmin DP Serve Admin", \
+7030: "op-probe ObjectPlanet probe", \
+7070: "arcp ARCP", \
+7099: "lazy-ptop lazy-ptop", \
+7100: "fontservice X Font Service", \
+7121: "virprot-lm Virtual Prototypes License Manager", \
+7161: "cisco    www.cisco.com", \
+7170: "realaudio    www.real.net", \
+7174: "clutild Clutild", \
+7200: "fodms FODMS FLIP sql30", \
+7201: "dlip DLIP", \
+7205: "groupwise-wa-agent Groupwise WebAccess Agent", \
+7215: "subseven SubSeven Trojan", \
+7280: "itactionserver1 ITACTIONSERVER 1", \
+7281: "itactionserver2 ITACTIONSERVER 2", \
+7300: "netmonitor Netmonitor Trojan Horse", \
+7301: "netmonitor Netmonitor Trojan Horse", \
+7306: "netmonitor Netmonitor Trojan Horse", \
+7307: "netmonitor Netmonitor Trojan Horse", \
+7308: "netmonitor Netmonitor Trojan Horse", \
+7326: "icb Internet Citizen s Band", \
+7391: "mindfilesys mind-file system server", \
+7392: "mrssrendezvous mrss-rendezvous server", \
+7395: "winqedit winqedit", \
+7424: "hostcontrol HostControl Trojan", \
+7426: "pmdmgr OpenView DM Postmaster Manager", \
+7427: "oveadmgr OpenView DM Event Agent Manager", \
+7428: "ovladmgr OpenView DM Log Agent Manager", \
+7429: "opi-sock OpenView DM rqt communication", \
+7430: "xmpv7 OpenView DM xmpv7 api pipe", \
+7431: "pmd OpenView DM ovc xmpv3 api pipe", \
+7437: "faximum Faximum", \
+7491: "telops-lmd telops-lmd", \
+7501: "ovbus HP OpenView Bus Daemon", \
+7510: "ovhpas HP OpenView Application Server", \
+7511: "pafec-lm pafec-lm", \
+7544: "nta-ds FlowAnalyzer DisplayServer", \
+7545: "nta-us FlowAnalyzer UtilityServer", \
+7566: "vsi-omega VSI Omega", \
+7570: "aries-kfinder Aries Kfinder", \
+7575: "netcool-elmd    www.micromuse.com", \
+7588: "sun-lm Sun License Manager", \
+7597: "qaz QAZ Trojan", \
+7624: "indi Instrument Neutral Distributed Interface", \
+7626: "glacier Glacier Trojan", \
+7633: "pmdfmgt PMDF Management", \
+7674: "imqtunnels iMQ SSL tunnel", \
+7675: "imqtunnel iMQ Tunnel", \
+7676: "imqbrokerd iMQ Broker Rendezvous", \
+7743: "sstp-1 Sakura Script Transfer Protocol", \
+7775: "ultima-online-login    www.uo.com visitor ", \
+7776: "ultima-online-login    www.uo.com visitor ", \
+7777: "tini Tini Trojan   cbt", \
+7778: "interwise Interwise", \
+7779: "vstat VSTAT", \
+7781: "accu-lmgr accu-lmgr", \
+7786: "minivend MINIVEND", \
+7789: "ickiller ICKiller Trojan Horse", \
+7797: "pnet-conn Propel Connector port", \
+7798: "pnet-enc Propel Encoder port", \
+7800: "beacon ", \
+7801: "msn-im-voice Microsoft Network instant messenger voice", \
+7802: "msn-im-voice Microsoft Network instant messenger voice", \
+7803: "msn-im-voice Microsoft Network instant messenger voice", \
+7804: "msn-im-voice Microsoft Network instant messenger voice", \
+7805: "msn-im-voice Microsoft Network instant messenger voice", \
+7806: "msn-im-voice Microsoft Network instant messenger voice", \
+7807: "msn-im-voice Microsoft Network instant messenger voice", \
+7808: "msn-im-voice Microsoft Network instant messenger voice", \
+7809: "msn-im-voice Microsoft Network instant messenger voice", \
+7810: "msn-im-voice Microsoft Network instant messenger voice", \
+7811: "msn-im-voice Microsoft Network instant messenger voice", \
+7812: "msn-im-voice Microsoft Network instant messenger voice", \
+7813: "msn-im-voice Microsoft Network instant messenger voice", \
+7814: "msn-im-voice Microsoft Network instant messenger voice", \
+7815: "msn-im-voice Microsoft Network instant messenger voice", \
+7816: "msn-im-voice Microsoft Network instant messenger voice", \
+7817: "msn-im-voice Microsoft Network instant messenger voice", \
+7818: "msn-im-voice Microsoft Network instant messenger voice", \
+7819: "msn-im-voice Microsoft Network instant messenger voice", \
+7820: "msn-im-voice Microsoft Network instant messenger voice", \
+7821: "msn-im-voice Microsoft Network instant messenger voice", \
+7822: "msn-im-voice Microsoft Network instant messenger voice", \
+7823: "msn-im-voice Microsoft Network instant messenger voice", \
+7824: "msn-im-voice Microsoft Network instant messenger voice", \
+7825: "msn-im-voice Microsoft Network instant messenger voice", \
+7845: "apc-snmptrap APC SNMP Trap Proxy", \
+7846: "apc-snmp APC SNMP Proxy", \
+7875: "uomonitor    www.uo.com visitor ", \
+7891: "therevenger TheRevenger Trojan", \
+7902: "dopewars    bellatrix.pcl.ox.ac.uk ~ben dopewars ", \
+7913: "qo-secure QuickObjects secure port", \
+7932: "t2-drm Tier 2 Data Resource Manager", \
+7933: "t2-brm Tier 2 Business Rules Manager", \
+7967: "supercell Supercell", \
+7979: "micromuse-ncps Micromuse-ncps", \
+7980: "quest-vista Quest Vista", \
+7983: "mstream Mstream Trojan", \
+7999: "irdmi2 iRDMI2", \
+8000: "irdmi iRDMI", \
+8001: "vcom-tunnel VCOM Tunnel", \
+8002: "teradataordbms Teradata ORDBMS", \
+8003: "norton-av-for-gateways-web-interface Norton AV      www.SHOUTcast.com", \
+8004: "shoutcast    www.SHOUTcast.com", \
+8005: "shoutcast    www.SHOUTcast.com", \
+8007: "jre localhost:8007", \
+8008: "http-alt HTTP Alternate", \
+8010: "wingate HP Eloquence RUNSRV  Windows integration    Wingate logging services", \
+8022: "oa-system oa-system", \
+8032: "pro-ed ProEd", \
+8033: "mindprint MindPrint", \
+8080: "httpproxy Common HTTP proxy second web server port   Ringzero Trojan   Brown Orifice Trojan", \
+8081: "wwwoffle    www.gedanken.demon.co.uk wwwoffle", \
+8088: "radan-http Radan HTTP", \
+8089: "apache-administration-server    alpha2.ubi.pt documents admin SSDMSTRN.HTM", \
+8100: "xprint-server HP Eloquence A.06.00 eloqsd server   Xprint Server", \
+8102: "eloqdb HP Eloquence A.06.00 data base server", \
+8104: "eloqdb5 HP Eloquence A.06.00 ELOQDB5 server", \
+8115: "mtl8000-matrix MTL8000 Matrix", \
+8116: "cp-cluster Check Point Clustering", \
+8130: "indigo-vrmi INDIGO-VRMI", \
+8131: "indigo-vbcp INDIGO-VBCP", \
+8132: "dbabble dbabble", \
+8160: "patrol Patrol", \
+8161: "patrol-snmp Patrol SNMP", \
+8181: "imonitor IPSwitch s IMonitor", \
+8182: "homepage    65.82.161.114", \
+8183: "homepage    65.82.161.114", \
+8184: "homepage    65.82.161.114", \
+8185: "homepage    65.82.161.114", \
+8186: "homepage    65.82.161.114", \
+8187: "homepage    65.82.161.114", \
+8188: "homepage    65.82.161.114", \
+8189: "homepage    65.82.161.114", \
+8190: "homepage    65.82.161.114", \
+8191: "homepage    65.82.161.114", \
+8192: "homepage    65.82.161.114", \
+8193: "homepage    65.82.161.114", \
+8194: "homepage    65.82.161.114", \
+8195: "homepage    65.82.161.114", \
+8196: "homepage    65.82.161.114", \
+8197: "homepage    65.82.161.114", \
+8198: "homepage    65.82.161.114", \
+8199: "homepage    65.82.161.114   VVR DATA", \
+8200: "trivnet1 TRIVNET", \
+8201: "trivnet2 TRIVNET", \
+8202: "homepage    65.82.161.114", \
+8203: "homepage    65.82.161.114", \
+8204: "lm-perfworks LM Perfworks", \
+8205: "lm-instmgr LM Instmgr", \
+8206: "lm-dta LM Dta", \
+8207: "lm-sserver LM SServer", \
+8208: "lm-webwatcher LM Webwatcher", \
+8209: "bloomberg ", \
+8210: "bloomberg ", \
+8211: "bloomberg ", \
+8212: "bloomberg ", \
+8213: "bloomberg ", \
+8214: "bloomberg ", \
+8215: "bloomberg ", \
+8216: "bloomberg ", \
+8217: "bloomberg ", \
+8218: "bloomberg", \
+8219: "bloomberg", \
+8220: "bloomberg", \
+8221: "bloomberg", \
+8222: "bloomberg", \
+8223: "bloomberg", \
+8224: "bloomberg", \
+8225: "bloomberg", \
+8226: "bloomberg", \
+8227: "bloomberg", \
+8228: "bloomberg", \
+8229: "bloomberg", \
+8230: "bloomberg", \
+8231: "bloomberg", \
+8232: "bloomberg", \
+8233: "bloomberg", \
+8234: "bloomberg", \
+8235: "bloomberg", \
+8236: "bloomberg", \
+8237: "bloomberg", \
+8238: "bloomberg", \
+8239: "bloomberg", \
+8240: "bloomberg", \
+8241: "bloomberg", \
+8242: "bloomberg", \
+8243: "bloomberg", \
+8244: "bloomberg", \
+8245: "bloomberg", \
+8246: "bloomberg", \
+8247: "bloomberg", \
+8248: "bloomberg", \
+8249: "bloomberg", \
+8250: "bloomberg", \
+8251: "bloomberg", \
+8252: "bloomberg", \
+8253: "bloomberg", \
+8254: "bloomberg", \
+8255: "bloomberg", \
+8256: "bloomberg", \
+8257: "bloomberg", \
+8258: "bloomberg", \
+8259: "bloomberg", \
+8260: "bloomberg", \
+8261: "bloomberg", \
+8262: "bloomberg", \
+8263: "bloomberg", \
+8264: "bloomberg", \
+8265: "bloomberg", \
+8266: "bloomberg", \
+8267: "bloomberg", \
+8268: "bloomberg", \
+8269: "bloomberg", \
+8270: "bloomberg", \
+8271: "bloomberg", \
+8272: "bloomberg", \
+8273: "bloomberg", \
+8274: "bloomberg", \
+8275: "bloomberg", \
+8276: "bloomberg", \
+8277: "bloomberg", \
+8278: "bloomberg", \
+8279: "bloomberg", \
+8280: "bloomberg", \
+8281: "bloomberg", \
+8282: "bloomberg ", \
+8283: "bloomberg ", \
+8284: "bloomberg ", \
+8285: "bloomberg ", \
+8286: "bloomberg ", \
+8287: "bloomberg ", \
+8288: "bloomberg ", \
+8289: "bloomberg ", \
+8290: "bloomberg ", \
+8291: "bloomberg ", \
+8292: "bloomberg ", \
+8293: "bloomberg ", \
+8294: "bloomberg ", \
+8311: "scour-exchange    www.scour.com ", \
+8351: "server-find Server Find", \
+8376: "cruise-enum Cruise ENUM", \
+8377: "cruise-swroute Cruise SWROUTE", \
+8378: "cruise-config Cruise CONFIG", \
+8379: "cruise-diags Cruise DIAGS", \
+8380: "cruise-update Cruise UPDATE", \
+8383: "webmessaging Web Messaging Imail", \
+8400: "cvd cvd", \
+8401: "sabarsd sabarsd", \
+8402: "abarsd abarsd", \
+8403: "admind admind", \
+8443: "pcsync-https PCsync HTTPS", \
+8444: "pcsync-http PCsync HTTP", \
+8450: "npmp npmp", \
+8473: "vp2p Virtual Point to Point", \
+8554: "rtsp-alt RTSP Alternate  see port 554 ", \
+8668: "natd MacOSX nat support", \
+8733: "ibus iBus", \
+8763: "mc-appserver MC-APPSERVER", \
+8764: "openqueue OPENQUEUE", \
+8765: "ultraseek-http Ultraseek HTTP", \
+8787: "bo2k Trojan   Back Orifice 2k 2000 CDC", \
+8800: "ultima-online-messenger    www.uo.com visitor ", \
+8801: "ultima-online-messenger    www.uo.com visitor ", \
+8802: "ultima-online-messenger    www.uo.com visitor ", \
+8803: "ultima-online-messenger    www.uo.com visitor ", \
+8804: "truecm truecm", \
+8805: "ultima-online-messenger    www.uo.com visitor ", \
+8806: "ultima-online-messenger    www.uo.com visitor ", \
+8807: "ultima-online-messenger    www.uo.com visitor ", \
+8808: "ultima-online-messenger    www.uo.com visitor ", \
+8809: "ultima-online-messenger    www.uo.com visitor ", \
+8810: "ultima-online-messenger    www.uo.com visitor ", \
+8811: "ultima-online-messenger    www.uo.com visitor ", \
+8812: "ultima-online-messenger    www.uo.com visitor ", \
+8813: "ultima-online-messenger    www.uo.com visitor ", \
+8814: "ultima-online-messenger    www.uo.com visitor ", \
+8815: "ultima-online-messenger    www.uo.com visitor ", \
+8816: "ultima-online-messenger    www.uo.com visitor ", \
+8817: "ultima-online-messenger    www.uo.com visitor ", \
+8818: "ultima-online-messenger    www.uo.com visitor ", \
+8819: "ultima-online-messenger    www.uo.com visitor ", \
+8820: "ultima-online-messenger    www.uo.com visitor ", \
+8821: "ultima-online-messenger    www.uo.com visitor ", \
+8822: "ultima-online-messenger    www.uo.com visitor ", \
+8823: "ultima-online-messenger    www.uo.com visitor ", \
+8824: "ultima-online-messenger    www.uo.com visitor ", \
+8825: "ultima-online-messenger    www.uo.com visitor ", \
+8826: "ultima-online-messenger    www.uo.com visitor ", \
+8827: "ultima-online-messenger    www.uo.com visitor ", \
+8828: "ultima-online-messenger    www.uo.com visitor ", \
+8829: "ultima-online-messenger    www.uo.com visitor ", \
+8830: "ultima-online-messenger    www.uo.com visitor ", \
+8831: "ultima-online-messenger    www.uo.com visitor ", \
+8832: "ultima-online-messenger    www.uo.com visitor ", \
+8833: "ultima-online-messenger    www.uo.com visitor ", \
+8834: "ultima-online-messenger    www.uo.com visitor ", \
+8835: "ultima-online-messenger    www.uo.com visitor ", \
+8836: "ultima-online-messenger    www.uo.com visitor ", \
+8837: "ultima-online-messenger    www.uo.com visitor ", \
+8838: "ultima-online-messenger    www.uo.com visitor ", \
+8839: "ultima-online-messenger    www.uo.com visitor ", \
+8840: "ultima-online-messenger    www.uo.com visitor ", \
+8841: "ultima-online-messenger    www.uo.com visitor ", \
+8842: "ultima-online-messenger    www.uo.com visitor ", \
+8843: "ultima-online-messenger    www.uo.com visitor ", \
+8844: "ultima-online-messenger    www.uo.com visitor ", \
+8845: "ultima-online-messenger    www.uo.com visitor ", \
+8846: "ultima-online-messenger    www.uo.com visitor ", \
+8847: "ultima-online-messenger    www.uo.com visitor ", \
+8848: "ultima-online-messenger    www.uo.com visitor ", \
+8849: "ultima-online-messenger    www.uo.com visitor ", \
+8850: "ultima-online-messenger    www.uo.com visitor ", \
+8851: "ultima-online-messenger    www.uo.com visitor ", \
+8852: "ultima-online-messenger    www.uo.com visitor ", \
+8853: "ultima-online-messenger    www.uo.com visitor ", \
+8854: "ultima-online-messenger    www.uo.com visitor ", \
+8855: "ultima-online-messenger    www.uo.com visitor ", \
+8856: "ultima-online-messenger    www.uo.com visitor ", \
+8857: "ultima-online-messenger    www.uo.com visitor ", \
+8858: "ultima-online-messenger    www.uo.com visitor ", \
+8859: "ultima-online-messenger    www.uo.com visitor ", \
+8860: "ultima-online-messenger    www.uo.com visitor ", \
+8861: "ultima-online-messenger    www.uo.com visitor ", \
+8862: "ultima-online-messenger    www.uo.com visitor ", \
+8863: "pppoe    www.uo.com visitor ", \
+8864: "pppoe    www.uo.com visitor ", \
+8865: "ultima-online-messenger    www.uo.com visitor ", \
+8866: "ultima-online-messenger    www.uo.com visitor ", \
+8867: "ultima-online-messenger    www.uo.com visitor ", \
+8868: "ultima-online-messenger    www.uo.com visitor ", \
+8869: "ultima-online-messenger    www.uo.com visitor ", \
+8870: "ultima-online-messenger    www.uo.com visitor ", \
+8871: "ultima-online-messenger    www.uo.com visitor ", \
+8872: "ultima-online-messenger    www.uo.com visitor ", \
+8873: "ultima-online-messenger    www.uo.com visitor ", \
+8874: "ultima-online-messenger    www.uo.com visitor ", \
+8875: "ultima-online-messenger    www.uo.com visitor       opennap.sourceforge.net napster.txt", \
+8876: "ultima-online-messenger    www.uo.com visitor ", \
+8877: "ultima-online-messenger    www.uo.com visitor ", \
+8878: "ultima-online-messenger    www.uo.com visitor ", \
+8879: "ultima-online-messenger    www.uo.com visitor ", \
+8880: "cddbp-alt CDDBP", \
+8881: "ultima-online-messenger    www.uo.com visitor ", \
+8882: "ultima-online-messenger    www.uo.com visitor ", \
+8883: "ultima-online-messenger    www.uo.com visitor ", \
+8884: "ultima-online-messenger    www.uo.com visitor ", \
+8885: "ultima-online-messenger    www.uo.com visitor ", \
+8886: "ultima-online-messenger    www.uo.com visitor ", \
+8887: "ultima-online-messenger    www.uo.com visitor ", \
+8888: "ddi-tcp-1   xsh NewsEDGE server TCP  TCP 1    external shell  test ", \
+8889: "ddi-tcp-2 Desktop Data TCP 1", \
+8890: "ddi-tcp-3 Desktop Data TCP 2", \
+8891: "ddi-tcp-4 Desktop Data TCP 3 NESS application", \
+8892: "ddi-tcp-5 Desktop Data TCP 4 FARM product", \
+8893: "ddi-tcp-6 Desktop Data TCP 5 NewsEDGE Web application", \
+8894: "ddi-tcp-7 Desktop Data TCP 6 COAL application", \
+8895: "ultima-online-messenger    www.uo.com visitor ", \
+8896: "ultima-online-messenger    www.uo.com visitor ", \
+8897: "ultima-online-messenger    www.uo.com visitor ", \
+8898: "ultima-online-messenger    www.uo.com visitor ", \
+8899: "ultima-online-messenger    www.uo.com visitor ", \
+8900: "jmb-cds1 JMB-CDS 1", \
+8901: "jmb-cds2 JMB-CDS 2", \
+8910: "manyone-http manyone-http", \
+8911: "manyone-xml manyone-xml", \
+8954: "cumulus-admin Cumulus Admin Port", \
+8965: "unknown UNKNOWN", \
+8988: "bachack BacHack Trojan", \
+8989: "rcon Rcon Trojan", \
+8999: "bctp Brodos Crypto Trade Protocol", \
+9000: "cslistener Netminister Trojan   Cslistener - IBM control port for WebSphere", \
+9001: "kastenxpipe KastenX Pipe", \
+9002: "dynamid DynamID authentication", \
+9006: "sctp SCTP", \
+9020: "tambora TAMBORA", \
+9021: "panagolin-ident Pangolin Identification", \
+9022: "paragent PrivateArk Remote Agent", \
+9023: "swa-1 Secure Web Access - 1", \
+9024: "swa-2 Secure Web Access - 2", \
+9025: "swa-3 Secure Web Access - 3", \
+9026: "swa-4 Secure Web Access - 4", \
+9090: "websm WebSM", \
+9091: "xmltec-xmlmail xmltec-xmlmail", \
+9100: "jetdirect HP JetDirect card", \
+9101: "bacula-dir Bacula Director", \
+9102: "bacula-fd Bacula File Daemon", \
+9103: "bacula-sd Bacula Storage Daemon", \
+9110: "sidewinder-game-voice ", \
+9160: "netlock1 NetLOCK1", \
+9161: "netlock2 NetLOCK2", \
+9162: "netlock3 NetLOCK3", \
+9163: "netlock4 NetLOCK4", \
+9164: "netlock5 NetLOCK5", \
+9200: "wap-wsp WAP connectionless session service", \
+9201: "wap-wsp-wtp WAP session service", \
+9202: "wap-wsp-s WAP secure connectionless session service", \
+9203: "wap-wsp-wtp-s WAP secure session service", \
+9204: "wap-vcard WAP vCard", \
+9205: "wap-vcal WAP vCal", \
+9206: "wap-vcard-s WAP vCard Secure", \
+9207: "wap-vcal-s WAP vCal Secure", \
+9210: "lif-mlp LIF Mobile Locn Protocol", \
+9211: "lif-mlp-s LIF Mobile Locn Secure", \
+9217: "fsc-port FSC Communication Port", \
+9281: "swtp-port1 SofaWare transport port 1", \
+9282: "swtp-port2 SofaWare transport port 2", \
+9283: "callwaveiam CallWaveIAM", \
+9284: "visd VERITAS Information Serve", \
+9285: "n2h2server N2H2 Filter Service Port", \
+9287: "cumulus Cumulus", \
+9292: "armtechdaemon ArmTech Daemon", \
+9321: "guibase guibase", \
+9343: "mpidcmgr MpIdcMgr", \
+9344: "mphlpdmc Mphlpdmc", \
+9346: "ctechlicensing C Tech Licensing", \
+9374: "fjdmimgr fjdmimgr", \
+9396: "fjinvmgr fjinvmgr", \
+9397: "mpidcagt MpIdcAgt", \
+9400: "incommand InCommand Trojan", \
+9500: "ismserver ismserver", \
+9535: "mngsuite mngsuite man remote server", \
+9594: "msgsys Message System", \
+9595: "pds Ping Discovery Service", \
+9600: "micromuse-ncpw MICROMUSE-NCPW", \
+9612: "streamcomm-ds StreamComm User Directory", \
+9704: "rpc.statd-exploit    www.cert.org advisories CA-2000-17.html", \
+9747: "l5nas-parchan L5NAS Parallel Channel", \
+9753: "rasadv rasadv", \
+9800: "davsrc WebDav Source Port", \
+9801: "sstp-2 Sakura Script Transfer Protocol-2", \
+9872: "portalofdoom Portal of Doom Trojan Horse", \
+9873: "portalofdoom Portal of Doom Trojan Horse", \
+9874: "portalofdoom Portal of Doom Trojan Horse", \
+9875: "portalofdoom Portal of Doom Trojan Horse", \
+9876: "rux Session Director", \
+9877: "netlet Netscspe Netlet listner", \
+9878: "netlet Netscspe Netlet listner   Trabsscout Trojan", \
+9888: "cyborg-systems CYBORG Systems", \
+9889: "inikiller ", \
+9898: "monkeycom MonkeyCom", \
+9899: "sctp-tunneling SCTP TUNNELING", \
+9900: "iua IUA", \
+9909: "domaintime domaintime", \
+9950: "apcpcpluswin1 APCPCPLUSWIN1", \
+9951: "apcpcpluswin2 APCPCPLUSWIN2", \
+9952: "apcpcpluswin3 APCPCPLUSWIN3", \
+9989: "trojan   inikiller IniKiller Trojan", \
+9991: "sysscanner-agent www.iss.net", \
+9992: "palace OnLive-1 palace chat service", \
+9993: "palace OnLive-2", \
+9994: "palace OnLive-3", \
+9995: "palace Palace-4", \
+9996: "palace Palace-5 ", \
+9997: "palace Palace-6 ", \
+9998: "totalbill Totalbill Trojan   Distinct32 ", \
+9999: "distinct distinct ", \
+10000: "ndmp OpWin Trojan   Network Data Management Protocol ", \
+10001: "rstatd rpc rstatd ", \
+10002: "rusersd rpc rusersd ", \
+10003: "nfsprog rpc nfsprog ", \
+10005: "mountd mountd mount showmount   OpWin Trojan   Secure telnet", \
+10007: "ypbind ypbind   MVS Capacity", \
+10008: "walld walld   rwall   shutdown   Cheese worm - Linux fix it worm", \
+10009: "yppasswdd NIS - yppasswd", \
+10012: "sprayd rpc sprayd", \
+10014: "rje_mapper IBM rje mapper", \
+10015: "selection_svc selection service", \
+10017: "rexd rexd", \
+10021: "nlockmgr nfs lock manager", \
+10024: "rpc_statd rpc status daemon", \
+10026: "bootparam bootparam", \
+10067: "amanda Portal of Doom Trojan Horse   Amanda Backup Util", \
+10068: "rpc_cmsd rpc cmsd", \
+10080: "amanda Amanda", \
+10081: "amanda    www.amanda.org", \
+10082: "amandaidx Amanda indexing", \
+10083: "amidxtape Amanda tape indexing   rpc ttsd server daemon", \
+10085: "syphillis syphillis trojan", \
+10086: "syphillis syphillis trojan", \
+10100: "controltotal Total Control Trojan", \
+10101: "brainspy Brainspy Trojan", \
+10102: "ezproxy-2 eZproxy", \
+10103: "ezrelay eZrelay", \
+10113: "netiq-endpoint NetIQ Endpoint", \
+10114: "netiq-qcheck NetIQ Qcheck", \
+10115: "netiq-endpt NetIQ Endpoint", \
+10116: "netiq-voipa NetIQ VoIP Assessor", \
+10128: "bmc-perf-sd BMC-PERFORM-SERVICE DAEMON", \
+10167: "portalofdoom Portal of Doom Trojan Horse", \
+10221: "kcms_server kcms server", \
+10227: "nfs_ad nfs acl", \
+10232: "sadmind SUN sadmind", \
+10235: "cachefs cache fs", \
+10260: "axis-wimp-port Axis WIMP Port", \
+10288: "blocks Blocks", \
+10301: "nis_cache nis cache", \
+10302: "nis_callback nis callback", \
+10520: "acidshivers Acid Shivers Trojan Horse", \
+10528: "hostcontrol HostControl Trojan", \
+10607: "coma Danny Coma Trojan Horse", \
+10666: "ambush ", \
+10752: "linux-mountd ", \
+10990: "rmiaux Auxiliary RMI Port", \
+11000: "sennaspy Senna Spy Trojan   Metasys   IRISA", \
+11001: "metasys Metasys", \
+11050: "hostcontrol hostcontrol trojan", \
+11051: "hostcontrol hostcontrol trojan", \
+11111: "vce Viral Computing Environment  VCE ", \
+11201: "smsqp smsqp", \
+11223: "projenic Progenic Trojan Horse   IMIP", \
+11319: "imip IMIP", \
+11320: "imip-channels IMIP Channels Port", \
+11321: "arena-server Arena Server Listen", \
+11367: "atm-uhas ATM UHAS", \
+11371: "pgpkeyserv PGP key server", \
+11600: "tempest-port Tempest Protocol Port", \
+11720: "h323callsigalt h323 Call Signal Alternate", \
+11999: "yahoogames    help.yahoo.com help us games games-05.html", \
+12000: "entextxid IBM Enterprise Extender SNA XID Exchange", \
+12001: "entextnetwk IBM Enterprise Extender SNA COS Network Priority", \
+12002: "entexthigh IBM Enterprise Extender SNA COS High Priority", \
+12003: "entextmed IBM Enterprise Extender SNA COS Medium Priority", \
+12004: "entextlow IBM Enterprise Extender SNA COS Low Priority", \
+12005: "dbisamserver1 DBISAM Database Server - Regular", \
+12006: "dbisamserver2 DBISAM Database Server - Admin", \
+12076: "gjammer GJamer Trojan Horse", \
+12172: "hivep HiveP", \
+12223: "hack99 KeyLogger Hack499 Trojan Horse", \
+12345: "netbus NetBus backdoor trojan", \
+12346: "netbus NetBus backdoor trojan", \
+12349: "bionet Bionet Trojan", \
+12361: "whackamole Whack a Mole Trojan Horse", \
+12362: "whackamole Whack a Mole Trojan Horse", \
+12363: "whackamole whackamole trojan", \
+12624: "buttman Buttman Trojan", \
+12631: "whackjob WhackJob Trojan Horse", \
+12701: "eclipse2k ", \
+12753: "tsaf tsaf port", \
+12754: "mstream mstreeam trojan", \
+13000: "sennaspy Senna Spy Trojan Horse", \
+13010: "hackerbrasil hacker brasil brazil trojan", \
+13013: "psychward psychward trojan", \
+13014: "psychward Psychward Trojan", \
+13160: "i-zipqd I-ZIPQD", \
+13223: "powwow-client PowWow Client", \
+13224: "powwow-server PowWow Server", \
+13473: "chupacabra chupacabra trojan", \
+13720: "bprd BPRD Protocol  VERITAS NetBackup ", \
+13721: "bpbrm BPBRM Protocol  VERITAS NetBackup ", \
+13722: "bpjava-msvc BP Java MSVC Protocol", \
+13724: "vnetd Veritas Network Utility", \
+13782: "bpcd VERITAS NetBackup", \
+13783: "vopied VOPIED Protocol", \
+13818: "dsmcc-config DSMCC Config", \
+13819: "dsmcc-session DSMCC Session Messages", \
+13820: "dsmcc-passthru DSMCC Pass-Thru Messages", \
+13821: "dsmcc-download DSMCC Download Protocol", \
+13822: "dsmcc-ccp DSMCC Channel Change Protocol", \
+14001: "itu-sccp-ss7 ITU SCCP  SS7 ", \
+14033: "sage-best-com1 sage Best! Config Server 1", \
+14034: "sage-best-com2 sage Best! Config Server 2", \
+14141: "vcs-app VCS Application", \
+14145: "gcm-app GCM Application", \
+14149: "vrts-tdd Veritas Traffic Director", \
+14237: "palm Palm Pilot", \
+14500: "pcinvader PCInvader Trojan", \
+14501: "pcinvader PCInvader Trojan", \
+14502: "pcinvader PCInvader Trojan", \
+14503: "pcinvader PCInvader Trojan", \
+14566: "4dserver 4D server", \
+14936: "hde-lcesrvr-1 hde-lcesrvr-1", \
+14937: "hde-lcesrvr-2 hde-lcesrvr-2", \
+15000: "hydap Hypack Data Acquisition", \
+15001: "pcnfsd PC nfs daemon", \
+15092: "hostcontrol HostControl Trojan", \
+15104: "mstream Mstream Trojan", \
+15345: "xpilot XPilot Contact Port", \
+15382: "subzero Subzero Trojan 0.1", \
+15858: "cdk CDK Trojan", \
+16360: "netserialext1 netserialext1", \
+16361: "netserialext2 netserialext2", \
+16367: "netserialext3 netserialext3", \
+16368: "netserialext4 netserialext4", \
+16484: "mosucker Mosucker Trojan", \
+16660: "stacheldraht Stacheldraht Trojan", \
+16772: "icqrevenge ICQ Revenge Trojan", \
+16969: "priority Priority Trojan", \
+16991: "intel-rci-mp INTEL-RCI-MP", \
+17007: "isodedua isode dua", \
+17166: "mosaic Mosaic Trojan", \
+17185: "soundsvirtual Sounds Virtual", \
+17219: "chipper Chipper", \
+17300: "kuang2 Kuang2 Trojan", \
+17449: "kidterror KidTerror Trojan", \
+17499: "crazzynet Crazzynet trojan", \
+17500: "crazzynet Crazzynet trojan", \
+17569: "infector Infector Trojan", \
+17593: "audiodoor AudioDoor Trojan", \
+17770: "battlezone-2    www.visi.com ~nathan bz2 nettips.html", \
+17771: "battlezone-2    www.visi.com ~nathan bz2 nettips.html", \
+17772: "battlezone-2    www.visi.com ~nathan bz2 nettips.html", \
+17777: "nephron Nephron Trojan", \
+17888: "netlet Netscape netlet server", \
+17889: "netlet Netscape netlet server", \
+18000: "biimenu Beckman Instruments", \
+18181: "opsec-cvp OPSEC CVP", \
+18182: "fw1_ufp    www.checkpoint.com    OPSEC UFP", \
+18183: "fw1_sam    www.checkpoint.com    OPSEC SAM", \
+18184: "fw1_lea    www.checkpoint.com    OPSEC LEA", \
+18185: "opsec-omi OPSEC OMI", \
+18187: "opsec-ela OPSEC ELA", \
+18190: "fw1 Check Point NT management console", \
+18241: "checkpoint-rtm Check Point RTM", \
+18463: "ac-cluster AC Cluster", \
+18888: "apc-necmp APCNECMP", \
+18959: "subseven SubSeven Trojan", \
+19191: "opsec-uaa opsec-uaa", \
+19283: "keysrvr Key Server for SASSAFRAS", \
+19315: "keyshadow Key Shadow for SASSAFRAS", \
+19398: "mtrgtrans mtrgtrans", \
+19410: "hp-sco hp-sco", \
+19411: "hp-sca hp-sca", \
+19412: "hp-sessmon HP-SESSMON", \
+19541: "jcp JCP Client", \
+19813: "4dserver 4D server  6.0 and earlier ", \
+19864: "icqrevenge ICQ Revenge Trojan", \
+20000: "millennium Millennium Trojan Horse   DNP", \
+20001: "millennium Millennium Trojan Horse", \
+20002: "acidkor Acidkor trojan", \
+20005: "mosucker xcept4  Interacts with German Telekom s CEPT videotext", \
+20011: "isdnlog isdnlog", \
+20012: "vboxd for vbox daemon", \
+20023: "vpkiller VP Killer Trojan", \
+20034: "netbus NetBus Trojan Horse", \
+20048: "sim_statd sim status daemon", \
+20200: "mailsweeper    www.mimesweeper.com ", \
+20203: "chupacabra ", \
+20222: "ipulse-ics iPulse-ICS", \
+20331: "bla bla trojan", \
+20432: "shaft Shaft Trojan", \
+20670: "track Track", \
+20999: "athand-mmp At Hand MMP", \
+21000: "gauntlet-admin ", \
+21490: "gnuserv    www.xemacs.org", \
+21544: "girlfriend Girlfriend Trojan Horse Program   Kidterror trojan", \
+21554: "girlfriend Girlfriend Trojan Horse Program", \
+21590: "vofr-gateway VoFR Gateway", \
+21800: "tvpm TVNC Pro Multiplexing", \
+21845: "webphone webphone", \
+21846: "netspeak-is NetSpeak Corp. Directory Services", \
+21847: "netspeak-cs NetSpeak Corp. Connection Services", \
+21848: "netspeak-acd NetSpeak Corp. Automatic Call Distribution", \
+21849: "netspeak-cps NetSpeak Corp. Credit Processing System", \
+22000: "snapenetio SNAPenetIO", \
+22001: "optocontrol OptoControl", \
+22222: "prosiak Prosiak Trojan Horse", \
+22273: "wnn6 Wnn6  Japanese input ", \
+22289: "wnn6-Cn Wnn6  Chinese input ", \
+22305: "wnn6-Kr Wnn6  Korean input ", \
+22321: "wnn6-Tw Wnn6  Taiwanse input ", \
+22555: "vocaltec-wconf Vocaltec Web Conference", \
+22800: "aws-brf Telerate Information Platform LAN", \
+22951: "brf-gw Telerate Information Platform WAN", \
+23005: "nettrash NetTrash Trojan", \
+23006: "nettrash NetTrash Trojan", \
+23023: "logged Logged Trojan", \
+23032: "amandatrojan Amanda Trojan", \
+23432: "asylum Asylum Trojan", \
+23456: "evilftp Evil FTP Trojan Horse   UglyFtp", \
+23476: "donalddick Donald Dick Trojan", \
+23477: "donalddick Donald Dick Trojan", \
+23777: "inetspy Inetspy Trojan", \
+24000: "med-ltp Infector trojan   med-ltp", \
+24001: "med-fsp-rx med-fsp-rx", \
+24002: "med-fsp-tx med-fsp-tx", \
+24003: "med-supp med-supp", \
+24004: "med-ovw med-ovw", \
+24005: "med-ci med-ci", \
+24006: "med-net-svc med-net-svc", \
+24242: "filesphere fileSphere", \
+24249: "vista-4gl Vista 4GL", \
+24386: "intel_rci Intel RCI", \
+24554: "binkp BINKP", \
+24677: "flashfiler FlashFiler", \
+24678: "proactivate Turbopower Proactivate", \
+24922: "snip Simple Net Ident Protocol", \
+25000: "icl-twobase1 icl-twobase1", \
+25001: "icl-twobase2 icl-twobase2", \
+25002: "icl-twobase3 icl-twobase3", \
+25003: "icl-twobase4 icl-twobase4", \
+25004: "icl-twobase5 icl-twobase5", \
+25005: "icl-twobase6 icl-twobase6", \
+25006: "icl-twobase7 icl-twobase7", \
+25007: "icl-twobase8 icl-twobase8", \
+25008: "icl-twobase9 icl-twobase9", \
+25009: "icl-twobase10 icl-twobase10", \
+25685: "moonpie Moonpie Trojan", \
+25686: "moonpie Moonpie Trojan", \
+25793: "vocaltec-hos Vocaltec Address Server", \
+25901: "niobserver NIObserver", \
+25903: "niprobe NIProbe", \
+25982: "moonpie Moonpie Trojan", \
+26000: "quake quake", \
+26150: "lnxdbms LNXDBMS", \
+26208: "wnn6-ds Wnn6  Dserver ", \
+26260: "ezproxy eZproxy", \
+26261: "ezmeeting eZmeeting", \
+26262: "k3software-svr K3 Software-Server", \
+26263: "k3software-cli K3 Software-Client", \
+26264: "gserver Gserver", \
+26681: "voicespy VoiceSpy Trojan", \
+27001: "quake QuakeWorld", \
+27010: "halflife halflife online gaming", \
+27011: "halflife halflife online gaming", \
+27015: "halflife halflife online gaming", \
+27345: "imagepump ImagePump", \
+27374: "subseven Lion Worm   SubSeven Trojan   Address search protocol", \
+27573: "subseven SubSeven Trojan", \
+27665: "trinoo Trinoo Trojan Master port", \
+27910: "quake Quake", \
+27960: "quake Quake", \
+27999: "tw-auth-key TW Authentication Key Distribution and", \
+28678: "exploiter Exploiter Trojan", \
+29104: "nettrojan NetTrojan", \
+29369: "ovas0n Ovas0n Trojan", \
+29891: "theunexplained The Unexplained Trojan Horse", \
+30000: "infector Infector Trojan", \
+30001: "err0r32 err0r32 trojan", \
+30002: "pago-services2 Pago Services 2", \
+30003: "lamersdeath LamersDeath Trojan", \
+30019: "amd amd", \
+30029: "aoltrojan AOL Trojan Horse", \
+30100: "netsphere NetSphere Trojan Horse main port", \
+30101: "netsphere NetSphere Trojan Horse file transfer", \
+30102: "netsphere NetSphere Trojan Horse filetransfer", \
+30133: "netsphere Netsphere Trojan", \
+30214: "framemaker Frame Maker", \
+30303: "socket25 Sockets de Troie Trojan Horse", \
+30464: "shell Common Trojan Shell port", \
+30516: "mcserv mc server", \
+30947: "intruse Intruse Trojan", \
+30999: "kuang Kuang trojan", \
+31336: "buttfunnel ButtFunnel searches for Back Orifice trojan", \
+31337: "backorifice Back Orifice Trojan Horse CDC", \
+31338: "buttfunnel ButtFunnel searches for Back Orifice trojan", \
+31339: "netspy Tye Spy Trojan Horse", \
+31457: "tetrinet Tetrinet online game server", \
+31554: "schwindler ", \
+31666: "bowhack BoWhack Trojan Horse", \
+31785: "hackatack Hack a Tack   HackAttack Trojan Horse", \
+31786: "hack-a-tack ", \
+31787: "hackatack Hack a Tack   HackAttack Trojan Horse", \
+31788: "hackatack Hack a Tack   HackAttack Trojan Horse", \
+31789: "hackatack Hack a Tack   HackAttack Trojan Horse", \
+31790: "hackatack Hack a Tack   HackAttack Trojan Horse", \
+31791: "hackatack Hack a Tack   HackAttack Trojan Horse", \
+31792: "hackatack Hack a Tack   HackAttack Trojan Horse", \
+32000: "xtramail XtraMail login", \
+32001: "donalddick Donald Dick Trojan", \
+32100: "peanutbrittle PeanutBrittle Trojan", \
+32418: "acidbattery Trojan Acid Battery 2000", \
+32666: "interceptor-firewall-admin ", \
+32768: "first-os--port first port Red Hat Linux uses for outgoing connections typically - see  etc rc.d init.d network and  proc sys net ipv4 ip_local_port_range   Filenet TMS", \
+32769: "first-os--port second port Red Hat Linux uses for outgoing connections typically - see  etc rc.d init.d network and  proc sys net ipv4 ip_local_port_range   Filenet RPC", \
+32770: "first-os--port third port Red Hat Linux uses for outgoing connections typically - see  etc rc.d init.d network and  proc sys net ipv4 ip_local_port_range   Filenet NCH", \
+32771: "rpc.ghost Sun RPC Ghost Portmapper", \
+32773: "rpc.ttdbserverd Tool Talk Database Server dameon", \
+32776: "rpc.spray Spray", \
+32777: "rpc.walld Wall daemon", \
+32779: "rpc.cmsd Calendar   appointment server daemon", \
+33270: "trinity Trinity trojan - DOS irc tool", \
+33333: "prosiak Prosiak Trojan Horse", \
+33434: "traceroute traceroute use", \
+33567: "lion Lion Trojan - exploits Linux Bind servers TSIG vuln", \
+33568: "lion Lion Trojan - exploits Linux Bind servers TSIG vuln", \
+33577: "sonofpsychward son of psychward trojan", \
+33777: "sonofpsychward son of psychward trojan", \
+33911: "spirit Spirit Trojan", \
+34249: "turbonote-2 TurboNote Relay Server Default Port", \
+34324: "biggluck Biggluck Trojan Horse   TN Trojan horse   Telnet tiny server", \
+34444: "donalddick Donald Dick Trojan", \
+36865: "kastenxpipe KastenX Pipe", \
+37237: "mantis mantis trojan", \
+37475: "neckar science + computing s Venus Administration Port", \
+37651: "yat yat trojan", \
+38036: "timestep Timestep VPN Saytek", \
+39103: "nsrd nsr daemon", \
+39104: "nsrmmd nsrmm daemon", \
+39105: "nrsindexd nrs index daemon", \
+39107: "nsrmmdbd nrsmm database daemon", \
+39109: "nsrstat nsr status", \
+39110: "nsrjb nsrjb", \
+39113: "nsrexec nsr exec", \
+39681: "turbonote-1 TurboNote Default Port", \
+40001: "midinet midinetd", \
+40193: "novell novell", \
+40412: "thespy The Spy Trojan Horse", \
+40421: "agent40421 Master s Paradise Trojan Horse   Agent 40421 Trojan", \
+40422: "paradise Master s Paradise Trojan Horse", \
+40423: "paradise Master s Paradise Trojan Horse", \
+40425: "paradise Master s Paradise Trojan Horse", \
+40426: "paradise Master s Paradise Trojan Horse", \
+40841: "cscp CSCP", \
+40842: "csccredir CSCCREDIR", \
+40843: "csccfirewall CSCCFIREWALL", \
+41111: "fs-qos Foursticks QoS Protocol", \
+41337: "storm storm trojan", \
+41508: "inoculan ", \
+41524: "arcserve_discovery arcserve discovery  GIS software ", \
+41666: "rbt rbt trojan", \
+43188: "reachout REACHOUT", \
+43189: "ndm-agent-port NDM-AGENT-PORT", \
+43190: "ip-provision IP-PROVISION", \
+44333: "winrouteadmin    www.tinysoftware.com ", \
+44334: "tiny-personal-firewall- remote-administration  www.tinysoftware.com", \
+44444: "prosaik prosaik trojan", \
+44575: "exploiter Exploiter Trojan", \
+44818: "rockwell-encap Rockwell Encapsulation", \
+45054: "invision-ag InVision AG", \
+45678: "eba EBA PRISE", \
+45966: "ssr-servermgr SSRServerMgr", \
+47000: "mbus Message Bus", \
+47557: "dbbrowse Databeam Corporation", \
+47624: "directplaysrvr Direct Play Server", \
+47806: "ap ALC Protocol", \
+47808: "bacnet Building Automation and Control Networks", \
+48000: "nimcontroller Nimbus Controller", \
+48001: "nimspooler Nimbus Spooler", \
+48002: "nimhub Nimbus Hub", \
+48003: "nimgtw Nimbus Gateway", \
+48129: "wintrv-bloomberg ", \
+48556: "com-bardac-dw com-bardac-dw", \
+49301: "keylogger OnLine KeyLogger", \
+50130: "enterprise Enterprise Trojan", \
+50505: "sockdetrois Sokets de Trois v2. Trojan Horse", \
+50766: "fore Fore Trojan Horse   Scwhindler", \
+50776: "fore ", \
+51966: "cafeini Trojan Cafeini", \
+52317: "acidbattery Trojan Acid Battery 2000", \
+53001: "remoteshutdown Remoteshutdown Trojan Horse", \
+54320: "bo2k Trojan   Back Orifice 2k 2000 CDC", \
+54321: "schoolbus ", \
+55165: "filemanager File Manager trojan", \
+55166: "wmtrojan Trojan WishMaster Simple Trojan Generator", \
+56415: "draytek Draytek router smart start wizard", \
+57341: "netraider Netraider trojan  written in assembler ", \
+58339: "buttfunnel ButtFunnel searches for Back Orifice trojan", \
+60000: "deepthroat Deep throat trojan   Foreplay Trojan   Sockets de Troie Trojan", \
+60001: "entitee entitee trojan   Trinity trojan - DOS irc tool", \
+60008: "lion Lion Trojan - exploits Linux Bind servers TSIG vuln", \
+60068: "xzip xzip trojan", \
+60177: "tfido ifmail", \
+60179: "fido ifmail", \
+60411: "connection Connection trojan", \
+61348: "bunkerhill Bunker-Hill Trojan", \
+61439: "netprowler Axent Symantec Netprowler admin port", \
+61440: "netprowler Axent Symantec Netprowler admin port", \
+61441: "netprowler Axent Symantec Netprowler admin port", \
+61446: "telecommando TeleCommando trojan - remote access", \
+61466: "telecommando TeleCommando trojan - remote access", \
+61603: "bunkerhill Bunker-Hill Trojan", \
+63485: "bunkerhill Bunker-Hill Trojan", \
+64101: "taskman Taskman trojan", \
+65000: "stacheldraht Stacheldraht   Devil Trojan Horse 1.03   Sockets de Troie Trojan", \
+65301: "pcanywhere PC Anywhere", \
+65390: "eclypse Xylo Eclypse Trojan", \
+65421: "jade Jade Trojan packed with neolite", \
+65432: "thetraitor The Traitor Trojan - Worm   IRC Trojan", \
+65534: "initd trojan  sbin initd", \
+65535: "rc1 Remote Control Trojan"}
+
