@@ -20,7 +20,7 @@ from optparse import OptionParser
 #	4)Hit the Analyze Session table button. 
 #	5)Enjoy!
 ##########################################################
-##########################################################
+##########################$$sw00w#########################
 
 """
 Just a quick example of a session to parse. 11.2r2.5
@@ -90,7 +90,9 @@ def openconfig(devicepath):
 try:
 	sessiondata = openconfig(FLAGS.sessiontabledump)
 	try:
-		portnumx = openconfig("port_list.txt", "r")
+		portnumx = open("port_list.txt", "r")
+		portnums = portnumx.read()
+                portnum = eval(portnums)
 	except:pass #If port_list.txt isn't present, oh well..
 except:
 	print("No session file found Please add one with:  -f <filename.\n \n \n")
@@ -400,7 +402,7 @@ def analyze_session_table(sessiondata, numdisplayed):
 			pp = int(j)
 			source_ports_percent = pp/total_source_ports
 			try:
-				print("%s    -    %s   (%s) (%s Percent)"%(pp, i, portnum[p], round(source_ports_percent*100,2)))
+				print("%s    -    %s   (%s) (%s Percent)"%(pp, i, portnum[int(i)], round(source_ports_percent*100,2)))
 			except:
 				print("%s    -    %s   (Not listed) (%s Percent)"%(pp, i, round(source_ports_percent*100,2) ))
 		print("\n")*2
@@ -414,7 +416,7 @@ def analyze_session_table(sessiondata, numdisplayed):
 			pp = int(j)
 			dest_ports_percent = pp/total_dest_ports
 			try:
-				print("%s    -    %s   (%s) (%s Percent)"%(pp, i, portnum[p], round(dest_ports_percent*100,2)))
+				print("%s    -    %s   (%s) (%s Percent)"%(pp, i, portnum[int(i)], round(dest_ports_percent*100,2)))
 			except:
 				print("%s    -    %s   (Not listed) (%s Percent)"%(pp, i, round(dest_ports_percent*100,2) ))
 		print("\n")*2
